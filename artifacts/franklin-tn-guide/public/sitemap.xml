@@ -48,4 +48,16 @@
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://franklintnguide.com/articles/williamson-county-schools-guide</loc>
+    <lastmod>2025-03-22</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://franklintnguide.com/articles/cost-of-living-franklin-tn</loc>
+    <lastmod>2025-03-22</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

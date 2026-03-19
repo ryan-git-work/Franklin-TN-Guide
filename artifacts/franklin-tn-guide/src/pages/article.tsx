@@ -58,17 +58,15 @@ export default function ArticlePage() {
           
           {/* Main Article Content */}
           <div className="w-full lg:w-2/3">
-            {/* Placeholder Hero Image for Article */}
-            <div className="w-full h-[400px] bg-muted rounded-3xl overflow-hidden mb-12 shadow-sm border border-border">
-                {/* using unsplash lifestyle image based on slug */}
-                <img 
-                  src={article.slug.includes("why-move") 
-                    ? "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&q=80" 
-                    : "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80"}
-                  alt={article.title}
-                  className="w-full h-full object-cover"
-                />
-            </div>
+            {article.imageUrl && (
+              <div className="w-full h-[400px] bg-muted rounded-3xl overflow-hidden mb-12 shadow-sm border border-border">
+                  <img 
+                    src={article.imageUrl.startsWith('http') ? article.imageUrl : `${import.meta.env.BASE_URL}${article.imageUrl}`}
+                    alt={article.title}
+                    className="w-full h-full object-cover"
+                  />
+              </div>
+            )}
 
             <article className="prose prose-lg prose-slate prose-headings:font-serif prose-headings:text-primary prose-a:text-secondary hover:prose-a:text-primary max-w-none">
               <ReactMarkdown>{article.content}</ReactMarkdown>
@@ -89,7 +87,7 @@ export default function ArticlePage() {
               </p>
               <a 
                 href="mailto:hello@franklintnguide.com"
-                className="block w-full text-center px-6 py-4 bg-primary text-white rounded-xl font-semibold hover:bg-secondary hover:shadow-lg transition-all duration-300"
+                className="block w-full text-center px-6 py-4 bg-primary text-primary-foreground rounded-xl font-semibold hover:bg-primary/90 hover:shadow-lg transition-all duration-300"
               >
                 Let's Talk
               </a>

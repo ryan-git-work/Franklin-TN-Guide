@@ -94,3 +94,55 @@ Generated React Query hooks and fetch client from the OpenAPI spec (e.g. `useHea
 ### `scripts` (`@workspace/scripts`)
 
 Utility scripts package. Each script is a `.ts` file in `src/` with a corresponding npm script in `package.json`. Run scripts via `pnpm --filter @workspace/scripts run <script>`. Scripts can import any workspace package (e.g., `@workspace/db`) by adding it as a dependency in `scripts/package.json`.
+
+## Franklin TN Guide
+
+A comprehensive relocation guide website for Franklin, Tennessee — built as a React + Vite SPA.
+
+**Artifact**: `artifacts/franklin-tn-guide`
+
+### Stack
+- React 19 + Vite (SPA, client-side routing)
+- wouter for routing
+- react-helmet-async for SEO (client-side meta tags)
+- react-markdown for article rendering
+- Tailwind CSS + @tailwindcss/typography for styling
+- Warm professional design (navy #1B2A4A, Tennessee green #2D6A4F, warm white #FAF8F5)
+
+### Pages
+1. **Home** — Hero section, main value props
+2. **Neighborhoods** — 5 neighborhoods with details (Downtown, Westhaven, Cool Springs, Berry Farms, Fieldstone Farms)
+3. **Schools** — Overview of Williamson County Schools district
+4. **Cost of Living** — Housing costs, taxes, utilities breakdown
+5. **Franklin vs Nashville** — Side-by-side comparison
+6. **About** — About the guide
+7. **Articles** — Long-form guides (accessible via `/articles/<slug>`)
+
+### Articles (Content)
+All articles are stored in `src/lib/data.ts` with structure:
+- `slug`, `title`, `metaTitle`, `metaDescription`, `keywords[]`
+- `date`, `readTime`, `excerpt`, `content` (Markdown), `imageUrl`
+
+**Current articles**:
+1. **Why Move to Franklin, TN? 15 Reasons** (12 min, March 2025) — Reasons for relocation + context
+2. **Best Neighborhoods in Franklin, TN** (14 min, March 2025) — Detailed neighborhood guides
+3. **Williamson County Schools: Complete Guide** (11 min, March 22, 2025) — School district structure, high schools, programs, private options
+4. **Cost of Living in Franklin, TN: What to Actually Expect** (10 min, March 22, 2025) — Housing, taxes, utilities, comparison to other metros
+
+### SEO Setup
+- **Sitemap**: Auto-generated via `scripts/generate-sitemap.ts` on every build (`pnpm run build` triggers it). Includes all 4 articles + 6 static pages (10 URLs total)
+- **robots.txt**: Located at `/public/robots.txt`
+- **Meta tags**: Rendered client-side via react-helmet-async (functional but not server-side rendering)
+- **Canonical domain**: https://franklintnguide.com
+- **Contact email**: hello@franklintnguide.com
+
+### Build & Deploy
+- **Development**: `pnpm run dev` from `artifacts/franklin-tn-guide`
+- **Build**: `pnpm run build` — generates sitemap automatically
+- **Deploy**: Ready for production deployment as an SPA
+
+### To Add New Articles
+1. Add entry to `articles` object in `src/lib/data.ts`
+2. Include all fields: `slug`, `title`, `metaTitle`, `metaDescription`, `keywords`, `date`, `readTime`, `excerpt`, `content`, `imageUrl`
+3. Run `pnpm run build` or `pnpm run generate-sitemap` to regenerate sitemap
+4. Articles are immediately accessible at `/articles/<slug>`

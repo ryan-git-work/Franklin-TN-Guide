@@ -21,6 +21,7 @@ export const articles: Record<string, Article> = {
     date: "March 20, 2025",
     readTime: "12 min read",
     excerpt: "Thinking about moving to Franklin, Tennessee? Discover why thousands of families, professionals, and retirees are choosing Franklin TN — from top-rated schools to a booming job market and small-town charm.",
+    imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&q=80",
     content: `
 If you've been researching places to relocate in the South, Franklin, Tennessee keeps coming up — and for good reason. Over the past decade, Franklin has quietly become one of the most desirable places to live in the entire country, drawing families from California, professionals from Chicago, and retirees from the Northeast who are ready for something different.
 
@@ -167,6 +168,7 @@ Thousands of people have already voted with their feet. The numbers speak for th
     date: "March 20, 2025",
     readTime: "14 min read",
     excerpt: "Looking for the best neighborhoods in Franklin, TN? This complete guide covers Westhaven, Downtown, Cool Springs, Berry Farms, Fieldstone Farms, and more — with honest pros, cons, and who each neighborhood is best for.",
+    imageUrl: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80",
     content: `
 Choosing the right neighborhood is arguably more important than choosing the right house. A house can be renovated. A neighborhood is what it is — and in Franklin, Tennessee, the differences between communities are significant enough that two families with identical budgets and priorities could end up in completely different parts of town and both be exactly right.
 
@@ -315,6 +317,243 @@ There's no objectively "best" neighborhood in Franklin — only the best neighbo
 The key is being honest about what you actually value — not what you think you should value. Do you really want a small lot downtown, or would you be frustrated by the lack of yard? Do you really want the HOA accountability of Westhaven, or would you chafe against it?
 
 The good news is that Franklin's neighborhood diversity means your answer — whatever it is — exists here.
+    `
+  },
+  "williamson-county-schools-guide": {
+    slug: "williamson-county-schools-guide",
+    title: "Williamson County Schools: Complete Guide for Families Moving to Franklin TN",
+    metaTitle: "Williamson County Schools: Complete Guide for Families Moving to Franklin TN (2025)",
+    metaDescription: "Williamson County Schools are among the best in the nation. Here's everything families relocating to Franklin, TN need to know — schools by zone, test scores, programs, and what makes WCS different.",
+    keywords: ["Williamson County Schools", "Franklin TN schools", "best schools in Franklin TN", "moving to Franklin TN schools", "Williamson County Schools guide"],
+    date: "March 22, 2025",
+    readTime: "11 min read",
+    excerpt: "Williamson County Schools are among the best in the nation. Here's everything families relocating to Franklin, TN need to know — schools by zone, test scores, programs, and what makes WCS different.",
+    imageUrl: "/images/schools-hero.png",
+    content: `
+For families considering a move to Franklin, Tennessee, the school question usually comes first. And it should — because Williamson County Schools is genuinely one of the most important things this area has going for it, and understanding how the district works will significantly shape which neighborhood makes sense for your family.
+
+This guide covers everything: how the district is structured, which high schools serve which communities, what makes WCS stand out nationally, the specialized programs available, and what families consistently say after their kids have been through the system.
+
+## The Numbers First
+
+Williamson County Schools consistently ranks as the top-performing public school district in Tennessee. On state assessments, WCS students outperform state averages by significant margins across every grade level and subject area. Graduation rates hover around 97%, well above state and national averages. The district regularly sends graduates to elite universities, military academies, and competitive programs across the country.
+
+But the numbers only tell part of the story. What's harder to quantify — and what families who've moved here consistently cite — is the culture of expectation that runs through the district. Teachers are well-compensated by Tennessee standards, turnover is lower than comparable districts, and there's a broad community investment in educational outcomes that shows up in everything from parent volunteerism to school board engagement.
+
+## How the District Is Structured
+
+Williamson County Schools serves the entire county, which includes Franklin, Brentwood, Nolensville, Spring Hill, Fairview, and surrounding communities. The district operates:
+
+- 41 elementary schools
+- 12 middle schools
+- 9 high schools
+- Several specialized and alternative programs
+
+School assignment is based on residential address, so the neighborhood you choose determines your child's school zone. This matters — while the district as a whole is strong, there are meaningful differences between individual schools worth understanding before you buy.
+
+## Franklin's High Schools
+
+### Franklin High School
+
+One of the oldest and most established high schools in the county, Franklin High sits just off Murfreesboro Road and serves much of eastern and central Franklin. Strong academics, competitive athletics, and a large student body give it the energy of a school with deep institutional roots. AP course offerings are extensive, and the performing arts programs — particularly theater and band — have strong reputations.
+
+### Independence High School
+
+Located in southern Franklin near the Westhaven and Berry Farms areas, Independence High is one of the newer high schools in the district and has quickly built a strong reputation. The school serves many of Franklin's newer planned communities and tends to draw a demographically diverse, professionally-oriented parent community. Athletics are competitive across multiple sports, and academic performance metrics are consistently strong.
+
+### Ravenwood High School
+
+Ravenwood serves the northern Franklin and Brentwood border area, including portions of Cool Springs. It is consistently cited as one of the top high schools in the state and draws favorable comparisons to competitive public schools in major metro areas. AP enrollment rates are among the highest in the district, and Ravenwood graduates are well-represented at selective universities.
+
+### Summit High School
+
+Located in Spring Hill but serving parts of southern Williamson County, Summit High is a strong option for families in the southernmost Franklin zip codes. The school has grown significantly alongside the population growth in that corridor and continues to build its academic and extracurricular profile.
+
+## Key Middle Schools
+
+The middle school transition is often the one that causes the most anxiety for relocating families. A few Williamson County middle schools that consistently draw strong feedback:
+
+**Freedom Middle School** serves portions of central Franklin and feeds primarily into Franklin High. Strong academics and a well-organized activities program.
+
+**Grassland Middle School** serves northern Franklin and feeds into Ravenwood High. Academically strong, with a reputation for a supportive school culture.
+
+**Legacy Middle School** serves the Westhaven and southwestern Franklin area, feeding primarily into Independence High. One of the newer middle schools in the district, with modern facilities and a strong parent community.
+
+## What Makes WCS Different
+
+### Teacher Quality and Retention
+
+Williamson County invests meaningfully in teacher compensation relative to other Tennessee districts. The result is lower turnover and a more experienced teaching workforce than you'll find in comparable suburban districts nationally. This is one of those factors that doesn't make headlines but has an enormous cumulative effect on student outcomes.
+
+### AP and Dual Enrollment Access
+
+Advanced Placement courses are available at every WCS high school, and the district has made a deliberate effort to expand access beyond the traditional honors track. Dual enrollment partnerships with local colleges allow motivated students to earn college credit while still in high school — a meaningful financial and academic advantage.
+
+### Fine Arts and Performing Arts
+
+The arts are genuinely valued in Williamson County Schools, which is less universal than it should be in American public education. Band programs, orchestra, choral programs, theater, and visual arts are well-funded and well-attended. Several WCS ensembles compete and place at state and national levels.
+
+### Athletics
+
+Williamson County schools compete in the Tennessee Secondary School Athletic Association and consistently produce competitive programs across football, basketball, baseball, soccer, lacrosse, and tennis. The facilities at most WCS high schools are notably above average for public schools — a reflection of community investment and strong booster organizations.
+
+### Special Education and Support Services
+
+WCS has invested in special education services and support infrastructure above the state minimum, and families with children who have IEPs or 504 plans generally report positive experiences with the district's responsiveness and service quality. This is worth investigating for your specific situation, as individual school experiences vary.
+
+## Private School Options in Franklin
+
+For families who prefer private education or want options outside the public system, Franklin and the surrounding area has a strong private school landscape:
+
+**Battle Ground Academy (BGA)** is Franklin's most prominent independent school, a college-preparatory institution serving grades 6–12 with a strong academic reputation and competitive athletics. It draws students from across Williamson County and is considered one of the top independent schools in Tennessee.
+
+**Franklin Christian Academy** offers a faith-based K–12 education and has a long-standing presence in the Franklin community.
+
+Montessori and classical education options exist within the county for families seeking alternative pedagogical approaches.
+
+**Providence Christian Academy** in nearby Murfreesboro is worth noting for families in eastern Franklin near that corridor.
+
+## What Relocating Families Actually Say
+
+Patterns emerge when you talk to families who've moved to Franklin from other parts of the country. A few of the most consistent observations:
+
+The level of parent involvement is higher than most families are used to. PTO organizations are active, school events are well-attended, and there's a general community orientation toward kids' success that some families find refreshing and others find intense — depending on their own preferences.
+
+The academic expectations are real. Kids coming from lower-performing districts occasionally need time to adjust to the pace. This is almost always described as a short-term adjustment rather than a lasting problem, but worth knowing going in.
+
+The extracurricular culture is serious. Sports, arts, and clubs are genuine commitments, not casual participation activities. For athletically or artistically motivated kids, this is a feature. For families who want a more relaxed pace, it's something to factor in.
+
+## School Zone Research: Do This Before You Buy
+
+The single most important practical advice for families buying in Franklin: verify the school zone for any specific address before closing. Zone boundaries shift as the district manages enrollment growth, and a house that feeds into one school today may feed into a different school after a rezoning. The WCS district website maintains a school zone locator tool — use it for any address you're seriously considering.
+
+If school assignment is a primary driver of your neighborhood decision, it is worth having an explicit conversation with your real estate contact about which communities feed into which schools and how stable those assignments have historically been.
+    `
+  },
+  "cost-of-living-franklin-tn": {
+    slug: "cost-of-living-franklin-tn",
+    title: "Cost of Living in Franklin, TN: What to Actually Expect in 2025",
+    metaTitle: "Cost of Living in Franklin, TN: What to Actually Expect in 2025",
+    metaDescription: "Thinking about moving to Franklin, TN? Here's an honest, detailed breakdown of the cost of living — housing, taxes, groceries, utilities, and how Franklin compares to where you're coming from.",
+    keywords: ["cost of living Franklin TN", "Franklin TN cost of living", "is Franklin TN expensive", "moving to Franklin TN cost", "Franklin Tennessee housing costs"],
+    date: "March 22, 2025",
+    readTime: "10 min read",
+    excerpt: "Thinking about moving to Franklin, TN? Here's an honest, detailed breakdown of the cost of living — housing, taxes, groceries, utilities, and how Franklin compares to where you're coming from.",
+    imageUrl: "/images/cost-of-living-franklin.png",
+    content: `
+Let's be direct about something: Franklin, Tennessee is not a cheap place to live. If you've been reading relocation content that glosses over the cost reality, this guide will give you a more honest picture — including the important context that makes Franklin's costs make sense relative to where most people are moving from.
+
+The goal here isn't to sell you on Franklin. It's to give you the real numbers so you can make a clear-eyed decision.
+
+## Housing: The Biggest Line Item
+
+Housing is where Franklin's cost of living diverges most sharply from Tennessee's overall reputation as an affordable state.
+
+### Buying
+
+Median home prices in Williamson County have risen significantly over the past decade and currently sit well above both state and national medians. As of 2025:
+
+- **Median home price in Franklin:** approximately $750,000–$850,000
+- **Entry-level single-family homes:** $450,000–$550,000 (typically older, smaller, or in less central locations)
+- **Mid-range family homes:** $600,000–$900,000
+- **Premium and luxury:** $1M–$3M+
+- **Downtown / historic district:** $700,000–$2M+
+- **Westhaven / master-planned communities:** $700,000–$1.8M+
+
+These numbers have moderated somewhat from the peak frenzy of 2021–2022 but remain elevated by historical Franklin standards. Inventory is limited, and well-priced homes in desirable neighborhoods still move quickly.
+
+### Renting
+
+The rental market in Franklin reflects the same premium:
+
+- **1-bedroom apartment:** $1,500–$2,200/month
+- **2-bedroom apartment:** $2,000–$2,800/month
+- **3-bedroom single-family rental:** $2,800–$4,500/month
+
+The Cool Springs corridor has the highest concentration of apartment inventory, making it the most practical landing zone for relocating renters who want to live in Franklin while they search for a home to buy.
+
+## The Context That Matters
+
+These prices need to be understood relative to where most people relocating to Franklin are coming from. For buyers leaving:
+
+**The San Francisco Bay Area:** Franklin home prices look dramatically more affordable. A $800,000 home in Franklin would be $2.5M+ in many Bay Area submarkets.
+
+**Los Angeles:** Similar dynamic. A move to Franklin typically means significantly more house for significantly less money.
+
+**Chicago:** More comparable, though Franklin generally delivers better schools, lower crime, and no state income tax at similar price points.
+
+**The DC Suburbs:** Franklin pricing is substantially below Bethesda, Arlington, or similar communities, particularly when you factor in the absence of state income tax.
+
+**New York/Boston:** Not even comparable. East Coast metropolitan housing costs dwarf Franklin's.
+
+For people coming from these markets — which is a significant portion of Franklin's in-migration — the cost of living conversation is less "is Franklin expensive?" and more "how much house can we actually afford?"
+
+## Property Taxes
+
+Tennessee has no state income tax, which is one of Franklin's genuine advantages. However, property taxes are the trade-off:
+
+- **Property tax rate:** approximately 0.65–0.75% of assessed value for Williamson County
+- **Assessment:** Properties are assessed at approximately 55% of market value
+- **Effective tax rate:** approximately 0.36–0.41% of market value
+
+This is lower than many states but higher than some neighboring states like Louisiana or Alabama. For a $800,000 home with an assessed value of $440,000, you're looking at approximately $2,900–$3,200 annually in property taxes.
+
+The real math: For a high-earner moving from California (13.3% state income tax) or New York (10.9% state income tax), Tennessee's lack of income tax plus lower property taxes still comes out significantly ahead in total tax burden.
+
+## Cost of Living Beyond Housing
+
+### Utilities
+
+Electricity, gas, and water costs in Franklin are moderate compared to national averages:
+
+- **Electricity:** approximately $120–$180/month (higher in summer)
+- **Gas:** approximately $50–$100/month (higher in winter)
+- **Water/Sewer:** approximately $80–$120/month
+
+The area doesn't have extreme weather patterns requiring year-round heavy heating or cooling, so utilities tend to be middle-of-the-road.
+
+### Groceries
+
+Groceries in the Franklin area are comparable to national averages, perhaps slightly below due to the cost of living being more modest than in major coastal metros. You have access to:
+
+- **Whole Foods** (Cool Springs)
+- **Publix** (Berry Farms and other locations)
+- **Kroger** (multiple locations)
+- **Trader Joe's** (nearby Nashville)
+
+Expect grocery costs similar to suburban areas across the country — slightly higher than rural areas, slightly lower than major urban centers.
+
+### Dining and Entertainment
+
+Dining costs in Franklin's restaurant scene vary widely. Downtown Franklin has acclaimed restaurants with entrée prices in the $18–$35 range. Chain restaurants and casual options are lower. The food scene is genuinely strong, which means you can eat well at various price points.
+
+Entertainment options (movies, attractions, sports, arts) are affordably priced compared to major metros.
+
+### Transportation
+
+Franklin is car-dependent, which means you'll need at least one vehicle and likely two for a family. However:
+
+- **Gas prices:** Competitive with national averages
+- **Insurance:** Tennessee auto insurance rates are moderate
+- **Public transportation:** Very limited (Nashville has some transit, but Franklin is car-focused)
+
+The lack of public transportation is a real factor in total cost of living that some sources overlook. Budget for vehicle maintenance, fuel, and insurance as ongoing costs.
+
+## Schools
+
+One of Franklin's genuine advantages: public education through Williamson County Schools is consistently ranked as the best in Tennessee. This potentially eliminates the private school costs ($10,000–$25,000+ annually) that many relocating families face in other areas.
+
+This is an often-overlooked factor in the real cost-of-living equation.
+
+## The Bottom Line
+
+**Franklin is genuinely expensive by Tennessee and national standards.** A move here requires a household income comfortably in six figures if you're buying in the prime neighborhoods.
+
+**But it needs context.** For a California family downsizing from a $2.2M home to an $800K home with identical or better schools and a lower tax burden, Franklin represents a significant financial win — even at seemingly high absolute prices.
+
+The honest assessment: If you're coming from coastal metros or major metros like Chicago, DC, or Boston, Franklin is dramatically more affordable. If you're coming from lower-cost areas or rural regions, Franklin feels genuinely expensive.
+
+The most important step in the decision: Run actual numbers for your specific situation rather than relying on generalizations. The $800K home in Franklin might cost you $400K less annually in taxes than your previous $2.2M home in California, completely changing the financial calculus.
     `
   }
 };
