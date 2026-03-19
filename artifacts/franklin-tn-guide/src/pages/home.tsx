@@ -25,7 +25,7 @@ export default function Home() {
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=2000"
+            src={`${import.meta.env.BASE_URL}images/hero-franklin.png`}
             alt="Downtown Franklin"
             className="w-full h-full object-cover"
           />
@@ -92,7 +92,7 @@ export default function Home() {
                 <div className="h-64 overflow-hidden relative">
                   {article.imageUrl && (
                     <img 
-                      src={article.imageUrl.startsWith('http') ? article.imageUrl : `${import.meta.env.BASE_URL}${article.imageUrl}`}
+                      src={article.imageUrl.startsWith('http') ? article.imageUrl : `${import.meta.env.BASE_URL}${article.imageUrl.replace(/^\//, '')}`}
                       alt={article.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
