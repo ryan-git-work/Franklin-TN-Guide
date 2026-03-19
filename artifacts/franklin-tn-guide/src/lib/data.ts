@@ -374,6 +374,146 @@ Most people who stay in Nashville do so deliberately. They value what Nashville 
 
 Both are correct. The question is which correct answer applies to you.
     `
+  },
+  "things-to-do-in-franklin-tn": {
+    slug: "things-to-do-in-franklin-tn",
+    title: "Things to Do in Franklin, TN: The Local's Guide",
+    metaTitle: "Things to Do in Franklin, TN: The Local's Guide (2025)",
+    metaDescription: "Discover the best things to do in Franklin, TN — from downtown dining and live music to trails, festivals, family activities, and hidden local favorites. A local's honest guide.",
+    keywords: ["things to do in Franklin TN", "Franklin TN activities", "what to do in Franklin Tennessee", "Franklin TN restaurants", "Franklin TN attractions", "fun things to do Franklin TN", "Franklin TN with kids"],
+    date: "March 19, 2026",
+    readTime: "11 min read",
+    excerpt: "The restaurants worth driving for, the trails worth lacing up for, the festivals that actually deliver, and the things locals know that don't make the tourist lists.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+One of the things that surprises people most about Franklin is how much there is to do here. The city's reputation as a great place to raise a family sometimes overshadows the fact that it's also genuinely fun — with a restaurant scene, outdoor culture, music presence, and community calendar that most cities twice its size would envy.
+
+This guide covers the best of it: the restaurants worth driving for, the trails worth lacing up for, the festivals that actually deliver, the spots families keep coming back to, and the things that don't make the tourist lists but that locals know about.
+
+## Downtown Franklin: Start Here
+
+If you're new to Franklin or showing someone around for the first time, downtown is where you begin. Main Street is the kind of place that makes people understand immediately why Franklin has the reputation it does.
+
+The 16-block historic district is genuinely walkable — an increasingly rare thing in suburban Tennessee. Victorian storefronts, brick sidewalks, locally owned shops and restaurants, and a human scale that invites wandering rather than driving from parking lot to parking lot. On a Saturday morning it hums. On a Friday evening it's alive.
+
+### The Factory at Franklin
+
+The Factory at Franklin sits just off Main Street in a converted 19th-century stove manufacturing plant and is one of the more interesting mixed-use spaces in Middle Tennessee. Restaurants, a brewery, artists' studios, a yoga studio, live music venues, antique dealers, and event spaces all coexist inside a building with genuine industrial character. It's the kind of place you can spend half a day without planning to.
+
+### The Franklin Theatre
+
+The Franklin Theatre is a beautifully restored 1937 movie house on Main Street that hosts films, concerts, and live performances throughout the year. Independent films, classic movie screenings, and intimate live music shows make it one of the genuine cultural gems of the city. Worth checking the calendar regularly — the programming is consistently good.
+
+### Puckett's Grocery & Restaurant
+
+Puckett's Grocery & Restaurant is a Franklin institution — a music venue and restaurant hybrid that has been hosting live music and serving Southern comfort food for decades. The biscuits are legitimate. The live music nights are worth planning around.
+
+## Restaurants Worth Knowing
+
+Franklin's dining scene has grown significantly over the past decade and now offers genuine quality across a range of price points and cuisines. These are the places locals actually go.
+
+### For a Special Night Out
+
+**Gray's on Main** occupies a historic space in downtown Franklin and has established itself as one of the better restaurants in Middle Tennessee. The menu is Southern-influenced American with serious kitchen technique behind it. The space, inside a former drugstore with original soda fountain elements, is genuinely beautiful. Make a reservation.
+
+**The Freehouse** brings a gastropub sensibility to downtown Franklin with a thoughtful beer and cocktail program and a kitchen that takes the food as seriously as the drinks. One of the more reliably enjoyable spots in the city for a relaxed but quality evening out.
+
+**Merridee's Breadbasket** has been a Franklin institution since 1981 and remains one of those places that earns its reputation every day. Breakfast and lunch only — the cinnamon roll and the chicken salad sandwich are the things to order. Get there early on weekends.
+
+### For Families
+
+**Mellow Mushroom** on the Cool Springs side of Franklin is a reliable family anchor — good pizza, a relaxed atmosphere, and a space that handles the chaos of children without the staff visibly suffering.
+
+**Cork & Cow** is a steakhouse that manages to feel special without being unapproachable for families. The burgers at lunch are excellent and considerably less expensive than the dinner menu.
+
+**Biscuit Love** (Franklin location) needs no introduction to anyone who has spent time in Nashville. The bonuts — beignet-style donuts made from leftover biscuit dough — are the thing. Weekend waits are real; arrive early or expect them.
+
+### For Coffee
+
+**Honest Coffee Roasters** has multiple locations in Franklin and has earned a genuine following for quality roasting and a space that takes coffee seriously without being precious about it. The downtown location on Main Street is the one to know.
+
+**Frothy Monkey** brings Nashville's best independent coffee brand to Franklin with a full café menu that works as well for a working lunch as for a morning coffee stop.
+
+## Outdoor Life: Trails, Parks, and the Natchez Trace
+
+Franklin's natural setting in the rolling hills of Middle Tennessee is one of its underappreciated assets. The outdoor infrastructure is genuinely excellent.
+
+### The Natchez Trace Parkway
+
+The Natchez Trace Parkway — a 444-mile national scenic byway administered by the National Park Service — runs directly through the Franklin area and is one of the genuine natural treasures of Middle Tennessee. No commercial traffic, no billboards, no development along its corridors. Just rolling hills, historic sites, mature hardwood forest, and one of the best cycling roads in the South.
+
+The Franklin area section is accessible via several entry points and is particularly popular with road cyclists on weekends. If you've never driven it in the fall when the hardwoods turn, put it on the list immediately.
+
+### Harpeth River State Park
+
+The Harpeth River winds through Williamson County and the surrounding area, offering kayaking, canoeing, fishing, and riverside hiking across multiple access points. Harpeth River State Park encompasses several distinct sites along the river, each with its own character and activity options.
+
+The Gossett Tract section near Kingston Springs offers a scenic loop trail with river access. The Narrows of the Harpeth is one of the more dramatic natural features in the region — a place where the river nearly doubles back on itself, creating a natural tunnel that Native Americans and early settlers used as a passage. Worth the short hike.
+
+### Franklin Greenway System
+
+Franklin's greenway trail network is one of the better urban trail systems in Middle Tennessee — paved multi-use paths connecting neighborhoods, parks, and community spaces across the city. The system is actively expanding and already offers enough connected mileage to make it a genuine daily-use asset for runners, cyclists, and families with strollers.
+
+### City Parks Worth Knowing
+
+**Pinkerton Park** sits just south of downtown along the Harpeth River and is one of the most pleasant urban parks in the area. Walking trails along the river, open green space, and a replica frontier fort that children find genuinely engaging. Weekend mornings here are a reliable slice of Franklin community life.
+
+**Jim Warren Park** is Franklin's largest park — sports fields, playgrounds, a skate park, and open green space spread across a significant footprint. Youth sports leagues use it heavily on weekends, and the playground infrastructure is among the better in the city.
+
+**Deerwood Arboretum** is one of Franklin's quieter gems — a free public arboretum with walking paths through labeled tree specimens and manicured gardens. Underutilized by most residents and excellent for that reason.
+
+## Family Activities
+
+Franklin is exceptionally well-equipped for family life. Beyond the parks and trails, a few specific activities worth knowing:
+
+**Williamson County Agricultural Expo Park** hosts a range of events throughout the year including livestock shows, craft fairs, and the Williamson County Fair — one of the better county fairs in Tennessee, with a genuinely old-fashioned character that kids respond to enthusiastically.
+
+**Franklin's Main Library** — the Williamson County Public Library system is genuinely excellent. The main branch offers robust children's programming, summer reading programs, and a physical collection that reflects the community's investment in education. Worth a visit early in your Franklin life.
+
+**Cool Springs Galleria** is the primary regional mall and has the practical advantage of covering most family retail needs under one roof. The surrounding commercial area in Cool Springs adds essentially every national retail and dining chain you'd expect.
+
+## Live Music and Arts
+
+Franklin's proximity to Nashville means it exists in the gravitational field of the world's most concentrated music industry. But Franklin has its own music culture that's worth knowing about independently.
+
+**Pilgrimage Music & Cultural Festival** takes place each fall at the Park at Harlinsdale Farm — a beautiful historic farm property on the edge of downtown — and draws nationally recognized artists across multiple stages over a weekend. It has grown significantly since its founding and is now one of the premier outdoor music festivals in Middle Tennessee. The setting alone makes it worth attending.
+
+**The Franklin Theatre** programming deserves a second mention for its live music calendar specifically. Intimate shows in a beautifully restored historic space — the kind of music experience that has become increasingly rare.
+
+**The Factory at Franklin** hosts live music throughout the year across its various venue spaces. Check the calendar — the quality and variety of bookings is consistently above what you'd expect for a city of Franklin's size.
+
+## Festivals and Community Events
+
+Franklin's community calendar is one of the things that makes the city feel alive in a way that purely residential suburbs don't. A few events worth marking:
+
+**Main Street Festival** (late April) is Franklin's signature spring event — two days of live music, arts and crafts vendors, food, and community on Main Street. One of the largest street festivals in Tennessee and genuinely well-executed. If you want to understand what Franklin community life feels like at its best, this is the event to attend.
+
+**Dickens of a Christmas** (December) transforms downtown into a Victorian holiday scene each year — costumed characters, carolers, carriage rides, and decorated storefronts create something that families return to year after year.
+
+**Pumpkinfest** (October) brings fall festivities to downtown Franklin with a strong family orientation — kids' activities, live music, food vendors, and the general warmth of a community that knows how to celebrate the season.
+
+**Franklin Farmers Market** (May through October, Saturday mornings) is one of the better farmers markets in Middle Tennessee — local produce, artisan vendors, live music, and a social scene that makes it a genuine weekly ritual for many Franklin families.
+
+## Day Trips From Franklin
+
+Franklin's location in Middle Tennessee puts it within easy reach of several destinations worth knowing about:
+
+**Nashville** (21 miles north) — the full city experience when you want it: live music on Broadway, the Gulch, East Nashville's restaurant scene, Bridgestone Arena, Nissan Stadium, the Frist Art Museum.
+
+**Jack Daniel's Distillery, Lynchburg** (75 miles southeast) — one of the more enjoyable day trips from Franklin, particularly for visitors. The tour is legitimately interesting and the town of Lynchburg has its own low-key charm.
+
+**Land Between the Lakes** (2 hours northwest) — a National Recreation Area spanning the Kentucky-Tennessee border with camping, hiking, horseback riding, and water recreation across 170,000 acres. Worth the drive for a long weekend.
+
+**Chattanooga** (2 hours southeast) — one of the most successfully revitalized mid-sized cities in the South. The Tennessee Aquarium, Lookout Mountain, the revitalized riverfront, and a strong restaurant scene make it an excellent two-day trip.
+
+**Fall Creek Falls State Park** (2 hours east) — home to one of the highest waterfalls east of the Rockies and some of the best hiking in Tennessee. A strong option for families who want genuine backcountry character without a long drive.
+
+## The Thing About Franklin
+
+The best things to do in Franklin aren't really on a list. They're the Saturday morning at the farmers market that turns into lunch on Main Street that turns into a walk along the greenway. The fall afternoon on the Natchez Trace with the windows down. The Pilgrimage festival weekend that a new family attends their first year and puts on the calendar permanently.
+
+Franklin rewards the kind of living where you're paying attention to where you are. There's enough here to fill your time well — and enough character in the city to make that time feel like it was spent somewhere worth being.
+    `
   }
 };
 

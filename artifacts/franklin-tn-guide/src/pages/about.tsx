@@ -216,10 +216,10 @@ export default function About() {
               </Link>
             </li>
             <li>
-              <a href="#" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/articles/things-to-do-in-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Things to Do in Franklin
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
