@@ -1,9 +1,13 @@
-packages: {}
+packages:
+  "react-markdown": "For rendering article content beautifully"
+  "@tailwindcss/typography": "For styling markdown text content with Tailwind v4"
+  "clsx": "Utility for constructing className strings"
+  "tailwind-merge": "Utility for merging Tailwind classes"
+
 images:
-  - path: "artifacts/franklin-tn-guide/public/images/schools-hero.png"
-    description: "A bright, modern, and welcoming school building exterior on a sunny day with green lawns, symbolizing top-tier education and community, high quality professional photography."
+  - path: "artifacts/franklin-tn-guide/public/images/franklin-vs-nashville.png"
+    description: "High-end editorial split-screen or dual-concept photography. On one side, the vibrant urban energy of downtown Nashville with neon signs and city skyline. On the other side, the peaceful, idyllic historic suburban charm of Main Street in Franklin, Tennessee with brick storefronts and trees. Warm, inviting lighting."
     aspect_ratio: "16:9"
-  - path: "artifacts/franklin-tn-guide/public/images/cost-of-living-franklin.png"
-    description: "A beautiful, upscale suburban home with a manicured lawn and a welcoming front porch in a pristine neighborhood, warm afternoon light, real estate photography style."
-    aspect_ratio: "16:9"
-notes: []
+
+notes:
+  - Adding the new Franklin vs Nashville article to the existing data structure

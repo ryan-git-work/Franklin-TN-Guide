@@ -123,14 +123,15 @@ All articles are stored in `src/lib/data.ts` with structure:
 - `slug`, `title`, `metaTitle`, `metaDescription`, `keywords[]`
 - `date`, `readTime`, `excerpt`, `content` (Markdown), `imageUrl`
 
-**Current articles**:
+**Current articles** (5 total):
 1. **Why Move to Franklin, TN? 15 Reasons** (12 min, March 2025) — Reasons for relocation + context
-2. **Best Neighborhoods in Franklin, TN** (14 min, March 2025) — Detailed neighborhood guides
+2. **Best Neighborhoods in Franklin, TN** (14 min, March 2025) — Detailed neighborhood guides with pricing & tradeoffs
 3. **Williamson County Schools: Complete Guide** (11 min, March 22, 2025) — School district structure, high schools, programs, private options
-4. **Cost of Living in Franklin, TN: What to Actually Expect** (10 min, March 22, 2025) — Housing, taxes, utilities, comparison to other metros
+4. **Cost of Living in Franklin, TN: What to Actually Expect** (10 min, March 22, 2025) — Housing, taxes, utilities, comparison to other metros (SF Bay Area, LA, Chicago, DC, NYC/Boston)
+5. **Franklin, TN vs. Nashville: Which Is Right for You?** (9 min, March 22, 2025) — Direct comparison of both cities covering cost, schools, lifestyle, commute, safety, community
 
 ### SEO Setup
-- **Sitemap**: Auto-generated via `scripts/generate-sitemap.ts` on every build (`pnpm run build` triggers it). Includes all 4 articles + 6 static pages (10 URLs total)
+- **Sitemap**: Auto-generated via `scripts/generate-sitemap.ts` on every build (`pnpm run build` triggers it). Includes all 5 articles + 6 static pages (11 URLs total)
 - **robots.txt**: Located at `/public/robots.txt`
 - **Meta tags**: Rendered client-side via react-helmet-async (functional but not server-side rendering)
 - **Canonical domain**: https://franklintnguide.com
