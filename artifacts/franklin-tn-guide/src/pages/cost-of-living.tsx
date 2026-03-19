@@ -376,7 +376,7 @@ export default function CostOfLiving() {
 
           <div className="bg-muted/50 p-8 rounded-2xl mb-12 mt-12">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Want to talk through what Franklin living would actually cost for your specific situation? <a href="mailto:hello@franklintnguide.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — happy to run through the numbers with you.
+              Want to talk through what Franklin living would actually cost for your specific situation? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — happy to run through the numbers with you.
             </p>
           </div>
 

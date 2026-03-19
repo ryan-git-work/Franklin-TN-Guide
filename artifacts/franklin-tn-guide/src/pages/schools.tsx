@@ -292,7 +292,7 @@ export default function Schools() {
 
           <div className="bg-muted/50 p-8 rounded-2xl mb-12">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Have questions about which Franklin neighborhoods feed into the strongest school zones? <a href="mailto:hello@franklintnguide.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — we're happy to walk through the specifics.
+              Have questions about which Franklin neighborhoods feed into the strongest school zones? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — we're happy to walk through the specifics.
             </p>
           </div>
 

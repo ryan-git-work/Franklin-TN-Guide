@@ -419,7 +419,7 @@ export default function Neighborhoods() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mt-8">
-              Still have questions? <a href="mailto:hello@franklintnguide.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — we've helped a lot of families think through this decision and are happy to talk through your specific situation.
+              Still have questions? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — we've helped a lot of families think through this decision and are happy to talk through your specific situation.
             </p>
           </div>
 

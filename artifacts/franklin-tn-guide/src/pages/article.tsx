@@ -94,7 +94,7 @@ export default function ArticlePage() {
               Relocating is a huge decision. Get in touch with a local expert who can give you the honest, unfiltered truth about living here.
             </p>
             <a 
-              href="mailto:hello@franklintnguide.com"
+              href="mailto:ryan@locheventures.com"
               className="inline-block bg-[#2D6A4F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1e4a36] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
             >
               Speak to a Local Expert

@@ -24,7 +24,7 @@ export default function About() {
       const subject = encodeURIComponent(`Inquiry from ${name} via Franklin TN Guide`);
       const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
       
-      window.location.href = `mailto:hello@franklintnguide.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:ryan@locheventures.com?subject=${subject}&body=${body}`;
       
       toast({
         title: "Opening mail client...",
@@ -62,7 +62,7 @@ export default function About() {
             
             <div className="flex items-center gap-4 text-primary font-medium bg-accent/20 p-4 rounded-2xl border border-accent inline-flex">
               <Mail className="w-5 h-5 text-secondary" />
-              hello@franklintnguide.com
+              ryan@locheventures.com
             </div>
           </div>
 
