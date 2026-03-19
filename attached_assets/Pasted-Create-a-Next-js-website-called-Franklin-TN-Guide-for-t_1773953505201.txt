@@ -1,0 +1,39 @@
+Create a Next.js website called "Franklin TN Guide" for the domain franklintnguide.com. This is a relocation guide for people considering moving to Franklin, Tennessee. Here are the full requirements:
+TECH STACK & SEO
+
+Next.js 14 with App Router
+Tailwind CSS for styling
+Markdown/MDX support for blog articles (each article is a .md file in a /content/articles folder)
+Dynamic routing so each markdown file automatically becomes a page at /articles/[slug]
+Full SEO setup on every page: unique title tags, meta descriptions, OpenGraph tags, canonical URLs, sitemap.xml auto-generation, robots.txt
+Fast load times — optimize images, use Next.js Image component
+Schema markup (Article schema for blog posts, LocalBusiness schema on homepage)
+
+SITE STRUCTURE
+Create the following pages:
+
+/ — Homepage with hero section, intro paragraph, and links to featured articles
+/neighborhoods — Hub page for Franklin neighborhoods
+/schools — Williamson County schools overview
+/cost-of-living — Cost of living breakdown
+/franklin-vs-nashville — Comparison page
+/articles/[slug] — Dynamic route for all markdown articles
+/about — Simple about/contact page with a CTA for real estate referrals
+
+DESIGN
+
+Clean, warm, professional — think "trusted local resource" not "real estate sales pitch"
+Color palette: warm whites, deep navy, and a Tennessee green accent
+Mobile-first, fully responsive
+Navbar with logo (text-based: "Franklin TN Guide") and links to Neighborhoods, Schools, Cost of Living, Franklin vs Nashville, About
+Footer with tagline: "Your trusted guide to life in Franklin, Tennessee"
+Each article page should have: hero image slot, title, date, estimated read time, article body, and a sidebar CTA box that says "Thinking about moving to Franklin? Let's talk." with a contact link
+
+CONTENT PLACEHOLDERS
+Populate the homepage and a few pages with placeholder content so I can see the layout. Create 2 sample markdown articles in /content/articles:
+
+why-move-to-franklin-tn.md — placeholder content about why people move to Franklin
+best-neighborhoods-in-franklin-tn.md — placeholder content about Franklin neighborhoods
+
+CONTACT/CTA
+The "Let's talk" CTA and About page contact form should send to a placeholder email for now. Keep it simple — just a name, email, and message field.

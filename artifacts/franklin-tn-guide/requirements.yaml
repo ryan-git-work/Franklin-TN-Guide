@@ -1,0 +1,24 @@
+packages:
+  "framer-motion": "For smooth page transitions and beautiful entry animations"
+  "react-helmet-async": "To manage SEO meta tags, canonical URLs, and JSON-LD schemas"
+  "react-markdown": "To render the hardcoded markdown articles into HTML"
+  "@tailwindcss/typography": "For beautiful styling of the markdown article content"
+
+images:
+  - path: "artifacts/franklin-tn-guide/public/images/hero-franklin.png"
+    description: "A beautiful, scenic wide shot of historic Main Street in downtown Franklin, Tennessee during a warm golden hour sunset. Charming brick storefronts, soft streetlights, editorial photography style, welcoming and premium feel."
+    aspect_ratio: "16:9"
+  - path: "artifacts/franklin-tn-guide/public/images/westhaven-neighborhood.png"
+    description: "An idyllic, upscale suburban neighborhood street with beautiful luxury homes featuring large front porches, perfectly manicured green lawns, and mature trees on a sunny day. Premium real estate photography style."
+    aspect_ratio: "16:9"
+  - path: "artifacts/franklin-tn-guide/public/images/schools-hero.png"
+    description: "A beautifully designed, modern brick school building campus with lush green athletic fields in the foreground. Bright, sunny day, conveying excellence and top-tier education."
+    aspect_ratio: "16:9"
+  - path: "artifacts/franklin-tn-guide/public/images/nashville-skyline.png"
+    description: "A stunning twilight view of the Nashville city skyline reflecting in the Cumberland River, featuring the Batman building. Vibrant, dynamic, city life."
+    aspect_ratio: "16:9"
+
+notes:
+  - "No backend API exists; all content is statically provided in src/lib/data.ts"
+  - "Contact form submissions use simple mailto: links as requested"
+  - "SEO meta tags are managed via react-helmet-async client-side"

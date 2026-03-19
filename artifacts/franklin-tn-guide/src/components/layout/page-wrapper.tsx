@@ -1,0 +1,39 @@
+import { ReactNode } from "react";
+import { Navbar } from "./navbar";
+import { Footer } from "./footer";
+import { motion } from "framer-motion";
+import { SEO } from "../seo";
+
+interface PageWrapperProps {
+  children: ReactNode;
+  title: string;
+  description: string;
+  canonicalUrl?: string;
+  schema?: Record<string, any>;
+  type?: 'website' | 'article';
+}
+
+export function PageWrapper({ children, title, description, canonicalUrl, schema, type }: PageWrapperProps) {
+  return (
+    <div className="min-h-screen flex flex-col bg-background">
+      <SEO 
+        title={`${title} | Franklin TN Guide`} 
+        description={description} 
+        canonicalUrl={canonicalUrl}
+        schema={schema}
+        type={type}
+      />
+      <Navbar />
+      <motion.main 
+        className="flex-grow flex flex-col"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
+      >
+        {children}
+      </motion.main>
+      <Footer />
+    </div>
+  );
+}
