@@ -7,6 +7,12 @@ import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
 import NotFound from "@/pages/not-found";
 
+const getImageUrl = (url?: string) => {
+  if (!url) return undefined;
+  if (url.startsWith("http")) return url;
+  return `${import.meta.env.BASE_URL}${url.replace(/^\//, "")}`;
+};
+
 export default function ArticlePage() {
   const [, params] = useRoute("/articles/:slug");
   const slug = params?.slug;
@@ -60,7 +66,7 @@ export default function ArticlePage() {
           <div className="w-full max-w-5xl mx-auto px-4 -mt-12 mb-16 relative z-10">
             <div className="aspect-[21/9] w-full rounded-2xl overflow-hidden shadow-2xl shadow-stone-900/10 border-4 border-white">
               <img 
-                src={article.imageUrl} 
+                src={getImageUrl(article.imageUrl)} 
                 alt={article.title}
                 className="w-full h-full object-cover"
               />

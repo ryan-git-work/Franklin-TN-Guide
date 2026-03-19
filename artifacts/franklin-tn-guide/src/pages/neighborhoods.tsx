@@ -2,6 +2,12 @@ import { PageWrapper } from "@/components/layout/page-wrapper";
 import { neighborhoods } from "@/lib/data";
 import { MapPin, CheckCircle2, XCircle } from "lucide-react";
 
+const getImageUrl = (url?: string) => {
+  if (!url) return undefined;
+  if (url.startsWith("http")) return url;
+  return `${import.meta.env.BASE_URL}${url.replace(/^\//, "")}`;
+};
+
 export default function Neighborhoods() {
   return (
     <PageWrapper 
@@ -27,7 +33,7 @@ export default function Neighborhoods() {
               <div className="w-full md:w-1/2">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
                   <img 
-                    src={hood.imageUrl} 
+                    src={getImageUrl(hood.imageUrl)} 
                     alt={`${hood.name} neighborhood in Franklin TN`} 
                     className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-700"
                   />
