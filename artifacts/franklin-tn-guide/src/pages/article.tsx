@@ -26,8 +26,8 @@ export default function ArticlePage() {
 
   return (
     <PageWrapper 
-      title={article.title} 
-      description={article.excerpt}
+      title={article.metaTitle || article.title} 
+      description={article.metaDescription || article.excerpt}
       canonicalUrl={`/articles/${article.slug}`}
       type="article"
       schema={articleSchema}
