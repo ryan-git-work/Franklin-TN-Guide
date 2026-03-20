@@ -115,20 +115,54 @@ A comprehensive relocation guide website for Franklin, Tennessee — built as a 
 3. **Schools** — Overview of Williamson County Schools district
 4. **Cost of Living** — Housing costs, taxes, utilities breakdown
 5. **Franklin vs Nashville** — Side-by-side comparison
-6. **About** — About the guide
-7. **Articles** — Long-form guides (accessible via `/articles/<slug>`)
+6. **News** — News index listing all news articles in reverse chronological order (`/news`)
+7. **News Articles** — Individual news articles with markdown rendering (`/news/<slug>`)
+8. **About** — About the guide
+9. **Articles** — Long-form guides (accessible via `/articles/<slug>`)
 
 ### Articles (Content)
-All articles are stored in `src/lib/data.ts` with structure:
+All long-form articles are stored in `src/lib/data.ts` with structure:
 - `slug`, `title`, `metaTitle`, `metaDescription`, `keywords[]`
 - `date`, `readTime`, `excerpt`, `content` (Markdown), `imageUrl`
 
-**Current articles** (5 total):
-1. **Why Move to Franklin, TN? 15 Reasons** (12 min, March 2025) — Reasons for relocation + context
-2. **Best Neighborhoods in Franklin, TN** (14 min, March 2025) — Detailed neighborhood guides with pricing & tradeoffs
-3. **Williamson County Schools: Complete Guide** (11 min, March 22, 2025) — School district structure, high schools, programs, private options
-4. **Cost of Living in Franklin, TN: What to Actually Expect** (10 min, March 22, 2025) — Housing, taxes, utilities, comparison to other metros (SF Bay Area, LA, Chicago, DC, NYC/Boston)
-5. **Franklin, TN vs. Nashville: Which Is Right for You?** (9 min, March 22, 2025) — Direct comparison of both cities covering cost, schools, lifestyle, commute, safety, community
+**Current long-form articles** (16 total):
+1. **Why Move to Franklin, TN? 15 Reasons** (12 min)
+2. **Best Neighborhoods in Franklin, TN for Families** (14 min)
+3. **Williamson County Schools: Complete Guide** (11 min)
+4. **Cost of Living in Franklin, TN: What to Actually Expect** (10 min)
+5. **Franklin, TN vs. Nashville: Which Is Right for You?** (9 min)
+6. **Relocation Checklist for Moving to Franklin, TN** (12 min)
+7. **Moving from California to Franklin, TN** (13 min)
+8. **Moving from Chicago to Franklin, TN** (13 min)
+9. **Moving from New York to Franklin, TN** (12 min)
+10. **Best Neighborhoods in Franklin, TN for Families** (11 min)
+11. **Best Restaurants in Franklin, TN** (12 min)
+12. **Best Parks & Trails in Franklin, TN** (10 min)
+13. **Franklin Farmers Market: Complete Guide** (8 min)
+14. **Family Activities in Franklin, TN** (13 min)
+Plus + 2 more guides
+
+### News System (New)
+News articles are stored as markdown files in `src/content/news/` with YAML frontmatter:
+- `slug`, `title`, `metaTitle`, `metaDescription`, `keywords[]`, `date`
+- Content rendered via `react-markdown`
+
+**Utilities**: `src/lib/news.ts` — exports `getAllNews()`, `getNewsBySlug()`, `getNewsMetadata()`
+- Uses Vite's `import.meta.glob` to dynamically load `.md` files at build time
+- Parses YAML frontmatter and markdown content
+- Results cached in memory
+
+**Current news articles** (10 total):
+1. In-N-Out Burger Opens in Franklin (Mar 1, 2026)
+2. The Pearl Park Breaking Ground (Feb 28, 2026)
+3. East McEwen Drive Widening (Feb 25, 2026)
+4. Pelato Italian Restaurant Opening (Feb 20, 2026)
+5. WCS Open Zoning 2026-27 (Feb 15, 2026)
+6. WCS Innovation Center Opening (Feb 10, 2026)
+7. Wyelea Luxury Development (Feb 5, 2026)
+8. Carter House Visitor Center (Feb 1, 2026)
+9. Culinary Dropout Coming (Jan 28, 2026)
+10. Prickly Pear Coffee Co. Opens (Jan 25, 2026)
 
 ### SEO Setup
 - **Sitemap**: Auto-generated via `scripts/generate-sitemap.ts` on every build (`pnpm run build` triggers it). Includes all 5 articles + 6 static pages (11 URLs total)
@@ -142,8 +176,15 @@ All articles are stored in `src/lib/data.ts` with structure:
 - **Build**: `pnpm run build` — generates sitemap automatically
 - **Deploy**: Ready for production deployment as an SPA
 
-### To Add New Articles
+### To Add New Long-Form Articles
 1. Add entry to `articles` object in `src/lib/data.ts`
 2. Include all fields: `slug`, `title`, `metaTitle`, `metaDescription`, `keywords`, `date`, `readTime`, `excerpt`, `content`, `imageUrl`
 3. Run `pnpm run build` or `pnpm run generate-sitemap` to regenerate sitemap
 4. Articles are immediately accessible at `/articles/<slug>`
+
+### To Add News Articles
+1. Create a new `.md` file in `src/content/news/` named `<slug>.md`
+2. Add YAML frontmatter with: `slug`, `title`, `metaTitle`, `metaDescription`, `date`, `keywords`
+3. Add markdown content after `---` separator
+4. No build step required — articles load dynamically via Vite glob import
+5. Accessible immediately at `/news/<slug>`

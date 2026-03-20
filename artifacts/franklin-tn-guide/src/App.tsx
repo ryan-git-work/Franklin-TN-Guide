@@ -11,6 +11,8 @@ import Schools from "@/pages/schools";
 import CostOfLiving from "@/pages/cost-of-living";
 import FranklinVsNashville from "@/pages/franklin-vs-nashville";
 import ArticlePage from "@/pages/article";
+import NewsIndex from "@/pages/news/index";
+import NewsArticle from "@/pages/news/[slug]";
 import About from "@/pages/about";
 import NotFound from "@/pages/not-found";
 
@@ -26,6 +28,8 @@ function Router() {
       <Route path="/franklin-vs-nashville" component={FranklinVsNashville} />
       <Route path="/about" component={About} />
       <Route path="/articles/:slug" component={ArticlePage} />
+      <Route path="/news" component={NewsIndex} />
+      <Route path="/news/:slug" component={NewsArticle} />
       <Route component={NotFound} />
     </Switch>
   );

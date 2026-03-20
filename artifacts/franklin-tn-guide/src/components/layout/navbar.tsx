@@ -8,6 +8,7 @@ const links = [
   { href: "/schools", label: "Schools" },
   { href: "/cost-of-living", label: "Cost of Living" },
   { href: "/franklin-vs-nashville", label: "Franklin vs Nashville" },
+  { href: "/news", label: "News" },
   { href: "/about", label: "About" },
 ];
 
