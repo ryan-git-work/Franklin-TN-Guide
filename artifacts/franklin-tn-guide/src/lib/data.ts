@@ -1341,6 +1341,99 @@ A remarkably intact natural area within the Nashville metro, Radnor Lake offers 
 - [Things to Do in Franklin, TN: A Local's Guide](/articles/things-to-do-in-franklin-tn)
 - [Why Move to Franklin, TN? 15 Reasons People Are Relocating Here](/articles/why-move-to-franklin-tn)
     `
+  },
+  "franklin-tn-farmers-market": {
+    slug: "franklin-tn-farmers-market",
+    title: "Franklin TN Farmers Market: Everything You Need to Know",
+    metaTitle: "Franklin TN Farmers Market: Everything You Need to Know (2025)",
+    metaDescription: "The Franklin TN Farmers Market is one of the best in Middle Tennessee. Here's everything you need to know — hours, location, what to buy, when to go, and what makes it worth the Saturday morning trip.",
+    keywords: ["Franklin TN farmers market", "Franklin Tennessee farmers market", "Main Street farmers market Franklin TN", "Franklin TN Saturday market", "farmers market Franklin Tennessee"],
+    date: "March 19, 2026",
+    readTime: "8 min read",
+    excerpt: "The Franklin Farmers Market is one of those community institutions that tells you something true about a place. A genuine weekly gathering — and one of the fastest on-ramps to feeling like you belong.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+The Franklin Farmers Market is one of those community institutions that tells you something true about a place. It has been running on Saturday mornings on the Main Street Festival grounds since 1999 and has grown into one of the premier farmers markets in Middle Tennessee — a genuine weekly gathering that functions as much as a social event as a shopping destination.
+
+Here's everything you need to know to make the most of it.
+
+## The Basics
+
+- **Location:** The Main Street Festival Grounds, 230 Franklin Road, Franklin, TN — just off Main Street in the heart of downtown
+- **Season:** May through October
+- **Hours:** Saturday mornings, 8:00am–noon
+- **Admission:** Free
+- **Parking:** Street parking on adjacent streets; the downtown parking garages are a short walk
+
+## What You'll Find
+
+The market runs approximately 80–100 vendors at peak season, covering a genuine range of local producers and artisans.
+
+### Produce
+
+The core of the market is locally grown fruits and vegetables from Williamson County and surrounding Middle Tennessee farms. In peak summer months expect tomatoes, corn, squash, peppers, cucumbers, melons, peaches, and a rotating variety of whatever is coming off local farms that week. Spring brings greens, strawberries, and early season vegetables. Fall shifts to root vegetables, winter squash, apples, and pumpkins.
+
+### Meat and Eggs
+
+Several vendors sell pasture-raised eggs, locally raised beef, pork, and chicken. Quality is consistently above grocery store standards and the vendors know their product well enough to answer questions about how it was raised.
+
+### Baked Goods
+
+Among the better reasons to arrive early. Local bakers bring bread, pastries, cinnamon rolls, pies, and seasonal specialties that go fast. The cinnamon roll competition between market vendors and nearby Merridee's is a Franklin Saturday morning institution.
+
+### Prepared Foods
+
+Hot breakfast items, coffee, and ready-to-eat options make it possible to turn a market trip into a full morning outing. Food trucks and prepared food vendors rotate through the season.
+
+### Plants and Flowers
+
+Seasonal cut flowers, potted plants, herbs, and seedlings for home gardens are well-represented through spring and summer.
+
+### Artisan Vendors
+
+Pottery, jewelry, woodwork, soaps, candles, and handmade goods round out the market's vendor roster. Quality varies but the better artisan vendors are genuinely worth the browse.
+
+### Honey and Preserves
+
+Middle Tennessee honey from local beekeepers is one of the consistent finds. Local jams, jellies, and preserves make excellent pantry staples and gifts.
+
+## Practical Tips for Getting the Most Out of It
+
+**Arrive before 9:30am for the best selection.** The most popular vendors — particularly baked goods, pastured eggs, and specialty produce — sell out before the market closes. Arriving at 10:30am on a peak Saturday means shopping around what's left. Arriving at 8:15am means first selection and a quieter experience before the crowds build.
+
+**Bring cash.** Most vendors accept cards now, but cash moves faster and some smaller vendors still prefer it. An ATM is available nearby.
+
+**Bring bags.** The market has moved toward reducing single-use plastic and having your own reusable bags makes the shopping experience easier.
+
+**Come hungry.** The prepared food and breakfast options are good enough to make the market itself a Saturday morning destination rather than a quick errand. Budget an hour minimum if you want to do it properly.
+
+**Bring children.** The Franklin Farmers Market is one of the more child-friendly Saturday morning activities in the city. The scale is walkable, the vendors are friendly, and the sensory environment — produce, flowers, food smells, live music — is engaging for young children without being overwhelming.
+
+**Live music is a regular feature.** Local musicians perform most Saturday mornings, adding to the community atmosphere. The quality is consistently good.
+
+## The Market as Community Event
+
+What makes the Franklin Farmers Market worth mentioning in a relocation guide — rather than just a shopping guide — is what it does socially.
+
+For new Franklin residents, the Saturday morning farmers market is one of the fastest on-ramps to feeling like you belong somewhere. You see the same people week after week. You learn which vendors have the best tomatoes by midsummer. You run into neighbors. You have conversations with strangers who become familiar faces who eventually become people you know.
+
+For families with children, it becomes a Saturday morning ritual that structures the weekend in the best way — an outing with purpose that ends with good food and the kind of unhurried community contact that's harder to find than it should be.
+
+The families who have been in Franklin for a decade still go to the farmers market. That's the recommendation.
+
+## Other Franklin Area Markets Worth Knowing
+
+**Berry Farms Farmers Market** operates within the Berry Farms community and has developed its own loyal following in southern Franklin. A smaller and more neighborhood-scale version of the Main Street market — good for Berry Farms residents who want a walkable option without the downtown drive.
+
+**Cool Springs area markets** rotate seasonally — worth checking local event listings for current options in the northern Franklin corridor.
+
+---
+
+**Related reading:**
+
+- [Things to Do in Franklin, TN: A Local's Guide](/articles/things-to-do-in-franklin-tn)
+- [Best Restaurants in Franklin, TN: A Local's Guide](/articles/best-restaurants-franklin-tn)
+    `
   }
 };
 
