@@ -1246,6 +1246,101 @@ A downtown Franklin pub that earns its place on the local rotation through consi
 - [Things to Do in Franklin, TN: A Local's Guide](/articles/things-to-do-in-franklin-tn)
 - [Why Move to Franklin, TN? 15 Reasons People Are Relocating Here](/articles/why-move-to-franklin-tn)
     `
+  },
+  "best-parks-trails-franklin-tn": {
+    slug: "best-parks-trails-franklin-tn",
+    title: "Best Parks and Trails in Franklin, TN: The Outdoor Guide",
+    metaTitle: "Best Parks and Trails in Franklin, TN: The Outdoor Guide (2025)",
+    metaDescription: "Discover the best parks, trails, and outdoor spaces in Franklin, TN — from the Natchez Trace Parkway to the Harpeth River, greenway trails, and family parks. A complete outdoor guide.",
+    keywords: ["best parks in Franklin TN", "Franklin TN trails", "outdoor activities Franklin Tennessee", "Franklin TN greenway", "Natchez Trace Franklin TN", "parks in Franklin Tennessee", "hiking near Franklin TN"],
+    date: "March 19, 2026",
+    readTime: "11 min read",
+    excerpt: "Franklin's outdoor infrastructure is one of its most underappreciated assets. Here's what's worth knowing — from the Natchez Trace to neighborhood parks and regional day trips.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+Franklin's outdoor infrastructure is one of its most underappreciated assets. The rolling hills of Middle Tennessee, the Harpeth River corridor, the Natchez Trace Parkway, and a well-developed city park and greenway system combine to give Franklin residents genuinely excellent access to the outdoors without leaving Williamson County.
+
+Here's what's worth knowing — organized from the most significant to the most practical.
+
+## The Natchez Trace Parkway
+
+The Natchez Trace Parkway is a 444-mile national scenic byway administered by the National Park Service, running from Natchez, Mississippi to Nashville, Tennessee. The Franklin area sits near the northern terminus, giving local residents direct access to one of the most beautiful recreational corridors in the South.
+
+What makes the Trace distinctive: no commercial traffic, no billboards, no development along its right-of-way. Just a two-lane road through mature hardwood forest, historic sites, and rolling Tennessee countryside. The speed limit is 50mph and enforced — which is annoying if you're trying to get somewhere and perfect if you're trying to experience the road itself.
+
+### For cyclists
+
+The Trace is one of the premier road cycling routes in the South. The smooth pavement, minimal traffic, and scenic character draw cyclists from across the region. Weekend mornings bring out a substantial Franklin cycling community. Entry points near Franklin include the Highway 96 overpass area — accessible from multiple Franklin neighborhoods within a short drive.
+
+### For drivers
+
+A Sunday morning drive on the Natchez Trace — particularly in October when the hardwoods are at peak color — is one of the genuinely great free experiences available to Franklin residents. Pack a lunch, pick a direction, and spend two hours not looking at your phone.
+
+### Historic sites along the Trace near Franklin
+
+Several noteworthy National Park Service-maintained sites sit along the Trace in the Franklin area: Grinder's Stand (historic inn site), Gordon House and ferry site, and several Native American mounds. Most are accessible via short walks from parking areas along the parkway.
+
+## Urban Parks and Trails
+
+### Pinkerton Park
+
+Franklin's most beloved urban park sits just south of downtown along the Harpeth River. Walking trails along the river, open green space, and a replica frontier fort — Fort Granger — that children engage with more seriously than you might expect. Weekend mornings at Pinkerton are a reliable slice of Franklin community life: runners, dog walkers, families, and people sitting on the grass who decided they didn't need to be anywhere else.
+
+The park also serves as the gateway to the river trail system heading south. A morning walk from Pinkerton along the river is one of the better free experiences in the city.
+
+### Jim Warren Park
+
+Franklin's largest park by footprint — extensive sports fields, multiple playgrounds, a skate park, a disc golf course, and open green space spread across a significant acreage. Youth sports leagues use it heavily on weekends and after school, and the energy on a Saturday morning during soccer or baseball season is the kind of community scene that makes Franklin feel like itself.
+
+The playground infrastructure is among the better in Williamson County for younger children. Multiple distinct play areas mean kids of different ages can all find something to engage with.
+
+### Deerwood Arboretum and Nature Area
+
+One of Franklin's quieter gems and genuinely underutilized by most residents. A free public arboretum with walking paths through labeled specimen trees, native plantings, and maintained gardens. The scale is intimate rather than expansive — this is a place for a slow walk rather than a long hike — but the quality is high and the crowds are consistently light.
+
+Worth visiting in April and May when the flowering specimens are at peak. Worth visiting in October when the deciduous trees turn. Worth visiting any time you want to be outside without competing for space.
+
+### Aspen Grove Park
+
+A neighborhood park in the Aspen Grove community that has become one of the more popular family destinations in southern Franklin. A well-maintained playground, open fields, and a community feel that reflects the neighborhood around it. A reliable option for families in the southern Franklin corridor who don't want to drive to Jim Warren.
+
+## Day Trip Outdoor Options from Franklin
+
+Franklin's location puts several significant outdoor destinations within reasonable driving distance:
+
+### Fall Creek Falls State Park (approximately 2 hours east)
+
+Home to one of the highest waterfalls east of the Rockies and some of the best hiking in Tennessee. Multiple trail systems ranging from family-friendly walks to demanding backcountry routes. Worth a full weekend rather than just a day trip.
+
+### Land Between the Lakes (approximately 2 hours northwest)
+
+A 170,000-acre National Recreation Area spanning the Kentucky-Tennessee border. Camping, hiking, horseback riding, and extensive water recreation across two large lakes. One of the great undervisited outdoor destinations in the Southeast.
+
+### Percy Warner and Edwin Warner Parks (approximately 25 minutes north, Nashville)
+
+The Warner Parks complex on Nashville's western edge offers over 3,000 acres of hardwood forest with hiking trails, equestrian paths, and a cross-country running course. Practically a backyard resource for Franklin residents willing to make the short drive.
+
+### Radnor Lake State Park (approximately 25 minutes north, Nashville)
+
+A remarkably intact natural area within the Nashville metro, Radnor Lake offers wildlife-rich hiking around a scenic lake. One of the best nature experiences within the greater Nashville area and well worth the short drive from Franklin.
+
+## Seasonal Outdoor Notes
+
+**Spring (March–May):** The best outdoor season in Middle Tennessee. Wildflowers along the Natchez Trace, dogwoods in bloom, comfortable temperatures, and long days. The Harpeth is at good levels for paddling. The greenways are at their most pleasant.
+
+**Summer (June–August):** Hot and humid. Early mornings and evenings are optimal. The river is warm enough for swimming. Evening bike rides on the Trace become routine.
+
+**Fall (September–November):** The second-best outdoor season. Dramatic hardwood color, mild temperatures, and the crowds thin slightly from summer peak. Perfect for longer hikes and weekend drives.
+
+**Winter (December–February):** Mild by Northern standards but chilly enough to require planning. Days are short. Ice and snow are occasional but possible. Winter hiking is rewarding when conditions allow; the bare trees offer better sight lines and the crowds disappear.
+
+---
+
+**Related reading:**
+
+- [Things to Do in Franklin, TN: A Local's Guide](/articles/things-to-do-in-franklin-tn)
+- [Why Move to Franklin, TN? 15 Reasons People Are Relocating Here](/articles/why-move-to-franklin-tn)
+    `
   }
 };
 
