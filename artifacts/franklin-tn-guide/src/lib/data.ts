@@ -1115,6 +1115,137 @@ Get the school zone right, run the commute, visit on a weekend morning, and trus
 - [Why Move to Franklin, TN? 15 Reasons People Are Relocating Here](/articles/why-move-to-franklin-tn)
 - [Franklin TN Relocation Checklist](/articles/franklin-tn-relocation-checklist)
     `
+  },
+  "best-restaurants-franklin-tn": {
+    slug: "best-restaurants-franklin-tn",
+    title: "Best Restaurants in Franklin, TN: A Local's Guide",
+    metaTitle: "Best Restaurants in Franklin, TN: A Local's Guide (2025)",
+    metaDescription: "Discover the best restaurants in Franklin, TN — from downtown date nights to family favorites and hidden local gems. An honest local's guide to eating well in Williamson County.",
+    keywords: ["best restaurants in Franklin TN", "Franklin TN restaurants", "where to eat in Franklin Tennessee", "Franklin TN dining guide", "restaurants Franklin Tennessee", "good restaurants Franklin TN"],
+    date: "March 19, 2026",
+    readTime: "10 min read",
+    excerpt: "Franklin's restaurant scene has grown up. Here's an honest local's guide to where to eat — organized by occasion, with what to expect and why it matters.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+Franklin's restaurant scene has grown up. What was once a modest collection of Southern staples and chain restaurants along the Cool Springs corridor has evolved over the past decade into something genuinely worth talking about — a dining culture with real range, real quality, and enough local identity to hold its own against Nashville's much-hyped food scene.
+
+This guide covers the restaurants locals actually go to — organized by occasion, honest about what to expect, and updated for 2025.
+
+## For a Special Night Out
+
+### Gray's on Main
+
+The standard-bearer for Franklin fine dining and one of the better restaurants in Middle Tennessee full stop. Gray's occupies a beautifully restored historic space — a former drugstore with original soda fountain elements intact — and delivers Southern-influenced American cooking with serious technique behind it. The seasonal menu rotates thoughtfully, the wine list is well-curated, and the service matches the room.
+
+**Go for:** A birthday, anniversary, or any occasion that deserves the city's best table. Make a reservation — the dining room fills consistently on weekends.
+
+### The Freehouse
+
+A gastropub that takes both halves of that description seriously. The beer and cocktail program is one of the better ones in Franklin, and the kitchen produces food that justifies the space rather than serving as an afterthought to the drinks. Elevated pub classics, rotating specials, and a warm room that manages to feel both casual and considered.
+
+**Go for:** A Friday night out that doesn't require the full commitment of a fine dining reservation. Consistently enjoyable without being precious about it.
+
+### Cork & Cow
+
+A steakhouse that threads the needle between special occasion and approachable. The beef is well-sourced and properly cooked, the sides are serious, and the room has a warmth that many steakhouses sacrifice for atmosphere. The lunch burger is one of the better deals in Franklin — considerably less expensive than dinner and worth the trip on its own.
+
+**Go for:** Steak nights and special family dinners. The burger at lunch if you want Cork & Cow quality without the dinner price tag.
+
+## Downtown Franklin Essentials
+
+### Puckett's Grocery & Restaurant
+
+A Franklin institution that has earned its reputation over decades. Part music venue, part Southern comfort food restaurant, entirely itself. The biscuits are legitimate. The live music nights — several per week — draw locals who have been coming for years and visitors who stumble in and stay longer than planned. The atmosphere is impossible to manufacture and Puckett's has never tried.
+
+**Go for:** Weekend brunch, a live music night, or introducing someone to Franklin for the first time. This is the restaurant that explains something about the city.
+
+### Merridee's Breadbasket
+
+Open since 1981 and still earning it every day. Breakfast and lunch only, housed in a cozy downtown space that has become as much a part of Franklin's identity as Main Street itself. The cinnamon roll is the thing — larger than reasonable, better than expected. The chicken salad sandwich is the lunch order. Cash and cards accepted; patience required on weekend mornings.
+
+**Go for:** A slow Saturday morning breakfast. An introduction to what Franklin's downtown has always been.
+
+### Honest Coffee Roasters
+
+Franklin's best coffee operation and the downtown Main Street location is the one to know. Serious about roasting without being serious in the off-putting way that specialty coffee sometimes is. The space works as well for a working morning as for a meeting or a slow afternoon. Multiple Franklin locations; the downtown original is the anchor.
+
+**Go for:** Every morning you're near downtown. A working session with good coffee and better wifi.
+
+### Frothy Monkey
+
+Nashville's most beloved independent coffee brand has a Franklin presence and it translates well. Full café menu beyond coffee — avocado toast, grain bowls, sandwiches — that makes it a legitimate lunch destination in addition to a morning stop. A warm, unhurried atmosphere that downtown Franklin does well.
+
+**Go for:** A morning coffee with food, or a casual working lunch.
+
+## Family Favorites
+
+### Biscuit Love
+
+The Franklin location of Nashville's most celebrated breakfast brand delivers consistently on the hype. The bonuts — beignet-style donuts made from leftover biscuit dough — are the thing everyone orders first and the thing everyone talks about after. The full menu is strong across the board. Weekend waits are real; arrive by 8:30am or expect a line.
+
+**Go for:** Weekend family breakfast. Out-of-town visitors who need to understand what Middle Tennessee does with biscuit dough.
+
+### Mellow Mushroom
+
+Reliable, consistent, and genuinely good pizza in a space that handles the energy of children without the staff suffering visibly for it. The toppings are creative without being weird, the crust is distinctive, and the atmosphere is relaxed enough that a table of six with varying ages is never a problem. A Cool Springs area anchor for family dinners.
+
+**Go for:** A Tuesday night when nobody wants to cook and everyone has different opinions about dinner.
+
+### Fox and Locke
+
+A neighborhood pub in the heart of downtown Franklin with an American menu broad enough to satisfy a table with competing preferences. Burgers, salads, flatbreads, and a solid kids' menu make it a reliable family option in a room that also works for adult dinners and casual drinks. The patio is one of the better outdoor dining spots downtown.
+
+**Go for:** A casual downtown dinner with the family. A weekend lunch between Main Street errands.
+
+### Taziki's Mediterranean Café
+
+A Middle Tennessee staple that earns repeat visits through consistent quality and a menu that covers a lot of dietary territory without feeling like a compromise. The gyro is the anchor but the bowls, salads, and dips are all worth ordering. Good for families with varied preferences and a reliable quick-service option when time is a factor.
+
+**Go for:** A weeknight family dinner. A quick lunch that's better than fast food without requiring a reservation.
+
+## Breakfast and Brunch
+
+### The Pancake Pantry
+
+A Nashville institution with Franklin area presence. Classic American breakfast executed at a high level — the pancakes are the obvious order but the full menu holds up. The kind of breakfast place that makes you nostalgic for something you might not have grown up with.
+
+**Go for:** A lazy weekend morning when the goal is a proper breakfast rather than a quick stop.
+
+## Quick and Casual Worth Knowing
+
+### Five Guys
+
+Not a local recommendation — but the Cool Springs location is worth noting for families in relocation mode who need a reliable, fast, quality burger while navigating the logistics of a new city. Better than it needs to be.
+
+### Salsarita's Fresh Mexican Grill
+
+A fast-casual Mexican option that sits above the Chipotle tier in quality and execution. Good for a quick weeknight dinner when the alternative is drive-through.
+
+### McCreary's Irish Pub
+
+A downtown Franklin pub that earns its place on the local rotation through consistency, a good beer selection, and an atmosphere that feels like a real neighborhood bar rather than a manufactured Irish theme. The food is honest pub fare done well. A reliable option when you want something casual and don't want to drive.
+
+**Go for:** A weeknight out that doesn't require planning. A game on the TV with a pint that's worth drinking.
+
+## The Broader Franklin Dining Picture
+
+### A few honest observations about eating in Franklin that don't fit neatly into a restaurant list:
+
+**The dining scene skews toward American and Southern.** Franklin has genuine variety but it's not Nashville's level of culinary diversity. International cuisine options exist but are limited compared to what major metros offer. Families relocating from cities with deep international dining cultures will notice this.
+
+**Reservations matter more than they used to.** Franklin's population growth has outpaced its restaurant inventory. On Friday and Saturday evenings, the best downtown restaurants fill. OpenTable and Resy are worth having on your phone.
+
+**The lunch scene downtown is underrated.** Several of Franklin's best dinner restaurants offer lunch menus at significantly lower price points. Gray's at lunch, Cork & Cow's burger, Puckett's midday service — these are among the best value meals in the city.
+
+**New restaurants keep opening.** Franklin's dining scene is genuinely growing. The list above reflects 2025 standouts but the city adds worthwhile new options regularly. The Factory at Franklin, in particular, continues to expand its food and beverage tenant roster and is worth checking for newer openings.
+
+---
+
+**Related reading:**
+
+- [Things to Do in Franklin, TN: A Local's Guide](/articles/things-to-do-in-franklin-tn)
+- [Why Move to Franklin, TN? 15 Reasons People Are Relocating Here](/articles/why-move-to-franklin-tn)
+    `
   }
 };
 
