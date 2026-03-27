@@ -2571,7 +2571,6 @@ The choice depends less on Nashville's appeal and more on your family profile, p
     date: "March 27, 2026",
     readTime: "9 min read",
     excerpt: "Cool Springs is less a traditional neighborhood and more a zone — Franklin's corporate and commercial corridor. Here's what actually living there looks like.",
-    imageUrl: "/images/cool-springs-franklin.png",
     content: `
 Cool Springs is difficult to describe as a neighborhood because it's not exactly one. It's a zone — the commercial and corporate corridor along I-65 in central Franklin, roughly bounded by Wilson Pike to the north and Moore's Lane to the south. It's where most of Williamson County's corporate headquarters cluster, where major retail concentrates, and where a specific kind of suburban living has emerged.
 
@@ -2654,7 +2653,6 @@ Unlike Westhaven or Berry Farms, Cool Springs doesn't aspire to be anything othe
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "Downtown Franklin is the city's soul — 16 blocks of impeccably preserved Victorian and Craftsman architecture, acclaimed restaurants, live music, and a community life unlike anywhere else.",
-    imageUrl: "/images/downtown-franklin.png",
     content: `
 Downtown Franklin is Franklin's defining neighborhood. It's 16 blocks of preserved Victorian and Craftsman architecture, pedestrian-scale commerce, acclaimed restaurants, and a community life that feels intentional and genuine. It's where the soul of Franklin concentrates.
 
@@ -2765,7 +2763,6 @@ For the right person — young professional, empty nester, renovation enthusiast
     date: "March 27, 2026",
     readTime: "11 min read",
     excerpt: "DC to Franklin is a move that makes increasing sense — lower taxes, better schools, more space, and a significantly lower cost of living. Here's what transplants say.",
-    imageUrl: "/images/dc-to-franklin.png",
     content: `
 The DC-to-Franklin migration is real and growing. High-paid federal employees, contractors, and professionals tired of DC's cost and chaos are relocating to Middle Tennessee in increasing numbers. The math makes sense. The lifestyle adjustment is significant.
 
@@ -2873,7 +2870,6 @@ The move is harder for dual-career couples dependent on DC employment, and for p
     date: "March 27, 2026",
     readTime: "8 min read",
     excerpt: "Safety is one of the first questions people ask when researching a move to Franklin. Here's an honest, data-grounded answer.",
-    imageUrl: "/images/safe-neighborhood.png",
     content: `
 When families research moving to Franklin, safety consistently ranks in the top three decision factors. "Is it safe?" is usually the first conversation. The answer matters because it determines whether families feel comfortable letting kids walk to school, playing in parks unattended, and building lives around community activity.
 
@@ -2963,7 +2959,6 @@ This is one of the few relocation factors where Franklin's reputation is essenti
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "The Franklin real estate market in 2026 — median prices, inventory trends, what's selling fast, what's sitting, and an honest read on whether now is a good time to buy.",
-    imageUrl: "/images/real-estate-market.png",
     content: `
 The Franklin real estate market in 2026 is a study in paradox: prices remain elevated relative to historical norms, inventory is tight relative to demand, yet the market feels fractionally less frenzied than 2021–2023. 
 
