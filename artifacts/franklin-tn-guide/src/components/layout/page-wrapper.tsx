@@ -6,8 +6,8 @@ import { SEO } from "../seo";
 
 interface PageWrapperProps {
   children: ReactNode;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   canonicalUrl?: string;
   schema?: Record<string, any>;
   type?: 'website' | 'article';
@@ -16,19 +16,20 @@ interface PageWrapperProps {
 export function PageWrapper({ children, title, description, canonicalUrl, schema, type }: PageWrapperProps) {
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <SEO 
-        title={`${title} | Franklin TN Guide`} 
-        description={description} 
-        canonicalUrl={canonicalUrl}
-        schema={schema}
-        type={type}
-      />
+      {title && description && (
+        <SEO
+          title={`${title} | Franklin TN Guide`}
+          description={description}
+          canonicalUrl={canonicalUrl}
+          schema={schema}
+          type={type}
+        />
+      )}
       <Navbar />
-      <motion.main 
+      <motion.main
         className="flex-grow flex flex-col"
-        initial={{ opacity: 0, y: 10 }}
+        initial={false}
         animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -10 }}
         transition={{ duration: 0.4, ease: "easeOut" }}
       >
         {children}

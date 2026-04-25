@@ -1,59 +1,35 @@
-import { useEffect, useState } from 'react';
 import { PageWrapper } from '@/components/layout/page-wrapper';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
-import { getAllNews } from '@/lib/news';
+import { getAllNewsSync } from '@/lib/news';
 
-interface NewsItem {
-  slug: string;
-  title: string;
-  date: string;
-  excerpt?: string;
-}
+const news = getAllNewsSync();
+
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+};
 
 export default function NewsIndex() {
-  const [news, setNews] = useState<NewsItem[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadNews = async () => {
-      try {
-        const allNews = await getAllNews();
-        setNews(
-          allNews.map(article => ({
-            slug: article.slug,
-            title: article.title,
-            date: article.date,
-          }))
-        );
-      } catch (error) {
-        console.error('Failed to load news:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadNews();
-  }, []);
-
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    });
-  };
-
   return (
     <PageWrapper>
       <Helmet>
-        <title>Franklin News & Updates</title>
+        <title>Franklin TN News &amp; Updates | Franklin TN Guide</title>
         <meta name="description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
-        <meta name="og:title" content="Franklin News & Updates" />
-        <meta name="og:description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
-        <meta name="twitter:title" content="Franklin News & Updates" />
+        <link rel="canonical" href="https://franklintnguide.com/news" />
+        <meta property="og:title" content="Franklin TN News &amp; Updates" />
+        <meta property="og:description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://franklintnguide.com/news" />
+        <meta property="og:image" content="https://franklintnguide.com/images/hero-franklin.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Franklin TN News &amp; Updates" />
         <meta name="twitter:description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
+        <meta name="twitter:image" content="https://franklintnguide.com/images/hero-franklin.png" />
       </Helmet>
 
       {/* Header */}
@@ -63,7 +39,7 @@ export default function NewsIndex() {
             ← Back to Home
           </Link>
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-[#1B2A4A] mb-6">
-            Franklin News & Updates
+            Franklin News &amp; Updates
           </h1>
           <p className="text-xl text-stone-600 leading-relaxed max-w-2xl">
             Stay informed about what's happening in Franklin — from new restaurants and parks to school initiatives and community development.
@@ -72,11 +48,7 @@ export default function NewsIndex() {
       </header>
 
       {/* News List */}
-      {loading ? (
-        <div className="max-w-5xl mx-auto px-4 py-16 text-center text-stone-600">
-          Loading news...
-        </div>
-      ) : news.length === 0 ? (
+      {news.length === 0 ? (
         <div className="max-w-5xl mx-auto px-4 py-16 text-center text-stone-600">
           No news articles found.
         </div>
@@ -84,8 +56,8 @@ export default function NewsIndex() {
         <div className="max-w-5xl mx-auto px-4 mb-24">
           <div className="space-y-8">
             {news.map((item) => (
-              <article 
-                key={item.slug} 
+              <article
+                key={item.slug}
                 className="bg-white rounded-2xl p-8 shadow-lg shadow-stone-100/50 border border-stone-100 hover:shadow-xl hover:shadow-stone-200/50 transition-all duration-300"
               >
                 <div className="flex flex-col gap-4">
@@ -97,11 +69,6 @@ export default function NewsIndex() {
                       {item.title}
                     </h2>
                   </Link>
-                  {item.excerpt && (
-                    <p className="text-lg text-stone-600 leading-relaxed">
-                      {item.excerpt}
-                    </p>
-                  )}
                   <Link href={`/news/${item.slug}`}>
                     <span className="inline-block text-[#2D6A4F] hover:text-[#1e4a36] font-semibold mt-2 cursor-pointer">
                       Read more →

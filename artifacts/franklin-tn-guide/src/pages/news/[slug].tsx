@@ -1,54 +1,25 @@
 import { useRoute, Link } from 'wouter';
-import { useEffect, useState } from 'react';
 import { PageWrapper } from '@/components/layout/page-wrapper';
 import { Helmet } from 'react-helmet-async';
 import { Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import { getNewsBySlug } from '@/lib/news';
+import { getNewsBySlugSync } from '@/lib/news';
 
-interface NewsArticle {
-  slug: string;
-  title: string;
-  metaTitle: string;
-  metaDescription: string;
-  date: string;
-  content: string;
-}
+const formatDate = (dateString: string) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+};
 
 export default function NewsArticle() {
-  const [match, params] = useRoute('/news/:slug');
-  const [article, setArticle] = useState<NewsArticle | null>(null);
-  const [notFound, setNotFound] = useState(false);
+  const [, params] = useRoute('/news/:slug');
+  const slug = params?.slug ?? '';
+  const article = getNewsBySlugSync(slug);
 
-  useEffect(() => {
-    const loadArticle = async () => {
-      if (!params?.slug) return;
-      try {
-        const data = await getNewsBySlug(params.slug);
-        if (data) {
-          setArticle(data);
-        } else {
-          setNotFound(true);
-        }
-      } catch (error) {
-        console.error('Failed to load article:', error);
-        setNotFound(true);
-      }
-    };
-
-    loadArticle();
-  }, [params?.slug]);
-
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    });
-  };
-
-  if (notFound) {
+  if (!article) {
     return (
       <PageWrapper>
         <div className="max-w-5xl mx-auto px-4 py-16 text-center">
@@ -64,25 +35,54 @@ export default function NewsArticle() {
     );
   }
 
-  if (!article) {
-    return (
-      <PageWrapper>
-        <div className="max-w-5xl mx-auto px-4 py-16 text-center text-stone-600">
-          Loading...
-        </div>
-      </PageWrapper>
-    );
-  }
+  const canonicalUrl = `https://franklintnguide.com/news/${article.slug}`;
+  const ogImage = 'https://franklintnguide.com/images/hero-franklin.png';
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.metaDescription,
+    author: { '@type': 'Organization', name: 'Franklin TN Guide' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Franklin TN Guide',
+      url: 'https://franklintnguide.com',
+    },
+    datePublished: article.date,
+    dateModified: article.date,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+    image: ogImage,
+    url: canonicalUrl,
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://franklintnguide.com' },
+      { '@type': 'ListItem', position: 2, name: 'News', item: 'https://franklintnguide.com/news' },
+      { '@type': 'ListItem', position: 3, name: article.title, item: canonicalUrl },
+    ],
+  };
 
   return (
     <PageWrapper>
       <Helmet>
         <title>{article.metaTitle}</title>
         <meta name="description" content={article.metaDescription} />
-        <meta name="og:title" content={article.metaTitle} />
-        <meta name="og:description" content={article.metaDescription} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={article.metaTitle} />
+        <meta property="og:description" content={article.metaDescription} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.metaTitle} />
         <meta name="twitter:description" content={article.metaDescription} />
+        <meta name="twitter:image" content={ogImage} />
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
 
       <article className="pb-24">
@@ -108,7 +108,7 @@ export default function NewsArticle() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 text-stone-600">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-[#2D6A4F]" />
-              <span className="text-lg">{formatDate(article.date)}</span>
+              <time dateTime={article.date} className="text-lg">{formatDate(article.date)}</time>
             </div>
           </div>
         </header>
@@ -132,7 +132,7 @@ export default function NewsArticle() {
             <p className="text-stone-600 text-lg mb-8 max-w-xl mx-auto">
               Relocating is a huge decision. Get in touch with a local expert who can give you the honest, unfiltered truth about living here.
             </p>
-            <a 
+            <a
               href="mailto:ryan@locheventures.com"
               className="inline-block bg-[#2D6A4F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1e4a36] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
             >

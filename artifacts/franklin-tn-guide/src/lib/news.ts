@@ -11,8 +11,12 @@ interface NewsArticle extends NewsMetadata {
   content: string;
 }
 
-// Import all markdown files
-const modules = import.meta.glob('../content/news/*.md', { as: 'raw' });
+// Eager import: all markdown loaded at build time (enables SSR + sync access)
+const rawModules = import.meta.glob('../content/news/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
 
 function parseMarkdownFrontmatter(content: string): { metadata: NewsMetadata; content: string } | null {
   const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -20,7 +24,7 @@ function parseMarkdownFrontmatter(content: string): { metadata: NewsMetadata; co
 
   const frontmatter = match[1];
   const markdown = match[2].trim();
-  const metadata: any = {};
+  const metadata: Record<string, string> = {};
 
   const lines = frontmatter.split('\n');
   for (const line of lines) {
@@ -29,7 +33,6 @@ function parseMarkdownFrontmatter(content: string): { metadata: NewsMetadata; co
       const key = lineMatch[1];
       let value = lineMatch[2].trim();
 
-      // Remove quotes
       if (
         (value.startsWith('"') && value.endsWith('"')) ||
         (value.startsWith("'") && value.endsWith("'"))
@@ -37,7 +40,6 @@ function parseMarkdownFrontmatter(content: string): { metadata: NewsMetadata; co
         value = value.slice(1, -1);
       }
 
-      // Handle arrays
       if (value.startsWith('[') && value.endsWith(']')) {
         value = value
           .slice(1, -1)
@@ -63,39 +65,44 @@ function parseMarkdownFrontmatter(content: string): { metadata: NewsMetadata; co
   };
 }
 
-let cachedNews: NewsArticle[] | null = null;
+// Build synchronous cache at module load time (works for SSR + client)
+let syncCache: NewsArticle[] | null = null;
 
-export async function getAllNews(): Promise<NewsArticle[]> {
-  if (cachedNews) return cachedNews;
+function getSyncCache(): NewsArticle[] {
+  if (syncCache) return syncCache;
 
   const articles: NewsArticle[] = [];
-
-  for (const [path, loader] of Object.entries(modules)) {
-    try {
-      const content = await (loader as () => Promise<string>)();
-      const parsed = parseMarkdownFrontmatter(content);
-      if (parsed) {
-        articles.push({
-          ...parsed.metadata,
-          content: parsed.content,
-        });
-      }
-    } catch (error) {
-      console.error(`Error loading ${path}:`, error);
+  for (const [, raw] of Object.entries(rawModules)) {
+    const parsed = parseMarkdownFrontmatter(raw as string);
+    if (parsed) {
+      articles.push({ ...parsed.metadata, content: parsed.content });
     }
   }
 
-  cachedNews = articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  return cachedNews;
+  syncCache = articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return syncCache;
+}
+
+// Synchronous API (works in SSR renderToString)
+export function getAllNewsSync(): NewsArticle[] {
+  return getSyncCache();
+}
+
+export function getNewsBySlugSync(slug: string): NewsArticle | null {
+  return getSyncCache().find(a => a.slug === slug) || null;
+}
+
+// Async API (backward-compatible)
+export async function getAllNews(): Promise<NewsArticle[]> {
+  return getAllNewsSync();
 }
 
 export async function getNewsBySlug(slug: string): Promise<NewsArticle | null> {
-  const allNews = await getAllNews();
-  return allNews.find(article => article.slug === slug) || null;
+  return getNewsBySlugSync(slug);
 }
 
 export async function getNewsMetadata(): Promise<NewsMetadata[]> {
-  const allNews = await getAllNews();
+  const allNews = getAllNewsSync();
   return allNews.map(({ slug, title, metaTitle, metaDescription, date, keywords }) => ({
     slug,
     title,
