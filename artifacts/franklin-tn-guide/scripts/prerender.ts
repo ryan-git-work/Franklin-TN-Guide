@@ -44,7 +44,10 @@ async function prerender() {
       // Inject pre-rendered head tags and HTML content into template
       const fullHtml = templateWithoutTitle
         .replace('</head>', `  ${head}\n</head>`)
-        .replace('<div id="root"></div>', `<div id="root">${html}</div>`);
+        .replace(
+          /<div id="root"><\/div>/,
+          `<div id="root">${html}</div>`,
+        );
 
       // Determine output path
       const normalizedRoute = route === '/' ? '' : route;

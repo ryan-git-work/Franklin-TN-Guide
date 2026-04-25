@@ -1,0 +1,77 @@
+The SSG implementation has a bug. Every URL on the site is serving
+the prerendered HTML of the HOMEPAGE instead of that route's own
+prerendered content. Google sees every page as a duplicate of the
+homepage, which means none of our articles can be indexed.
+
+REPRODUCE THE BUG
+
+Run this from any terminal (or curl tab):
+
+  curl -s https://<deployed-url>/articles/moving-to-franklin-tn-from-california/ \
+    | grep -oP '<title[^>]*>[^<]+</title>'
+
+Currently returns:
+  <title>Welcome to Franklin, Tennessee | Franklin TN Guide</title>
+
+That's the homepage title — it should be the California article's title.
+
+Same problem for the meta description, h1, body content, JSON-LD schema,
+and Open Graph tags: all of them are the homepage's, served at every
+article URL. The article URL DOES render correctly in a browser (because
+React hydrates and React Router takes over after JavaScript loads), but
+the raw HTML response that arrives over the wire — which is what Google
+and other crawlers see — is the homepage's HTML.
+
+Confirmation: Google currently has only 2 pages from this site indexed
+out of ~50 in our sitemap, because to its crawler all URLs look identical.
+
+WHAT TO INVESTIGATE
+
+The previous SSG pass got partway there — the homepage now ships with
+real prerendered HTML (title, meta, h1, content, schema all in the
+initial response), and the response size jumped from ~750 bytes to ~71KB.
+But that prerender appears to be applied to only one route (the homepage)
+and then served as a SPA fallback for every other URL. Figure out where
+in the build pipeline this is happening and fix it so every URL listed
+in public/sitemap.xml gets prerendered to its own HTML file with its own
+unique content.
+
+You may need to inspect:
+- The build configuration and whether it's enumerating all routes to
+  prerender (not just static top-level ones)
+- How dynamic article routes are discovered for prerendering
+- The dist/ output structure after a build (does each article URL have
+  its own index.html, or only the homepage?)
+- The static hosting config and how it routes requests to prerendered
+  files vs. falling back to index.html
+
+ACCEPTANCE CRITERIA — verify all before declaring done
+
+1. After building and deploying, run curl on these three URLs and paste
+   the exact <title> tag returned for each:
+     /articles/moving-to-franklin-tn-from-california/
+     /articles/best-neighborhoods-in-franklin-tn/
+     /articles/williamson-county-schools-guide/
+   Each must return a DIFFERENT title that matches the article — not
+   the homepage title.
+
+2. Run:
+     curl -s https://<deployed-url>/articles/moving-to-franklin-tn-from-california/ \
+       | grep -ic "california"
+   Must return at least 10 (proving the article body content, not just
+   the homepage, is in the raw HTML response).
+
+3. The build output directory (dist/ or equivalent) must contain a
+   separate HTML file for every URL in public/sitemap.xml. Count them
+   and confirm against the sitemap.
+
+4. The browser experience must remain unchanged — client-side React
+   Router navigation between pages should still work without full page
+   reloads.
+
+REPORT BACK
+
+- Root cause of the bug (one or two sentences)
+- The change you made
+- The actual curl output for the three URLs in acceptance criterion #1
+- Number of HTML files in the build output
