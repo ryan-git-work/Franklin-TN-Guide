@@ -22,10 +22,6 @@ build = [ "pnpm", "--filter", "@workspace/franklin-tn-guide", "run", "build" ]
 publicDir = "artifacts/franklin-tn-guide/dist/public"
 serve = "static"
 
-[[services.production.rewrites]]
-from = "/*"
-to = "/index.html"
-
 [services.env]
 PORT = "23933"
 BASE_PATH = "/"
