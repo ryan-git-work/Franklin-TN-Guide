@@ -1,0 +1,65 @@
+The site at franklintnguide.com is a Vite + React SPA. Every URL currently
+returns the same empty HTML shell — title is just "Franklin TN Guide" and
+the body is <div id="root"></div>. The content only appears after JS runs.
+As a result Google has indexed 2 of ~50 pages and the site can't rank.
+
+Fix this by adding STATIC SITE GENERATION (SSG) so every route in
+public/sitemap.xml is pre-rendered to its own unique, content-complete HTML
+file at build time. React still hydrates on the client for interactivity —
+we want SSG + hydration, not a static-only site.
+
+PREFERRED APPROACH
+Use `vite-react-ssg` (https://github.com/chasen-zh/vite-react-ssg) — it's
+designed for Vite + React Router setups exactly like ours. If our router
+config is incompatible, fall back to `react-snap`. Do NOT migrate to
+Next.js — keep our Vite stack.
+
+REQUIRED OUTPUT PER PAGE
+Every pre-rendered HTML file must contain in the initial HTML (not added by JS):
+- A UNIQUE <title> tag matching the article (not "Franklin TN Guide")
+- A unique <meta name="description"> 140–160 chars
+- <link rel="canonical"> with the absolute URL
+- Open Graph: og:title, og:description, og:type=article, og:url, og:image
+- Twitter Card: twitter:card=summary_large_image, twitter:title, twitter:description, twitter:image
+- A real <h1> with the article title
+- The full article body content in HTML
+- JSON-LD <script type="application/ld+json"> with @type: Article,
+  headline, author, datePublished, dateModified, publisher, mainEntityOfPage, image
+- A BreadcrumbList JSON-LD on article pages
+- The homepage gets @type: WebSite with potentialAction SearchAction
+
+WIRING
+Use react-helmet-async (or vite-react-ssg's built-in head management) to
+emit per-route meta. The article data (titles, descriptions, dates, body)
+is already in our source — find it and pipe it into the head tags. Don't
+hard-code metadata; derive it from the same source the article body uses.
+
+PACKAGE.JSON
+Keep `dev` unchanged. Replace `build` so it produces a dist/ folder
+containing an index.html at every path in sitemap.xml — e.g.
+dist/articles/moving-to-franklin-tn-from-california/index.html
+
+ACCEPTANCE CRITERIA — verify ALL before declaring done:
+1. After build, run:
+     curl -s https://<deployed-url>/articles/moving-to-franklin-tn-from-california \
+       | grep -i "california" | wc -l
+   Should return ≥ 5 matches, proving content is in HTML not JS.
+2. Three different article URLs return three DIFFERENT <title> tags.
+3. dist/ contains a separate index.html for every URL in public/sitemap.xml.
+4. Client-side React Router navigation between pages still works without
+   full page reloads (hydration is intact).
+5. Any existing interactive components (forms, expanders, etc.) still work.
+6. Lighthouse SEO score ≥ 95 on the homepage and one article page.
+7. robots.txt and sitemap.xml are preserved at the same paths.
+8. The build completes without errors.
+
+DO NOT
+- Change article copy, URL structure, or sitemap entries
+- Migrate frameworks
+- Break existing client-side routing or React state
+
+REPORT BACK
+- Which library you used and why
+- Number of HTML files generated
+- Sample of curl output for one article page showing real content in the HTML
+- Any routes that failed to pre-render and why
