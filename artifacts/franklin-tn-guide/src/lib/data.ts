@@ -5,7 +5,7 @@ export interface Article {
   readTime: string;
   content: string;
   excerpt: string;
-  imageUrl?: string;
+  imageUrl: string;
   metaTitle?: string;
   metaDescription?: string;
   keywords?: string[];
@@ -384,7 +384,7 @@ Both are correct. The question is which correct answer applies to you.
     date: "March 19, 2026",
     readTime: "11 min read",
     excerpt: "The restaurants worth driving for, the trails worth lacing up for, the festivals that actually deliver, and the things locals know that don't make the tourist lists.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/things-to-do.png",
     content: `
 One of the things that surprises people most about Franklin is how much there is to do here. The city's reputation as a great place to raise a family sometimes overshadows the fact that it's also genuinely fun — with a restaurant scene, outdoor culture, music presence, and community calendar that most cities twice its size would envy.
 
@@ -524,7 +524,7 @@ Franklin rewards the kind of living where you're paying attention to where you a
     date: "March 19, 2026",
     readTime: "10 min read",
     excerpt: "A phase-by-phase checklist for relocating families — from early research through your first 30 days as a Franklin resident. Work through it and arrive without the gaps.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/relocation-checklist.png",
     content: `
 Moving to a new city is one of the most logistically complex things a family does. Franklin makes it worth it — but the process of getting here deserves as much attention as the decision to come.
 
@@ -682,7 +682,7 @@ This phase is where most relocating families either hit their stride or get over
     date: "March 19, 2026",
     readTime: "12 min read",
     excerpt: "The financial comparison, the lifestyle shift, what California transplants consistently say surprised them, and what you actually need to know to make the move successfully.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/moving-from-california.png",
     content: `
 California to Franklin, Tennessee is one of the most common relocation stories in Williamson County right now. If you've been researching the move, you've probably already noticed that you're not alone — and if you've visited Franklin, you've almost certainly run into people who made this exact transition and are happy to tell you about it.
 
@@ -842,7 +842,7 @@ Most California families who do that and still feel drawn to Franklin find that 
     date: "March 19, 2026",
     readTime: "9 min read",
     excerpt: "Chicago to Franklin makes sense on paper — and then makes even more sense after you've done it. Here's the honest version of what that transition looks like.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/moving-from-chicago.png",
     content: `
 Chicago to Franklin is a move that makes sense on paper — and then makes even more sense after you've done it. Illinois residents moving to Tennessee escape a state income tax rate of 4.95%, significantly higher property taxes, brutal winters, and a cost of living that has crept steadily upward without a corresponding improvement in public services or quality of life in many suburban areas.
 
@@ -925,7 +925,7 @@ If you're considering this move, spending a full season (ideally including both 
     date: "March 19, 2026",
     readTime: "10 min read",
     excerpt: "New York to Franklin is increasingly common. Here's the honest version of what the move looks like, what it costs, and what New Yorkers consistently say about life on the other side of it.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/moving-from-new-york.png",
     content: `
 New York to Franklin is a move that used to raise eyebrows and now raises none. The combination of New York's tax burden, housing costs, and quality-of-life pressures has produced a steady stream of families and professionals heading south — and Franklin keeps appearing at or near the top of the destination list.
 
@@ -1018,7 +1018,7 @@ The ones who struggle are typically those who moved to Franklin expecting New Yo
     date: "March 19, 2026",
     readTime: "11 min read",
     excerpt: "Franklin is fundamentally a family city. Here's an honest guide to the neighborhoods where families are choosing to live — what parents say, what works for different family priorities, and how to choose.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/family-neighborhoods.png",
     content: `
 Franklin is fundamentally a family city. The schools, the safety, the community infrastructure — everything about the way the city is built and the way it operates reflects a deep orientation toward family life. Which means that when families ask which neighborhood is best, the honest answer is: several of them are genuinely excellent, and the right one depends on what your family specifically needs.
 
@@ -1125,7 +1125,7 @@ Get the school zone right, run the commute, visit on a weekend morning, and trus
     date: "March 19, 2026",
     readTime: "10 min read",
     excerpt: "Franklin's restaurant scene has grown up. Here's an honest local's guide to where to eat — organized by occasion, with what to expect and why it matters.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/restaurants.png",
     content: `
 Franklin's restaurant scene has grown up. What was once a modest collection of Southern staples and chain restaurants along the Cool Springs corridor has evolved over the past decade into something genuinely worth talking about — a dining culture with real range, real quality, and enough local identity to hold its own against Nashville's much-hyped food scene.
 
@@ -1256,7 +1256,7 @@ A downtown Franklin pub that earns its place on the local rotation through consi
     date: "March 19, 2026",
     readTime: "11 min read",
     excerpt: "Franklin's outdoor infrastructure is one of its most underappreciated assets. Here's what's worth knowing — from the Natchez Trace to neighborhood parks and regional day trips.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/parks-trails.png",
     content: `
 Franklin's outdoor infrastructure is one of its most underappreciated assets. The rolling hills of Middle Tennessee, the Harpeth River corridor, the Natchez Trace Parkway, and a well-developed city park and greenway system combine to give Franklin residents genuinely excellent access to the outdoors without leaving Williamson County.
 
@@ -1351,7 +1351,7 @@ A remarkably intact natural area within the Nashville metro, Radnor Lake offers 
     date: "March 19, 2026",
     readTime: "8 min read",
     excerpt: "The Franklin Farmers Market is one of those community institutions that tells you something true about a place. A genuine weekly gathering — and one of the fastest on-ramps to feeling like you belong.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/farmers-market.png",
     content: `
 The Franklin Farmers Market is one of those community institutions that tells you something true about a place. It has been running on Saturday mornings on the Main Street Festival grounds since 1999 and has grown into one of the premier farmers markets in Middle Tennessee — a genuine weekly gathering that functions as much as a social event as a shopping destination.
 
@@ -1444,7 +1444,7 @@ The families who have been in Franklin for a decade still go to the farmers mark
     date: "March 19, 2026",
     readTime: "13 min read",
     excerpt: "Franklin is built for families. Here's the complete guide to what Franklin families actually do on weekends, after school, and through the seasons.",
-    imageUrl: "/images/hero-franklin.png",
+    imageUrl: "/images/articles/family-activities.png",
     content: `
 Franklin is built for families. The schools are the headline, but the supporting cast — parks, community events, youth sports, seasonal activities, and a downtown that's genuinely navigable with children — makes the day-to-day experience of raising kids here consistently rewarding.
 
@@ -1557,6 +1557,7 @@ That orientation — a community that genuinely prioritizes family life in its i
     date: "March 27, 2026",
     readTime: "9 min read",
     excerpt: "The best free experiences in Franklin — parks, trails, Main Street, historic sites, and community events. Everything worth doing without spending a dollar.",
+    imageUrl: "/images/articles/free-things-to-do.png",
     content: `
 Franklin's reputation as a destination worth relocating for is built partly on experiences that cost absolutely nothing. Some of the best days you'll have in this city won't require a single transaction.
 
@@ -1635,6 +1636,7 @@ Most people relocating here assume they'll have to spend money constantly to jus
     date: "March 27, 2026",
     readTime: "11 min read",
     excerpt: "Where Franklin families actually take their kids — parks, museums, seasonal events, outdoor adventures, and the spots that consistently earn the repeat visit.",
+    imageUrl: "/images/articles/things-to-do-with-kids.png",
     content: `
 When families move to Franklin specifically for the quality-of-life factors — safety, schools, sense of community — they expect the day-to-day rhythm with kids to actually reflect those things. The good news: it does. Franklin is built, in many ways, around family life, and that shows up in where locals actually spend their weekends.
 
@@ -1727,6 +1729,7 @@ For families evaluating whether to relocate here specifically for lifestyle fact
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "The 16-block historic district has more going on than most people realize. Here's how locals actually spend time downtown — from morning coffee to late-night live music.",
+    imageUrl: "/images/articles/things-to-do-downtown.png",
     content: `
 Downtown Franklin operates on a rhythm that many people relocating here don't immediately grasp. It's not a place you visit once for the historic charm and then understand as a one-time destination. It's a genuinely walkable 16 blocks where locals spend weekends, weekday evenings, and random afternoons because there's actual stuff to do.
 
@@ -1814,6 +1817,7 @@ For people relocating to Franklin specifically for "small-town charm with actual
     date: "March 27, 2026",
     readTime: "12 min read",
     excerpt: "Franklin consistently ranks among the best places to live in the South. Here's the honest version — what's genuinely great, what's hard, and what the rankings don't tell you.",
+    imageUrl: "/images/articles/pros-cons-living.png",
     content: `
 Franklin, Tennessee, consistently appears on "best places to live" lists. The rankings aren't wrong. But they're also incomplete. They measure the factors that show up in data — schools, safety, job growth — without capturing the real-world texture of living here.
 
@@ -1915,6 +1919,7 @@ For people matching that profile, Franklin's reputation is earned, not manufactu
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "Westhaven is Franklin's most well-known neighborhood — and its reputation holds up. Here's what life in Westhaven actually looks like, from amenities and HOA to pricing and who it suits.",
+    imageUrl: "/images/westhaven-neighborhood.png",
     content: `
 Westhaven is Franklin's flagship neighborhood, and if you're researching where to live in Franklin, you've almost certainly encountered it. The reputation — resort-style amenities, active community, exceptional safety, and high property values — is deserved. But living in Westhaven requires understanding what the reality actually entails.
 
@@ -2039,6 +2044,7 @@ It's not the objectively best neighborhood in Franklin (that's a matter of prior
     date: "March 27, 2026",
     readTime: "11 min read",
     excerpt: "Texas to Franklin is one of the fastest-growing migration paths in Middle Tennessee. Here's what Texas transplants from Austin, Dallas, and Houston consistently say about the move.",
+    imageUrl: "/images/articles/moving-from-texas.png",
     content: `
 Texas to Franklin is becoming one of the fastest-growing migration corridors in the Southeast. Austin transplants, Dallas professionals, and Houston families are arriving in significant numbers, driven by housing costs, corporate relocations, and the promise of a community that feels smaller and more intentional than Texas's sprawling metros.
 
@@ -2134,6 +2140,7 @@ The move works for people who wanted to exit the Texas growth economy, not for p
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "Florida to Franklin is an increasingly common move driven by housing costs, weather fatigue, and schools. Here's the honest picture of what Florida transplants find when they arrive.",
+    imageUrl: "/images/articles/moving-from-florida.png",
     content: `
 Florida to Franklin represents one of the more interesting migration patterns — people leaving the Southeast for a different kind of Southeast. For families in Miami, Tampa, and Jacksonville tired of heat, humidity, humidity, and more humidity (plus housing costs that have climbed dramatically), Franklin represents escape that still feels within the South.
 
@@ -2231,6 +2238,7 @@ Being clear about what you're trading — and what you're gaining — determines
     date: "March 27, 2026",
     readTime: "9 min read",
     excerpt: "Berry Farms is Franklin's most ambitious newer development — a mixed-use master-planned community still coming into its own. Here's what living there actually looks like, who it suits, and what to know before you buy.",
+    imageUrl: "/images/articles/berry-farms.png",
     content: `
 Berry Farms represents Franklin's most ambitious recent development — a 1,400-acre mixed-use master-planned community in south Franklin that's simultaneously one of the city's most exciting emerging neighborhoods and one of its least-complete ones. Understanding Berry Farms means accepting that you're buying into a vision of what a community will become, not what it fully is today.
 
@@ -2335,6 +2343,7 @@ For families seeking established, complete neighborhoods, other Franklin options
     date: "March 27, 2026",
     readTime: "9 min read",
     excerpt: "Fieldstone Farms is one of Franklin's original planned communities — established, family-friendly, and the most accessible price point among Franklin's family neighborhoods.",
+    imageUrl: "/images/articles/fieldstone-farms.png",
     content: `
 Fieldstone Farms represents one of Franklin's earliest and most successful master-planned communities. It's older than Westhaven (1980s origin) and appeals to an entirely different family profile: budget-conscious, prioritizing value over brand, and looking for established neighborhoods with mature trees rather than resort-style amenities.
 
@@ -2436,6 +2445,7 @@ For families who prioritize financial wisdom, established community, and practic
     date: "March 27, 2026",
     readTime: "12 min read",
     excerpt: "Nashville is the draw — but most people who move to Middle Tennessee don't end up in the city. Here's an honest guide to the best suburbs near Nashville, with Franklin at the top and honest comparisons of Brentwood, Nolensville, Spring Hill, and Murfreesboro.",
+    imageUrl: "/images/articles/best-places-near-nashville.png",
     content: `
 When people research moving to Nashville, they imagine living in a vibrant urban core with walkable neighborhoods, live music on every corner, and genuine city culture. What actually happens for most relocating families: they end up in suburbs, 20–40 minutes away from downtown, choosing based on schools, safety, and cost of living rather than urban walkability.
 
@@ -2571,6 +2581,7 @@ The choice depends less on Nashville's appeal and more on your family profile, p
     date: "March 27, 2026",
     readTime: "9 min read",
     excerpt: "Cool Springs is less a traditional neighborhood and more a zone — Franklin's corporate and commercial corridor. Here's what actually living there looks like.",
+    imageUrl: "/images/articles/cool-springs.png",
     content: `
 Cool Springs is difficult to describe as a neighborhood because it's not exactly one. It's a zone — the commercial and corporate corridor along I-65 in central Franklin, roughly bounded by Wilson Pike to the north and Moore's Lane to the south. It's where most of Williamson County's corporate headquarters cluster, where major retail concentrates, and where a specific kind of suburban living has emerged.
 
@@ -2653,6 +2664,7 @@ Unlike Westhaven or Berry Farms, Cool Springs doesn't aspire to be anything othe
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "Downtown Franklin is the city's soul — 16 blocks of impeccably preserved Victorian and Craftsman architecture, acclaimed restaurants, live music, and a community life unlike anywhere else.",
+    imageUrl: "/images/articles/downtown-neighborhood.png",
     content: `
 Downtown Franklin is Franklin's defining neighborhood. It's 16 blocks of preserved Victorian and Craftsman architecture, pedestrian-scale commerce, acclaimed restaurants, and a community life that feels intentional and genuine. It's where the soul of Franklin concentrates.
 
@@ -2763,6 +2775,7 @@ For the right person — young professional, empty nester, renovation enthusiast
     date: "March 27, 2026",
     readTime: "11 min read",
     excerpt: "DC to Franklin is a move that makes increasing sense — lower taxes, better schools, more space, and a significantly lower cost of living. Here's what transplants say.",
+    imageUrl: "/images/articles/moving-from-dc.png",
     content: `
 The DC-to-Franklin migration is real and growing. High-paid federal employees, contractors, and professionals tired of DC's cost and chaos are relocating to Middle Tennessee in increasing numbers. The math makes sense. The lifestyle adjustment is significant.
 
@@ -2870,6 +2883,7 @@ The move is harder for dual-career couples dependent on DC employment, and for p
     date: "March 27, 2026",
     readTime: "8 min read",
     excerpt: "Safety is one of the first questions people ask when researching a move to Franklin. Here's an honest, data-grounded answer.",
+    imageUrl: "/images/articles/is-franklin-safe.png",
     content: `
 When families research moving to Franklin, safety consistently ranks in the top three decision factors. "Is it safe?" is usually the first conversation. The answer matters because it determines whether families feel comfortable letting kids walk to school, playing in parks unattended, and building lives around community activity.
 
@@ -2959,6 +2973,7 @@ This is one of the few relocation factors where Franklin's reputation is essenti
     date: "March 27, 2026",
     readTime: "10 min read",
     excerpt: "The Franklin real estate market in 2026 — median prices, inventory trends, what's selling fast, what's sitting, and an honest read on whether now is a good time to buy.",
+    imageUrl: "/images/articles/real-estate-market.png",
     content: `
 The Franklin real estate market in 2026 is a study in paradox: prices remain elevated relative to historical norms, inventory is tight relative to demand, yet the market feels fractionally less frenzied than 2021–2023. 
 
@@ -3097,6 +3112,7 @@ For families committed to living in Franklin long-term, buying at current prices
     date: "April 1, 2026",
     readTime: "9 min read",
     excerpt: "Explore Franklin TN's booming job market — top employers like Nissan, Asurion, and AMSURG, healthcare and tech sectors, average salaries, and how to land a job before you move.",
+    imageUrl: "/images/articles/job-market.png",
     content: `
 Franklin's job market is one of the reasons the city became a relocation destination in the first place. People do not move here just for schools and Main Street; they move because Franklin sits inside one of the strongest suburban employment corridors in the South.
 
@@ -3169,6 +3185,7 @@ The city works best for people who either already have portable income or are mo
     date: "April 1, 2026",
     readTime: "10 min read",
     excerpt: "Can't decide between Brentwood and Franklin? We break down cost of living, schools, neighborhoods, commute times, and vibe so you can choose the right fit for your family.",
+    imageUrl: "/images/articles/brentwood-vs-franklin.png",
     content: `
 Brentwood and Franklin are the two names that come up most often when people start researching Williamson County. They sit close to each other geographically, but they do not feel the same. People often assume the choice is cosmetic. It is not.
 
@@ -3225,6 +3242,7 @@ The honest answer: Franklin is better for most families because it offers more l
     date: "April 2, 2026",
     readTime: "7 min read",
     excerpt: "A complete guide to Franklin High School — academics, sports, clubs, enrollment, district boundaries, and what parents moving to Franklin need to know.",
+    imageUrl: "/images/articles/franklin-high-school.png",
     content: `
 Franklin High School is one of the most recognizable names in Williamson County Schools, and for good reason. It serves a big chunk of central and eastern Franklin, has a long institutional history, and is one of the district's anchor high schools.
 
@@ -3274,6 +3292,7 @@ Franklin High is a very good school in a very good district. It is not unusual t
     date: "April 2, 2026",
     readTime: "6 min read",
     excerpt: "Everything you need to know about the Main Street Festival in Franklin TN — dates, what to expect, parking tips, vendors, live music, and why it draws 100,000+ visitors every April.",
+    imageUrl: "/images/articles/main-street-festival.png",
     content: `
 The Main Street Festival is one of Franklin's signature events and one of the best examples of how the city turns its historic downtown into a real community gathering place.
 
@@ -3315,6 +3334,7 @@ The festival shows off Franklin at its best: historic, communal, active, and not
     date: "April 2, 2026",
     readTime: "6 min read",
     excerpt: "Your guide to Dickens of a Christmas — Franklin TN's beloved Victorian holiday street festival. Dates, costumes, what to see, where to park, and insider tips for first-timers.",
+    imageUrl: "/images/articles/dickens-christmas.png",
     content: `
 Dickens of a Christmas is Franklin's most beloved holiday tradition. It turns downtown into a Victorian-style winter festival and gives the city exactly the kind of seasonal event you'd expect from a place that takes history and charm seriously.
 
@@ -3352,7 +3372,7 @@ Dickens of a Christmas is one of the clearest examples of how Franklin uses its 
     date: "April 25, 2026",
     readTime: "11 min read",
     excerpt: "Atlanta to Franklin is one of the most established migration paths in the South. Same time zone, same climate, same SEC football culture — but real differences that matter.",
-    imageUrl: "/images/articles/moving-from-atlanta.jpg",
+    imageUrl: "/images/articles/moving-from-atlanta.png",
     content: `
 # Moving to Franklin, TN from Atlanta: The Honest Guide
 
@@ -3472,7 +3492,7 @@ I live in Franklin, I've helped Atlanta transplants make this move, and I work a
     date: "April 25, 2026",
     readTime: "11 min read",
     excerpt: "Boston-to-Franklin isn't the highest-volume migration into Williamson County, but it's one of the most consistent — and the people making it arrive with realistic expectations.",
-    imageUrl: "/images/articles/moving-from-boston.jpg",
+    imageUrl: "/images/articles/moving-from-boston.png",
     content: `
 # Moving to Franklin, TN from Boston: The Honest Guide
 
@@ -3604,7 +3624,7 @@ I live in Franklin, I've helped New England buyers make this move, and I work as
     date: "April 25, 2026",
     readTime: "10 min read",
     excerpt: "Franklin and Spring Hill are 12 miles apart on I-65 — same orbit, same Middle Tennessee character. But the lived experience is meaningfully different, and the right choice depends on stage of life and budget.",
-    imageUrl: "/images/articles/franklin-vs-spring-hill.jpg",
+    imageUrl: "/images/articles/franklin-vs-spring-hill.png",
     content: `
 # Franklin TN vs Spring Hill TN: Which One Should You Move To?
 
@@ -3757,7 +3777,7 @@ I live in Franklin, I work as a referral agent for buyers across Williamson Coun
     date: "April 25, 2026",
     readTime: "10 min read",
     excerpt: "Nolensville used to be the answer to a question nobody outside Williamson County was asking. Today it's one of the fastest-growing towns in Tennessee and a very real alternative to Franklin.",
-    imageUrl: "/images/articles/franklin-vs-nolensville.jpg",
+    imageUrl: "/images/articles/franklin-vs-nolensville.png",
     content: `
 # Franklin TN vs Nolensville TN: Which Is Right for You?
 
@@ -3903,7 +3923,7 @@ I live in Franklin, work as a referral agent across Williamson County, and have 
     date: "April 25, 2026",
     readTime: "9 min read",
     excerpt: "Laurelbrooke sits behind a guarded gate on Sneed Road, on the western edge of Franklin — quietly one of Franklin's most prestigious addresses.",
-    imageUrl: "/images/articles/laurelbrooke.jpg",
+    imageUrl: "/images/articles/laurelbrooke.png",
     content: `
 # Laurelbrooke Franklin TN: Complete Neighborhood Guide
 
@@ -4063,7 +4083,7 @@ I live in Franklin, work as a referral agent connecting buyers to top local agen
     date: "April 25, 2026",
     readTime: "9 min read",
     excerpt: "McKays Mill is the neighborhood that shows up on virtually every 'best of' list for Franklin family living — and it earns the spot.",
-    imageUrl: "/images/articles/mckays-mill.jpg",
+    imageUrl: "/images/articles/mckays-mill.png",
     content: `
 # McKays Mill Franklin TN: Complete Neighborhood Guide
 
@@ -4225,7 +4245,7 @@ I live in Franklin, work as a referral agent, and have helped many families comp
     date: "April 25, 2026",
     readTime: "11 min read",
     excerpt: "Franklin shows up on retirement lists for legitimate reasons — Tennessee's tax structure, Williamson County's healthcare access, and a walkable historic downtown. Here's the honest picture.",
-    imageUrl: "/images/articles/retiring-in-franklin.jpg",
+    imageUrl: "/images/articles/retiring-in-franklin.png",
     content: `
 # Retiring in Franklin, TN: The Complete Guide
 
@@ -4379,7 +4399,7 @@ I live in Franklin, work as a referral agent, and have helped a number of retire
     date: "April 25, 2026",
     readTime: "12 min read",
     excerpt: "New construction makes up 25–35% of Franklin and Williamson County home sales. Here's the honest local guide to where the inventory is, who's building it, and the traps that catch out-of-state buyers.",
-    imageUrl: "/images/articles/new-construction.jpg",
+    imageUrl: "/images/articles/new-construction.png",
     content: `
 # Buying New Construction in Franklin, TN: The Complete Buyer's Guide
 
@@ -4522,7 +4542,7 @@ I live in Franklin, work as a referral agent, and have helped buyers navigate tr
     date: "April 25, 2026",
     readTime: "8 min read",
     excerpt: "Tennessee has no state income tax — most relocators know this. What fewer realize is that the state's property tax structure is also unusually buyer-friendly.",
-    imageUrl: "/images/articles/property-taxes.jpg",
+    imageUrl: "/images/articles/property-taxes.png",
     content: `
 # Franklin TN Property Taxes: The Complete Williamson County Guide (2026)
 
@@ -4688,7 +4708,7 @@ I live in Franklin, work as a referral agent, and have walked through the tax ma
     date: "April 25, 2026",
     readTime: "10 min read",
     excerpt: "Franklin is having a quiet remote-work moment. The combination of Tennessee's tax structure, Williamson County's housing quality, and expanded flight connections has put Franklin on a lot of remote workers' shortlists.",
-    imageUrl: "/images/articles/remote-work-franklin.jpg",
+    imageUrl: "/images/articles/remote-work-franklin.png",
     content: `
 # Working Remotely from Franklin, TN: The Complete Guide
 

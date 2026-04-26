@@ -37,9 +37,9 @@ export default function ArticlePage() {
   }
 
   const canonicalUrl = `https://franklintnguide.com/articles/${article.slug}`;
-  const ogImage = article.imageUrl?.startsWith("http")
+  const ogImage = article.imageUrl.startsWith("http")
     ? article.imageUrl
-    : "https://franklintnguide.com/images/hero-franklin.png";
+    : `https://franklintnguide.com${article.imageUrl}`;
   const isoDate = convertDateToISO(article.date);
 
   const articleSchema = {

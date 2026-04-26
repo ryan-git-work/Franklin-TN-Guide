@@ -1,0 +1,236 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "UuHYtnrXxDOuJlHSkPWvt"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-atlanta.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "DwFh08YNRPezuRcW8yM67"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-boston.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ictXHwecVXlJ_9n5oRWMD"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/franklin-vs-spring-hill.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "dQf4XZH1WafqNMPLrmJNH"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/franklin-vs-nolensville.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "fF8iH_PmPmBp8rAwGVZk1"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/laurelbrooke.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "AeAX-WCBL6odvDZOR5jGL"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/mckays-mill.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Jzyy9UZmU_6m2ZdLPS376"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/retiring-in-franklin.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "SRKXLQ-b6KKL_YsKrJzNt"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/new-construction.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "w3iXhjyEQkRZoGT4nYsOP"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/property-taxes.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "SGo-HC4MzRuumOjLQQ6GF"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/remote-work-franklin.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "U2eQgY3SXuIMwr79i3-K-"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/things-to-do.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "2Nhq6l6baeZANtqn9MC-3"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/relocation-checklist.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "u5fFB-dwH9vAPLopa9FBc"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-california.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "5Kd6KULGXzhTgTKfZEkgi"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-chicago.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "5iA6iddh1QRhGIvOdbMuF"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-new-york.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "O2StB8MVcCkdNLnL0z-Fx"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/family-neighborhoods.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "MYO1-EoIBh-3AXmHvwRBe"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/restaurants.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "wALfkjDDrUV_cYnOd2RtV"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/parks-trails.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "kLb72qxPfIgPU8NJKlLgH"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/farmers-market.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "VCJ5akWodqNkQgUiks4mT"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/family-activities.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "DgVAxtE2Z9zarUO2sTyh_"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/free-things-to-do.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "9XgBm1ia0TaZXZUALhnz1"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/things-to-do-with-kids.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "yV6dnyM89EnNYBMn7HGaV"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/things-to-do-downtown.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "j684Lv5vxsKbdzTQIFdY5"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/pros-cons-living.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "021c4C07kBKfVsSinGo8v"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-texas.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "hTJf_7kp95_KNJAvT3cxX"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-florida.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "cxP3RHgHsTVugidT_tZJl"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/berry-farms.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tLdCwRYaIZWxpN-vnPebq"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/fieldstone-farms.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Kb6sBAxzAjtyV_LYyLl2K"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/best-places-near-nashville.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "pALZMt-W7g0_SAFg9EwR_"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/cool-springs.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "mG_G3Gp6M8RRVcPrMG4Al"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/downtown-neighborhood.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "v1AOxNLC-_NPcNx1fF4x3"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/moving-from-dc.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "YHXIy-ezXJI5eCvfRf3F2"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/is-franklin-safe.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "kqyVR065APME1MFUTpT1-"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/real-estate-market.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "WxY9Vzsgs7BP0j7pjR1bL"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/job-market.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "u7xwl_ErwnUwwSqdT8JNz"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/brentwood-vs-franklin.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "JlGE_zD8n5Dletg0J3NMe"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/franklin-high-school.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "b7hL_mH70NvnZSlBsAvsR"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/main-street-festival.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "6rBPg50nwWcf2n3qR0jXW"
+uri = "file://artifacts/franklin-tn-guide/public/images/articles/dickens-christmas.png"
+type = "image"
+title = "generated_image"

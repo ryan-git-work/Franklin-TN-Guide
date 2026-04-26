@@ -123,24 +123,15 @@ A comprehensive relocation guide website for Franklin, Tennessee — built as a 
 ### Articles (Content)
 All long-form articles are stored in `src/lib/data.ts` with structure:
 - `slug`, `title`, `metaTitle`, `metaDescription`, `keywords[]`
-- `date`, `readTime`, `excerpt`, `content` (Markdown), `imageUrl`
+- `date`, `readTime`, `excerpt`, `content` (Markdown), `imageUrl` (required)
 
-**Current long-form articles** (16 total):
-1. **Why Move to Franklin, TN? 15 Reasons** (12 min)
-2. **Best Neighborhoods in Franklin, TN for Families** (14 min)
-3. **Williamson County Schools: Complete Guide** (11 min)
-4. **Cost of Living in Franklin, TN: What to Actually Expect** (10 min)
-5. **Franklin, TN vs. Nashville: Which Is Right for You?** (9 min)
-6. **Relocation Checklist for Moving to Franklin, TN** (12 min)
-7. **Moving from California to Franklin, TN** (13 min)
-8. **Moving from Chicago to Franklin, TN** (13 min)
-9. **Moving from New York to Franklin, TN** (12 min)
-10. **Best Neighborhoods in Franklin, TN for Families** (11 min)
-11. **Best Restaurants in Franklin, TN** (12 min)
-12. **Best Parks & Trails in Franklin, TN** (10 min)
-13. **Franklin Farmers Market: Complete Guide** (8 min)
-14. **Family Activities in Franklin, TN** (13 min)
-Plus + 2 more guides
+**46 long-form articles** — `imageUrl` is required on the `Article` type; TypeScript enforces coverage.
+
+### Images
+- **39 AI-generated article hero images** saved as `.png` files in `public/images/articles/`
+- Each article's `imageUrl` points to its specific image (e.g. `/images/articles/retiring-in-franklin.png`)
+- `og:image` in `src/pages/article.tsx` converts local paths to absolute URLs using `https://franklintnguide.com` as the base
+- All 62 prerendered HTML files contain article-specific og:image tags
 
 ### News System (New)
 News articles are stored as markdown files in `src/content/news/` with YAML frontmatter:
@@ -165,16 +156,17 @@ News articles are stored as markdown files in `src/content/news/` with YAML fron
 10. Prickly Pear Coffee Co. Opens (Jan 25, 2026)
 
 ### SEO Setup
-- **Sitemap**: Auto-generated via `scripts/generate-sitemap.ts` on every build (`pnpm run build` triggers it). Includes all 5 articles + 6 static pages (11 URLs total)
+- **SSG (Static Site Generation)**: All 62 routes pre-render to content-complete HTML via `scripts/prerender.ts` (React SSR). Google can index every page without JavaScript.
+- **Sitemap**: Auto-generated via `scripts/generate-sitemap.ts` on every build — covers all 46 article routes + 10 news routes + static pages
 - **robots.txt**: Located at `/public/robots.txt`
-- **Meta tags**: Rendered client-side via react-helmet-async (functional but not server-side rendering)
+- **Meta tags**: Injected into prerendered HTML via react-helmet-async SSR (each page has unique title, description, og:image, canonical)
 - **Canonical domain**: https://franklintnguide.com
-- **Contact email**: hello@franklintnguide.com
+- **Contact email**: ryan@locheventures.com
 
 ### Build & Deploy
 - **Development**: `pnpm run dev` from `artifacts/franklin-tn-guide`
-- **Build**: `pnpm run build` — generates sitemap automatically
-- **Deploy**: Ready for production deployment as an SPA
+- **Build**: `PORT=3000 BASE_PATH="/" pnpm run build` — generates sitemap → client build → SSR build → prerender all 62 routes → outputs to `dist/public/`
+- **SSG bug fix**: Removed catch-all rewrite from `artifact.toml` so production static hosting serves per-route prerendered HTML correctly
 
 ### To Add New Long-Form Articles
 1. Add entry to `articles` object in `src/lib/data.ts`
