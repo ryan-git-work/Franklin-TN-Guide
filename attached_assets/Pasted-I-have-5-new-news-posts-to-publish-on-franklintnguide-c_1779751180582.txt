@@ -1,0 +1,477 @@
+I have 5 new news posts to publish on franklintnguide.com. All content is embedded in this prompt as separate POST blocks. Please add all 5 to the site in one session, following the steps below in order, with one checkpoint at the start.
+
+# Step 1 — Inspect the news post infrastructure
+
+Before adding anything, read and report on:
+
+- Where news posts currently live in this project (data file, content collection, markdown folder, or database)
+- The shape of an existing news post record (look at /news/in-n-out-opens-franklin-tn as the reference example — what fields does it have, what's the data structure)
+- Which template renders /news/[slug] pages
+- Which page/component renders the /news listing page (the index that shows all news posts as cards)
+- Where the homepage news/article tiles come from (the homepage currently shows article cards in a feed — confirm whether news posts also appear there or whether news is separate)
+- How sitemap.xml is generated and which URLs it currently includes from /news/
+
+Show me what you found. Make no changes yet.
+
+**CHECKPOINT 1.** Wait for my confirmation. Once I confirm, proceed straight through Steps 2 through 5 without stopping.
+
+# Step 2 — Add all 5 news posts
+
+Each post below is provided with full frontmatter and complete article body. Add each one to the project following the same pattern existing news posts use (the data shape you reported in Step 1).
+
+Required fields per post:
+- `slug` — exactly as given, becomes the URL path under /news/
+- `title` — page H1 and SEO title
+- `description` — meta description and og:description
+- `date_published` — 2026-05-25 for all five
+- `date_modified` — 2026-05-25 for all five
+- `category` — "News"
+- `author` — "Franklin TN Guide Editorial Team"
+- `hero_image` — leave empty for now; use whatever default the existing news posts use when no hero image is set, OR use /og-default.jpg if there's a default OG image
+- `content` / `body` — the full markdown article body (everything after the frontmatter delimiter)
+
+Rules:
+- Do NOT modify any existing news posts.
+- Do NOT change the news template, listing page, or homepage layout. If you find an issue with one of those that needs attention, flag it but don't fix it in this change.
+- Render markdown to HTML using whatever markdown library the project already uses for news posts. If none, install `marked` (`npm install marked`).
+- Keep all internal links in the body (URLs starting with `/`) as-is. They reference real existing pages on the site.
+
+# Step 3 — Update sitemap.xml
+
+Add a new `<url>` entry for each of the 5 new news posts. Use this template per entry:
+
+```xml
+<url>
+  <loc>https://franklintnguide.com/news/[slug]</loc>
+  <lastmod>2026-05-25</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+```
+
+If the project has dynamic sitemap generation, the entries should auto-populate from the news data. Confirm they appear at `https://franklintnguide.com/sitemap.xml` after build.
+
+If the sitemap is static and the entries don't auto-populate, add them manually.
+
+If you already shipped the infrastructure-fix Replit prompt and it rebuilt the sitemap with proper changefreq/priority policy, just confirm the new posts are picked up correctly with `weekly` / `0.9`.
+
+# Step 4 — Build and validate
+
+After all 5 posts are added and the sitemap is updated:
+
+1. Run the project's build command (npm run build, or whatever this Replit uses).
+2. Confirm each of these URLs renders without errors:
+   - https://franklintnguide.com/news/hawkers-asian-street-food-mcewen-northside-franklin
+   - https://franklintnguide.com/news/embrey-aureum-604-apartments-franklin
+   - https://franklintnguide.com/news/liberty-pike-roundabouts-franklin-2026
+   - https://franklintnguide.com/news/char-steakhouse-canteen-carothers-franklin
+   - https://franklintnguide.com/news/willco-wellfest-factory-franklin-2026
+3. Confirm each post appears on the /news listing page.
+4. Confirm each post appears on the homepage news/article feed if news posts feed the homepage there.
+5. Confirm sitemap.xml now includes all 5 new URLs.
+6. Spot-check the first post (Hawkers) for: title rendering, meta description in the <head>, markdown body rendering correctly (headings, paragraphs, link to source at the bottom), internal links at the bottom of the body all pointing to valid pages.
+
+Report back: which URLs rendered correctly, any issues encountered, the new sitemap URL count.
+
+# Step 5 — What I'll do manually after
+
+Once Replit confirms Step 4 looks good, I'll go into Google Search Console and:
+1. Sitemaps → Refresh sitemap.xml
+2. URL Inspection on each of the 5 new URLs → "Request indexing"
+
+Don't worry about these.
+
+# Constraints
+
+- Do not invent fields. The frontmatter for each post lists what to use; don't add fields the existing news posts don't have.
+- Do not strip the internal links from the body. Each post links to 3 existing FTN pages at the bottom — keep them.
+- Do not change the existing posts' URLs, dates, or content as a side effect.
+- Date all 5 with `date_published: 2026-05-25` and `date_modified: 2026-05-25`.
+- The body markdown does not contain any em dashes by design. Don't add any.
+- If any internal link target (e.g., `/articles/cool-springs-franklin-tn`) doesn't exist on the site, leave the link as-is in the body — the link will become live once that page is added in a later phase. Don't strip dead-internal-link warnings; just flag any you find in your report.
+
+---
+
+When you're ready, do Step 1 and stop at Checkpoint 1.
+
+---
+
+============================================================
+POST 1 OF 5
+============================================================
+
+---
+slug: hawkers-asian-street-food-mcewen-northside-franklin
+title: "Hawkers Asian Street Food Coming to McEwen Northside in Early 2026"
+description: "The Nashville-favorite pan-Asian restaurant is opening its second Tennessee location at Franklin's McEwen Northside, joining Culinary Dropout in the district's newest $125 million building."
+date_published: 2026-05-25
+date_modified: 2026-05-25
+category: News
+author: Franklin TN Guide Editorial Team
+hero_image: ""
+---
+
+# Hawkers Asian Street Food Coming to McEwen Northside in Early 2026
+
+The pan-Asian restaurant best known as a craft cocktail and shareable-plates favorite in East Nashville is heading south. Hawkers Asian Street Food has confirmed it will open its second Tennessee location at McEwen Northside in Franklin in early 2026, anchoring the ground floor of the district's newest building alongside Culinary Dropout.
+
+For Franklin's dining scene, this is another data point in a years-long pattern: Nashville's stronger restaurant brands are no longer waiting for a Franklin location to be the back-of-the-roadmap nice-to-have. They're treating McEwen Northside and the surrounding Cool Springs corridor as a first-choice market on its own merits.
+
+## What's actually opening
+
+Hawkers will join Culinary Dropout on the ground floor of the newest building in the McEwen Northside expansion, a $125 million, 300,000-square-foot addition to a district that has spent the last two years quietly stacking the kind of tenant mix you'd expect in Brentwood or downtown Nashville.
+
+The Hawkers menu is built around shareable Asian small plates and street food: Korean twice-fried wings, five-spice green beans, and roti canai served with a curry dipping sauce are among the items the brand has built its reputation on. Beverage program is craft cocktails and sake. The original Tennessee location, at 626 Main Street in East Nashville, opened in 2020 and has become one of the more reliably busy spots in that part of town.
+
+"We're incredibly excited about the momentum surrounding the newest block in the district," said Mark Traylor, who oversees the McEwen Northside development. "We've already welcomed office tenants to the upper floors, with more on the way; and soon, the ground level will be home to these beloved restaurants, further establishing McEwen Northside as a place where memories are made, especially over a great meal."
+
+A specific opening date has not been published. The brand has only confirmed early 2026.
+
+## The McEwen Northside context
+
+If you're new to Franklin and trying to make sense of where things actually are, McEwen Northside sits just east of I-65 near the East McEwen Drive interchange, on the north side of McEwen Drive. It's part of the broader Cool Springs commercial area but operates more like a small walkable district than a strip-mall corridor.
+
+The recent expansion has brought in a tenant mix that signals where the developer is positioning the district: Vuori, Gorjana, Oak Hall, Warby Parker, Fink's Jewelers and Rolex, Skin Laundry, and Blue Sushi Sake Grill are all open or arriving. The pattern is what you'd describe as "upscale urban casual," the kind of cluster that pulls Nashvillians out to Franklin for an evening, not the other way around.
+
+Hawkers and Culinary Dropout opening alongside each other in the newest building is the most concentrated restaurant pairing the district has announced. Culinary Dropout, the Arizona-based concept from Sam Fox's Fox Restaurant Concepts, was confirmed last year and is similarly positioned as a draw-from-Nashville anchor.
+
+## Why this matters if you're moving to Franklin
+
+A pattern worth understanding before you arrive: when relocators look at Franklin's restaurant scene from out of state, they often assume they'll need to drive into Nashville for anything beyond chain dining. That was true ten years ago. It's not true today, and McEwen Northside is one of the places where it's most visibly not true.
+
+Within roughly a one-mile radius of where Hawkers will open, you can now reach a dense cluster of independent and chef-driven restaurants: Etch, Pelato, Blue Sushi, Culinary Dropout, the upcoming Truce, the upcoming Char at Canteen, and the existing restaurants throughout the broader Cool Springs corridor. For a relocating family used to a strong Nashville food scene, the practical implication is that you can build a regular dining rotation in Franklin proper without needing to make the I-65 drive nightly.
+
+For those considering Franklin neighborhoods near this part of the city, that walkable-restaurant access is one of the things shifting Cool Springs from "corporate corridor with shopping" toward "actual neighborhood you'd want to live near." Westhaven, McKays Mill, Berry Farms, and the apartment communities under construction along Carothers Parkway all sit within a short drive of McEwen Northside.
+
+## What we'll be watching
+
+A few open questions worth tracking as the opening approaches:
+
+The exact opening date. Early 2026 is a wide window. The restaurant has not announced reservations availability or whether the Franklin location will lean more bar-forward (like East Nashville) or more food-forward.
+
+Parking. McEwen Northside has structured parking but it has been getting tighter as the district matures. The Hawkers/Culinary Dropout opening will pull more weekend evening traffic than the district has handled before.
+
+The broader expansion timeline. The $125M, 300,000-square-foot building Hawkers is anchoring is part of a larger McEwen Northside trajectory. More restaurants and office tenants are still to be announced.
+
+We'll update this story when Hawkers confirms an opening date and hiring details.
+
+---
+
+**Source:** [Hawkers Asian Street Food Coming to Franklin's McEwen Northside](https://williamsonsource.com/hawkers-asian-street-food-coming-to-franklins-mcewen-northside/) — Williamson Source, August 25, 2025.
+
+**Related on Franklin TN Guide:**
+- [Best Restaurants in Franklin, TN: A Local's Guide](/articles/best-restaurants-franklin-tn)
+- [Cool Springs Franklin TN: Complete Neighborhood Guide](/articles/cool-springs-franklin-tn)
+- [Things to Do in Franklin, TN](/articles/things-to-do-in-franklin-tn)
+
+============================================================
+POST 2 OF 5
+============================================================
+
+---
+slug: embrey-aureum-604-apartments-franklin
+title: "604 New Apartments Coming to Franklin: EMBREY Closes on Aureum Phases II and III"
+description: "Texas-based EMBREY has closed on six acres near Carothers Parkway and East McEwen Drive for 604 apartment homes, the latest signal that Franklin's rental supply is finally starting to catch up with demand."
+date_published: 2026-05-25
+date_modified: 2026-05-25
+category: News
+author: Franklin TN Guide Editorial Team
+hero_image: ""
+---
+
+# 604 New Apartments Coming to Franklin: EMBREY Closes on Aureum Phases II and III
+
+EMBREY, the San Antonio-based real estate investment company, has closed on six acres of land in Franklin for the next two phases of Aureum, a multifamily development inside SouthStar's 22-acre Aureum master-planned project in the Cool Springs submarket. The combined development will deliver 604 apartment homes across two three-acre sites near the intersection of Carothers Parkway and East McEwen Drive, directly adjacent to Interstate 65.
+
+For anyone trying to read the actual signals on Franklin's housing market — not the headlines, but where capital is moving and what supply is coming online — this announcement is one of the more substantive data points of early 2026.
+
+## What's being built
+
+Aureum is a SouthStar mixed-use master plan covering 22 acres in one of Williamson County's most sought-after growth corridors. EMBREY is the multifamily partner on the residential portion. Phase I, branded as Thatcher at Aureum, began construction in late 2025. Phases II and III are now closed and will move into the development pipeline behind it.
+
+The numbers, as reported in the closing announcement:
+
+- 604 apartment homes across the two new phases
+- Six acres total (two separate three-acre sites)
+- Phase II is expected to total approximately 281,000 square feet
+- Site is located near Carothers Parkway and East McEwen Drive, adjacent to I-65
+
+For EMBREY, this represents their fifth and sixth multifamily developments in Franklin and their thirteenth and fourteenth Tennessee projects since the company first entered the state in 1987. It is also their fifth development partnership with SouthStar.
+
+"Franklin continues to stand out as a market defined by strong fundamentals, long-term demand, and thoughtful growth," said Brad Knolle, executive vice president of development at EMBREY, in the company's announcement. "The closing of Phases II and III allows us to build on the momentum established with Phase I and reinforces our confidence in Williamson County as a place where quality development and community investment align."
+
+EMBREY's chief investment officer, Garrett Karam, framed the deal in straightforward investor language: "This land acquisition allows EMBREY to execute our capital strategy in a high-demand, well-located market. Franklin continues to offer the fundamentals we seek for long-term multifamily success."
+
+## The supply picture this changes
+
+The Franklin rental market has been structurally tight for years. Williamson County's population growth, driven by relocations from California, Texas, the Northeast, and Florida, has consistently outpaced new apartment delivery. The practical effect on the ground: anyone moving to Franklin without buying immediately has found a small number of complexes, long waitlists at the most desirable ones, and rents at the upper end of the national range for a city Franklin's size.
+
+The Carothers Parkway corridor, between Cool Springs Galleria and the East McEwen interchange, has been the area absorbing most of the new multifamily supply. Aureum sits right in the middle of that corridor.
+
+When all three Aureum phases deliver over the next two-to-three years, the combined development will add roughly 900+ apartment homes to that submarket. That's not enough to meaningfully soften rents on its own, but it is enough to reduce the most acute waitlist pressure on the existing Cool Springs apartment complexes that relocators most commonly land in while house-hunting.
+
+## What this means if you're moving to Franklin
+
+A few practical implications worth understanding.
+
+If you're in the early stages of a Franklin move and considering renting first while you look for a home, which is what the majority of California, New York, and DC transplants we hear from end up doing, the Cool Springs / Carothers corridor remains the highest-density apartment landing zone in the city. Aureum Phase I (Thatcher at Aureum) is the next major property delivering. Phases II and III will follow over the next 18 to 36 months.
+
+The location is functional for the relocator profile: minutes from I-65 for Nashville commuters, close to the Cool Springs Galleria and Carothers retail, walkable-ish to the McEwen Northside restaurant district as it matures, and well-positioned for school zoning around Independence High School and the surrounding Williamson County Schools elementary and middle feeders.
+
+The pricing question is harder to answer right now. EMBREY has not released rent guidance for Aureum, and the broader Carothers corridor in 2026 is asking $1,900 to $2,800 for a two-bedroom and $2,800 to $4,500 for a three-bedroom single-family rental, depending on the specific community and amenity set. Aureum is positioned as a higher-amenity property, which suggests pricing toward the upper end of that range.
+
+## Why the EMBREY investment matters as a signal
+
+When a vertically integrated multifamily developer makes its fifth and sixth investments in the same city, that's a different kind of signal than a one-off deal. EMBREY has been building in Tennessee since 1987 and now has 14 active or completed Tennessee projects. The fact that six of them are in Franklin, and three of those are at a single master-planned site within roughly two years, tells you something specific about how institutional capital is reading Franklin's medium-term outlook.
+
+The pattern is broadly consistent with what other developers are doing in the same submarket. Stockbridge Capital Group, Foundry Commercial, Toll Brothers, and the various Cool Springs office and retail developers are all making sustained, repeated investments here. For a relocator trying to evaluate whether Franklin is overheating or whether the growth has actual fundamentals behind it, the developer behavior is one of the more reliable signals available.
+
+---
+
+**Source:** [EMBREY announces first land closing of 2026 with Aureum phases II and III in Franklin](https://www.williamsonherald.com/features/business/embrey-announces-first-land-closing-of-2026-with-aureum-phases-ii-and-iii-in-franklin/article_67136035-5deb-4cad-a15f-ae9a4c478812.html) — Williamson Herald, January 30, 2026.
+
+**Related on Franklin TN Guide:**
+- [Cost of Living in Franklin, TN](/cost-of-living)
+- [Cool Springs Franklin TN: Complete Neighborhood Guide](/articles/cool-springs-franklin-tn)
+- [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
+
+============================================================
+POST 3 OF 5
+============================================================
+
+---
+slug: liberty-pike-roundabouts-franklin-2026
+title: "Liberty Pike's Dual-Lane Roundabouts Set to Finish Mid-2026: What Franklin Commuters Need to Know"
+description: "Two new dual-lane roundabouts at Liberty Pike's intersections with Stanwick Drive and Mallory Lane / North Royal Oaks Boulevard are scheduled to wrap by mid-2026. Here's what's actually changing and why it matters for your commute."
+date_published: 2026-05-25
+date_modified: 2026-05-25
+category: News
+author: Franklin TN Guide Editorial Team
+hero_image: ""
+---
+
+# Liberty Pike's Dual-Lane Roundabouts Set to Finish Mid-2026: What Franklin Commuters Need to Know
+
+If you live in Franklin and your daily route puts you through the Mallory Lane / Liberty Pike / North Royal Oaks Boulevard intersection, you've been driving through one of the city's most consistently congested choke points for years. That's about to change. Two new dual-lane roundabouts, one at Liberty Pike and Stanwick Drive, and one at the Mallory Lane / Royal Oaks / Liberty Pike intersection, are scheduled to be complete by mid-2026 as part of the Liberty Pike corridor improvements.
+
+For a city that has spent the past decade absorbing population growth without proportional roadway expansion, this is one of the higher-impact local infrastructure projects coming online this year. Here's what's actually being built, when, and why it matters for the routes most relocators end up using.
+
+## What's being built
+
+The Liberty Pike upgrade includes two separate dual-lane roundabouts at adjacent intersections, plus broader corridor improvements:
+
+- A dual-lane roundabout at Liberty Pike and Stanwick Drive
+- A dual-lane roundabout at Mallory Lane, North Royal Oaks Boulevard, and Liberty Pike
+- Sidewalk improvements along the corridor
+- Utility relocations to support the new intersection geometry
+
+The Franklin Board of Mayor and Aldermen previously approved $2.2 million in funding for the design and right-of-way acquisition phase under the city's FY 2017 to 2026 Capital Investment Program. Construction has been underway, and the city's published timeline targets mid-2026 for completion.
+
+The dual-lane geometry matters. Single-lane roundabouts handle moderate traffic well but can become bottlenecks at high volumes. Dual-lane roundabouts, like the existing one at Cool Springs Boulevard and Oxford Glen Drive that East McEwen drivers already use, handle significantly higher throughput because two cars can negotiate the circle simultaneously. For an intersection that handles peak-hour commuter volumes from both the Cool Springs office corridor and the Carothers Parkway residential growth, dual-lane is the right call.
+
+## Why this intersection in particular
+
+Anyone who has driven the Mallory Lane / Liberty Pike / Royal Oaks intersection at 5:30 p.m. on a weekday already knows the answer. The current signalized configuration has been operating well above its original design capacity for years. Backups onto Mallory Lane during peak hours are routine. Left turns from Liberty Pike onto Mallory Lane require timing that doesn't exist in the current signal pattern.
+
+There's also a safety dimension. Roundabouts, particularly modern dual-lane designs, have a substantially better safety record than equivalent signalized intersections: fewer angle and head-on collisions, slower vehicle speeds through the intersection itself, and less driver decision complexity in low-visibility conditions. The federal data on this is well-established, and Franklin's engineering department has been steadily converting key intersections to roundabouts where geometry allows.
+
+The Liberty Pike corridor specifically serves a high-mix traffic load: Cool Springs office commuters, Mallory Lane retail traffic, residents from the Westhaven and McKays Mill area cutting toward I-65, and traffic moving between the Cool Springs Galleria and the Carothers Parkway corridor.
+
+## What it means for your commute during construction
+
+This is the part most Franklin commuters will care about more than the long-term throughput improvement: how rough is the construction period?
+
+Honestly, it's been moderate. The Liberty Pike work has been visible for months but has not produced full closures. Most of the impact has been lane shifts, occasional signal disruptions, and slower-than-usual movement through the work zone. The final months of construction, typically when paving, striping, and signage are installed, can introduce more concentrated nighttime work, but daytime traffic disruption is generally minimal.
+
+If your normal route uses this intersection during peak hours, give yourself an extra 5 to 10 minutes during the final construction push. Once the roundabouts open, the throughput improvement should be immediate and significant.
+
+## The bigger picture: Franklin's 10-year infrastructure plan
+
+This project is one of several major roadway improvements moving through Franklin's capital plan in 2026 and 2027. The most significant others:
+
+**East McEwen Drive widening.** The $45.8 million project to widen East McEwen Drive from Cool Springs Boulevard to Wilson Pike is currently under construction and is expected to take three years to complete. When done, it will be a median-divided four-lane road with left-turn lanes, curb and gutter, sidewalk, a multi-use path, and street lighting. More than $30 million in federal grant funding was secured for the project.
+
+**Mack Hatcher Parkway, Southeast widening.** Franklin has partnered with the state of Tennessee on widening Mack Hatcher Parkway's southeastern segment. This was one of only nine partnership projects approved by the state in its 10-year roadway plan and was the largest single approved partnership.
+
+**Franklin Road corridor improvements** along US-31. Ongoing streetscape and infrastructure work.
+
+All of these are funded within the city's 10-year capital plan. The pattern is consistent: Franklin is spending real money on roadway capacity in the corridors absorbing the most growth, and the funding is staying ahead of the project pipeline rather than lagging it.
+
+## What this means if you're moving to Franklin
+
+If you're evaluating Franklin neighborhoods and commute time matters in your decision, the Liberty Pike roundabouts are one of several near-term improvements that will materially change drive times across the Cool Springs and Carothers corridors. The 2026 commute experience is going to be measurably better than 2025's, and substantially better than the worst points of the 2022 to 2024 growth-without-infrastructure squeeze that early relocators sometimes encountered.
+
+The broader read: Franklin's growth pressures are real, but the infrastructure response is funded and visible. The city isn't pretending the growth isn't happening, and the capital investment plan reflects that.
+
+---
+
+**Source:** [North Royal Oaks Blvd / Mallory Lane and Liberty Pike Intersection Upgrade, City of Franklin](https://www.franklintn.gov/government/departments-a-j/engineering/city-projects/north-royal-oaks-blvd-mallory-lane-and-liberty-pike-intersection-upgrade)
+
+**Related on Franklin TN Guide:**
+- [Things to Do in Franklin, TN](/articles/things-to-do-in-franklin-tn)
+- [Cool Springs Franklin TN: Complete Neighborhood Guide](/articles/cool-springs-franklin-tn)
+- [Cost of Living in Franklin, TN](/cost-of-living)
+
+============================================================
+POST 4 OF 5
+============================================================
+
+---
+slug: char-steakhouse-canteen-carothers-franklin
+title: "Char Steakhouse to Open at Canteen on Carothers in Early 2026"
+description: "The Nashville-favorite upscale steakhouse, known for its nightly piano music, award-winning wine list, and 4Top Hospitality's understated polish, is bringing 6,500 square feet and about 50 jobs to Franklin's Canteen on Carothers."
+date_published: 2026-05-25
+date_modified: 2026-05-25
+category: News
+author: Franklin TN Guide Editorial Team
+hero_image: ""
+---
+
+# Char Steakhouse to Open at Canteen on Carothers in Early 2026
+
+Char, the Nashville steakhouse known for its nightly piano music, elevated comfort food, and the kind of award-winning wine list that pulls in older diners who've been doing this for decades, is opening a Franklin location at Canteen on Carothers in early 2026. The new restaurant will occupy 6,500 square feet inside the mixed-use development, create approximately 50 new jobs, and seat more than 200 guests across its dining room and outdoor patio.
+
+For Franklin's higher-end dining scene, which has been gradually maturing toward something competitive with the best of Nashville, this is one of the more consequential openings of the year.
+
+## What's actually opening
+
+Char in Franklin will be the brand's fifth location overall and the second in the greater Nashville area. The restaurant is part of 4Top Hospitality group, which Franklin diners already know from Etch, the Nashville-born modern American restaurant that opened at the Factory at Franklin last year. The new Char will be 4Top Hospitality's 16th restaurant across the company's portfolio.
+
+The specifics the brand has shared:
+
+- 6,500-square-foot space inside Canteen on Carothers
+- Seating for more than 200 guests
+- Large outdoor patio
+- Private dining room
+- Live piano music every night
+- Jazz trio during Sunday brunch
+- Extensive wine list described by the brand as award-winning
+- Approximately 50 new jobs across front and back of house
+- Opening planned for early 2026
+
+The Char brand position is "upscale steakhouse with elevated comfort food," not a Capital Grille / Ruth's Chris formal-steakhouse approach, but closer to a higher-end neighborhood restaurant where you'd take parents visiting from out of town or a couple celebrating an anniversary. The piano-and-wine atmosphere is part of the brand identity rather than an afterthought.
+
+## Where Canteen on Carothers fits in Franklin
+
+Canteen on Carothers is a mixed-use development by Stockbridge Capital Group, leased by Foundry Commercial, anchoring the Carothers Parkway corridor between the Cool Springs Galleria and the East McEwen Drive interchange. The development has been steadily filling with the kind of tenants Franklin's pre-2020 dining scene didn't have: chef-driven independent restaurants, walkable retail, and a level of architectural design that signals what the developer is trying to position the corridor as.
+
+For relocators trying to orient themselves: Carothers Parkway is the road that connects the heart of Cool Springs to the McEwen interchange on I-65. The corridor has absorbed most of Franklin's new high-end commercial development over the past five years and is the area where you'll find the densest concentration of new restaurants opening through 2026: Char at Canteen, Truce in spring 2026 in Cool Springs, Hawkers and Culinary Dropout at McEwen Northside, and the apartments going up at the EMBREY Aureum project.
+
+The pattern is the same one playing out across walkable Franklin: developments are no longer being built as standalone retail boxes. They're being built as small districts where dining, retail, residential, and office tenants are designed to feed each other's foot traffic.
+
+## What this means if you're moving to Franklin
+
+The practical takeaway for relocators: Franklin's "you have to drive into Nashville for nice dining" problem has been quietly solved over the past few years, and Char's opening is one of the data points that proves it.
+
+A representative weekend can now be assembled entirely in Franklin: brunch at Truce or Etch, an afternoon at downtown Franklin's Main Street or the Factory at Franklin, dinner at Char or one of the existing Cool Springs anchors, drinks at Hawkers or Blue Sushi at McEwen Northside. The drive into Nashville becomes optional rather than required.
+
+For families moving from major metro areas, particularly the California, New York, and DC relocators who often arrive expecting Franklin to be a culinary downgrade from what they're leaving, this kind of incremental opening is exactly what shifts the perception. It doesn't replace the breadth of a Bay Area or Manhattan food scene, but it does mean that the depth of options at the upscale end of the market is finally where it needs to be for a city of Franklin's size and household-income profile.
+
+## The 4Top Hospitality track record
+
+Worth knowing about 4Top Hospitality specifically because they're now operating two Franklin restaurants and likely to add more: the group has built a reputation in Nashville for restaurants that are reliably above-average rather than experimental. Etch in Nashville, which opened in 2012, became a fixture of the city's downtown dining scene before the Factory at Franklin location followed.
+
+Char itself opened in 2017 in Nashville and has expanded steadily since. The brand has avoided the boom-bust cycle that affects a lot of restaurant groups trying to scale: the locations that have opened have stayed open, which in the restaurant business is genuinely meaningful.
+
+For Franklin diners, the implication is that Char is likely to operate the way Etch operates: consistently, with a predictable level of service and food quality, rather than as a destination that's brilliant the first three months and uneven by month nine.
+
+## What we're tracking
+
+A few open questions as the opening approaches:
+
+The specific opening date in early 2026 has not been confirmed.
+
+Reservations policy and pricing positioning aren't public yet.
+
+Hiring for the approximately 50 positions has not been announced.
+
+The interior buildout at Canteen is still in progress. The exterior of the development has been visible for months.
+
+We'll update this story when the opening date is set.
+
+---
+
+**Source:** [ICYMI: Upscale Steakhouse Char Announces Franklin Expansion](https://williamsonsource.com/icymi-upscale-steakhouse-char-announces-franklin-expansion/) — Williamson Source, May 18, 2025.
+
+**Related on Franklin TN Guide:**
+- [Best Restaurants in Franklin, TN: A Local's Guide](/articles/best-restaurants-franklin-tn)
+- [Cool Springs Franklin TN: Complete Neighborhood Guide](/articles/cool-springs-franklin-tn)
+- [Things to Do in Franklin, TN](/articles/things-to-do-in-franklin-tn)
+
+============================================================
+POST 5 OF 5
+============================================================
+
+---
+slug: willco-wellfest-factory-franklin-2026
+title: "WillCo WellFest Brought 50+ Wellness Vendors to The Factory at Franklin: Here's What to Know for 2027"
+description: "The inaugural WillCo WellFest at The Factory at Franklin drew a crowd of families on May 16 for a free, vendor-rich wellness festival. Organizers are positioning it as the start of an annual Williamson County tradition."
+date_published: 2026-05-25
+date_modified: 2026-05-25
+category: News
+author: Franklin TN Guide Editorial Team
+hero_image: ""
+---
+
+# WillCo WellFest Brought 50+ Wellness Vendors to The Factory at Franklin: Here's What to Know for 2027
+
+The inaugural WillCo WellFest landed at The Factory at Franklin on May 16, drawing families from across Williamson County for a free, all-day festival anchored around integrative health, family wellness, and a live podcast experience. Organizer Dr. Anis Khalaf, the medically trained acupuncture physician behind Acupuncture Fit, built the event as a community gathering with the explicit ambition of becoming one of Williamson County's largest annual family wellness events.
+
+For relocators trying to get an honest read on what life in Franklin actually looks like outside the relocation-brochure version, events like this are useful data. Here's what the festival was, how it landed, and what to expect if you're considering attending the next one.
+
+## What WillCo WellFest actually was
+
+The inaugural festival ran from 10 a.m. to 6 p.m. on Saturday, May 16, at The Factory at Franklin, a converted industrial complex on Franklin Road that has become the city's primary venue for the kind of community-scale, family-oriented event that the downtown Main Street area isn't sized for.
+
+The format was straightforward: more than 50 wellness vendors set up across the venue, a series of educational demonstrations ran throughout the day, family-friendly activities filled out the schedule, and a live podcast experience featuring leading voices in integrative and preventative health anchored the programming.
+
+The headliners on the podcast side were Dr. Chris Motley (the festival's co-host with Khalaf), New York Times bestselling author Jordan Rubin, and Fr. Dan Reehil, pastor of St. Catherine of Siena Catholic Church and host of the Battle Ready podcast. The mix reflected Khalaf's broader positioning of the event around integrative and preventative wellness rather than a single discipline.
+
+Admission was free for all attendees. The first 500 guests received an event swag bag.
+
+## Why this kind of event matters in Franklin
+
+A pattern worth understanding about Williamson County's community culture: a lot of what makes Franklin feel like Franklin happens through this exact type of weekend festival rather than through formal civic programming. The Main Street Festival in April, Dickens of a Christmas in December, Pumpkinfest in October, the Franklin Farmers Market every Saturday, Bluegrass Along the Harpeth, the Friends of Franklin Parks events at Harlinsdale Farm, the various tasting events at the Factory and downtown: these accumulate into something that residents describe as "the reason we moved here" more often than the more measurable factors like school rankings or tax structure.
+
+WillCo WellFest fits into that category. It's the kind of free, family-oriented, locally-organized event that signals what the city actually cares about, and what kind of community fabric exists when you look beyond the cost-of-living spreadsheets.
+
+"WillCo WellFest was created to give families access to meaningful wellness education in a fun community-focused environment," Khalaf said in the festival's announcement.
+
+## The Factory at Franklin as a venue
+
+If you're new to Franklin, The Factory at Franklin is worth knowing about as a place. The complex sits on Franklin Road (US-31) just south of downtown and has been steadily evolving from its original stove-factory roots into a mixed-use complex housing restaurants (Etch, Liberty Hall events space), Studio Tenn's theater productions, the Red Wheel Songwriter Series, a regular event-and-festival venue, retail, and a handful of small businesses.
+
+Most major Franklin community events end up at the Factory at some point. It has the parking capacity, the indoor and outdoor flex space, and the location accessibility that downtown Franklin's historic district doesn't. For a city that hosts an increasing density of these events year-round, the Factory has become functionally essential.
+
+If you're planning a relocation visit to Franklin and want to see the actual community culture, checking the Factory's event calendar for the weekend you're visiting is one of the more efficient uses of time.
+
+## What this means if you're moving to Franklin
+
+A practical takeaway for families considering a move: the integrative-and-preventative-health angle of WillCo WellFest is not incidental. Franklin and Williamson County have one of the higher concentrations of integrative and functional medicine practitioners in the South, partly driven by the affluent, education-heavy demographic, partly driven by the broader Nashville healthcare cluster that supports it, and partly driven by a cultural orientation toward this kind of practice that's stronger here than in most Southern cities.
+
+For families coming from West Coast or Northeast markets where this kind of practice is more common, that's a continuity factor that doesn't always show up in standard relocation research. For families coming from rural Tennessee or other Southern markets, it's something different from what they're used to, and the presence of an event like WellFest is one of the easier ways to see it.
+
+The broader read: when relocators ask "what is there to actually do here on weekends with the family," the answer is much fuller than the city's size would suggest. Free community events of this scale are a regular feature, not a once-a-year curiosity.
+
+## Looking ahead
+
+WillCo WellFest is positioned to return in 2027. Khalaf's stated ambition is to grow it into one of Williamson County's largest annual family wellness festivals. Details for the 2027 event have not been released. The festival's website remains active at willcowellfest.com for updates.
+
+If integrative health, family wellness, or this kind of community event is on your radar, the WillCo WellFest calendar is worth bookmarking.
+
+For the broader Franklin events calendar (Main Street Festival, Pumpkinfest, Dickens of a Christmas, Bluegrass Along the Harpeth, the Friends of Franklin Parks events, the Factory at Franklin's ongoing schedule), see our guide to things to do in Franklin, TN.
+
+---
+
+**Source:** [WillCo WellFest Brings Family Wellness Event to The Factory at Franklin](https://williamsonsource.com/willco-wellfest-brings-family-wellness-event-to-the-factory-at-franklin/) — Williamson Source, April 19, 2026.
+
+**Related on Franklin TN Guide:**
+- [Things to Do in Franklin, TN](/articles/things-to-do-in-franklin-tn)
+- [Family Activities in Franklin, TN](/articles/family-activities-franklin-tn)
+- [Free Things to Do in Franklin, TN](/articles/free-things-to-do-franklin-tn)
+
+============================================================
+END OF POSTS
+============================================================
+
+When you're ready, do Step 1 and stop at Checkpoint 1.
