@@ -1,0 +1,321 @@
+I run franklintnguide.com — a Franklin, Tennessee local relocation guide hosted in this Replit. Google has indexed only 1 of ~62 URLs in my sitemap. 13 pages are "crawled — currently not indexed", 3 have redirect errors, and the remaining ~45 articles aren't even in Google's view. Traffic is flatlined (0 clicks, 181 impressions, avg position 56.6 over the last 6 months).
+
+I need you to do a comprehensive SEO infrastructure fix. Please proceed in the steps below IN ORDER, and stop at every CHECKPOINT for my confirmation before continuing.
+
+# Step 1 — Inspect the project structure
+
+Before changing anything, read and report on:
+
+- The framework and version (Express + EJS? Next.js? plain HTML? something else?)
+- The route file or files that handle: homepage `/`, the section pages (`/cost-of-living`, `/schools`, `/franklin-vs-nashville`, `/neighborhoods`, `/news`), the article pages under `/articles/*`, and the news pages under `/news/*`
+- Where the page-head (title, meta, link, script) is rendered — is there a shared layout, partial, or template helper?
+- Where `sitemap.xml` is generated (static file? route handler? script?)
+- Where `robots.txt` lives and what it currently says
+- Whether there's any existing JSON-LD or other structured data on any page
+- The data source for articles (markdown files? JSON? database?) — show me the shape of one article record
+- The data source for news posts — same
+- Whether the section pages (`/cost-of-living`, `/schools`, `/franklin-vs-nashville`, `/neighborhoods`) and their corresponding `/articles/*` versions have:
+  (a) the same content (duplicate)
+  (b) different content (the section page is a summary, the article is the deep dive, or vice versa)
+  (c) one is empty / stub
+  
+  This determines whether we can safely 301 in Step 3 or whether content needs to be ported first.
+
+Report what you found. Make no changes. Wait for my confirmation.
+
+**CHECKPOINT 1.**
+
+# Step 2 — Fix the sitemap.xml
+
+The current sitemap has three problems:
+1. Every article has `<changefreq>never</changefreq>` — Google reads this as "abandoned content"
+2. Several articles have `<lastmod>` dates from 2025 that look like typos (the site went live in March 2026)
+3. All non-homepage URLs have the same priority of 0.8 — no differentiation
+
+Rewrite `sitemap.xml` (or the sitemap-generation logic, if dynamic) with the following policy:
+
+| URL type | changefreq | priority |
+|---|---|---|
+| Homepage `/` | `weekly` | `1.0` |
+| News index `/news` | `weekly` | `0.9` |
+| Individual news posts `/news/*` | `weekly` | `0.9` |
+| Pillar / hub pages (`/cost-of-living`, `/schools`, `/franklin-vs-nashville`, `/neighborhoods`) | `monthly` | `1.0` |
+| Articles `/articles/*` (those NOT being 301'd — see Step 3) | `monthly` | `0.8` |
+| Static pages (`/about` once created) | `yearly` | `0.5` |
+
+For `lastmod` dates:
+- If the article has a real publish/update date in its data, use that
+- If the existing sitemap has a date like `2025-03-22` that's actually a typo for `2026-03-22`, correct it to the real year
+- For pages without any reliable date, use today's date
+- Use ISO 8601 format (`YYYY-MM-DD`)
+
+Also: remove from the sitemap any URLs that will be 301'd in Step 3 (the `/articles/cost-of-living-franklin-tn`, `/articles/williamson-county-schools-guide`, `/articles/franklin-tn-vs-nashville`, `/articles/best-neighborhoods-in-franklin-tn` — these become redirects, not destinations).
+
+Confirm `robots.txt` references the sitemap with a line like:
+`Sitemap: https://franklintnguide.com/sitemap.xml`
+
+If `robots.txt` doesn't exist, create it with that line plus `User-agent: *` / `Allow: /`.
+
+Show me the diff before applying. Then apply and confirm the new sitemap renders correctly at https://franklintnguide.com/sitemap.xml.
+
+# Step 3 — Set up 301 redirects for the duplicate URL architecture
+
+The site has four duplicate URL pairs causing Google to split ranking signals. I'm choosing the section URL as canonical in each case (because `/cost-of-living` is the only currently indexed page on the site and the section URLs are shorter / cleaner / already known to Google).
+
+Mapping:
+- `/articles/cost-of-living-franklin-tn` → 301 → `/cost-of-living`
+- `/articles/williamson-county-schools-guide` → 301 → `/schools`
+- `/articles/franklin-tn-vs-nashville` → 301 → `/franklin-vs-nashville`
+- `/articles/best-neighborhoods-in-franklin-tn` → 301 → `/neighborhoods`
+
+Before flipping the redirects:
+
+1. For each pair, compare the content. If the `/articles/*` version is meaningfully longer or more thorough than the section version, port the content into the section URL FIRST so we don't lose depth when the redirect kicks in. Show me what you'd port and from where; wait for my approval.
+
+2. Once content is reconciled, implement the 301 redirects. In whatever the routing layer is — if it's Express, that's a `res.redirect(301, '/destination')` at the top of the route handler. If it's Next.js, that's a redirects entry in `next.config.js`. If it's a static-site generator, that's an `_redirects` file (Netlify) or `vercel.json` (Vercel) — or, since this is Replit, it might be a custom Express middleware. Use whatever pattern the project already uses.
+
+3. Update internal links across the site to point to the new canonical URLs (find/replace `/articles/cost-of-living-franklin-tn` → `/cost-of-living`, etc.) so internal navigation doesn't hop through a redirect.
+
+4. Verify each redirect with `curl -I https://franklintnguide.com/articles/cost-of-living-franklin-tn` and confirm it returns `HTTP/1.1 301 Moved Permanently` with the right Location header. Same for the other three.
+
+**CHECKPOINT 2.** Show me the redirect rules and the internal-link find/replace results before deploying.
+
+# Step 4 — Add Organization + WebSite JSON-LD to the global layout
+
+In the shared head template (or wherever site-wide head tags live), inject these two JSON-LD blocks for EVERY page:
+
+**Organization schema:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Franklin TN Guide",
+  "url": "https://franklintnguide.com",
+  "logo": "https://franklintnguide.com/[actual-logo-path].png",
+  "description": "The honest local guide to Franklin, Tennessee — relocation, neighborhoods, schools, restaurants, and what residents actually say about life in Williamson County.",
+  "areaServed": {
+    "@type": "City",
+    "name": "Franklin",
+    "containedInPlace": {
+      "@type": "AdministrativeArea",
+      "name": "Williamson County, Tennessee"
+    }
+  }
+}
+```
+
+If there's no logo file in the project, use the favicon as a fallback, and flag this for me to fix later.
+
+**WebSite schema:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Franklin TN Guide",
+  "url": "https://franklintnguide.com",
+  "description": "Honest, locally-grounded relocation and lifestyle guide for Franklin, Tennessee."
+}
+```
+
+If the site has a search endpoint (it doesn't currently appear to), add a `potentialAction` SearchAction block. Skip if not.
+
+# Step 5 — Add BreadcrumbList schema to every non-homepage page
+
+Pages that visibly have breadcrumbs (or should — verify) need a JSON-LD BreadcrumbList matching the visible hierarchy.
+
+Example for an article at `/articles/moving-to-franklin-tn-from-california`:
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://franklintnguide.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Articles", "item": "https://franklintnguide.com/articles" },
+    { "@type": "ListItem", "position": 3, "name": "Moving to Franklin, TN from California", "item": "https://franklintnguide.com/articles/moving-to-franklin-tn-from-california" }
+  ]
+}
+```
+
+Same pattern for news posts (Home / News / [headline]) and for the section pages (Home / [Section Name]).
+
+If the site doesn't currently render visible breadcrumbs at all, add a minimal breadcrumb component to the article and news templates as well — Google rewards visible+schema breadcrumbs more than schema-only.
+
+# Step 6 — Add Article / NewsArticle schema to article and news pages
+
+For every page under `/articles/*`, inject Article JSON-LD:
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{article.title}",
+  "description": "{article.description}",
+  "datePublished": "{article.publishDate}",
+  "dateModified": "{article.updatedDate || article.publishDate}",
+  "author": {
+    "@type": "Person",
+    "name": "Franklin TN Guide Editorial Team",
+    "url": "https://franklintnguide.com/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Franklin TN Guide",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://franklintnguide.com/[actual-logo-path].png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://franklintnguide.com/articles/{article.slug}"
+  },
+  "image": "{article.heroImage || 'https://franklintnguide.com/og-default.jpg'}",
+  "articleSection": "{article.category || 'Relocation Guide'}"
+}
+```
+
+For every page under `/news/*`, use `NewsArticle` instead of `Article` (same fields, just the @type changes).
+
+Rules:
+- Do not fabricate fields. If `dateModified` doesn't exist, omit it (don't equal it to `datePublished` for now — actually, do equal it; Google requires both for NewsArticle).
+- For `author.name`, use "Franklin TN Guide Editorial Team" as the default. If the article data has a real `author` field, use that instead.
+- For `image`, prefer a real hero image. If none exists, point to a default Open Graph image at `/og-default.jpg` (note this in your report so I can create one).
+
+**CHECKPOINT 3.** Before applying site-wide, show me the rendered JSON-LD for ONE example article (`/articles/moving-to-franklin-tn-from-california` is a good test case) and ONE example news post (`/news/in-n-out-opens-franklin-tn`). Wait for me to confirm the field mappings.
+
+# Step 7 — Add Place schema to neighborhood guides
+
+Articles whose slugs identify a specific neighborhood (`westhaven-franklin-tn`, `berry-farms-franklin-tn`, `fieldstone-farms-franklin-tn`, `cool-springs-franklin-tn`, `downtown-franklin-tn-neighborhood`, `laurelbrooke-franklin-tn`, `mckays-mill-franklin-tn`, plus the `/neighborhoods` hub) should additionally include a Place schema block — alongside (not instead of) the Article schema from Step 6.
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "{neighborhood.name}",
+  "description": "{neighborhood.shortDescription}",
+  "containedInPlace": {
+    "@type": "City",
+    "name": "Franklin",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Franklin",
+      "addressRegion": "TN",
+      "addressCountry": "US"
+    }
+  },
+  "url": "https://franklintnguide.com/articles/{slug}"
+}
+```
+
+If you have lat/long data for the neighborhood (check the data source — there may not be any), add:
+```json
+"geo": {
+  "@type": "GeoCoordinates",
+  "latitude": ...,
+  "longitude": ...
+}
+```
+
+If lat/long is missing, flag for me — I'll source coordinates for the major neighborhoods and you can add in a second pass.
+
+# Step 8 — Author byline component + /about page
+
+Create two things:
+
+**A. An author-byline component** that renders at the top of every article and news page, showing:
+- "By Franklin TN Guide Editorial Team"
+- "Published [date] · Updated [date]" (if applicable)
+- Link the author name to `/about`
+
+**B. A real `/about` page** at `/about` with the following sections:
+
+- "About Franklin TN Guide" (1 paragraph: what the site is, who it's for — relocating families, prospective movers, people researching Williamson County)
+- "Our editorial standard" (1 paragraph: that the site is researched against public data, real local sources, and the editor's familiarity with Franklin and Williamson County; that costs/prices/data are updated regularly; that we err on the side of honest assessment over promotional copy)
+- "Who's behind this" (placeholder paragraph — I'll fill in real bio info later; for now use something like "Franklin TN Guide is published by a Middle Tennessee resident with on-the-ground familiarity with Franklin, Williamson County, and the surrounding region. The editorial team includes real estate professionals and longtime residents.")
+- "Contact" (an email address — use `hello@franklintnguide.com` as the default; I'll set up the inbox)
+- A note: "Franklin TN Guide may receive a referral fee when introducing readers to local real estate professionals. We disclose this because trust matters more than the fee."
+
+Add `/about` to the sitemap (changefreq: yearly, priority: 0.5).
+
+Add Person + Organization schema to `/about`:
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Franklin TN Guide",
+  "url": "https://franklintnguide.com/about",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Franklin TN Guide",
+    "url": "https://franklintnguide.com",
+    "email": "hello@franklintnguide.com",
+    "areaServed": {
+      "@type": "City",
+      "name": "Franklin, Tennessee"
+    }
+  }
+}
+```
+
+# Step 9 — Fix the homepage title and meta description
+
+Find the homepage `<title>` and `<meta name="description">`. Replace with:
+
+```html
+<title>Franklin, TN Guide — Moving, Living & Local Insider Info</title>
+<meta name="description" content="The honest local guide to Franklin, Tennessee — moving costs, neighborhoods, schools, restaurants, and what residents actually say about life in Williamson County.">
+```
+
+Also add Open Graph tags if missing:
+```html
+<meta property="og:title" content="Franklin, TN Guide — Moving, Living & Local Insider Info">
+<meta property="og:description" content="The honest local guide to Franklin, Tennessee — moving costs, neighborhoods, schools, restaurants, and what residents actually say about life in Williamson County.">
+<meta property="og:url" content="https://franklintnguide.com/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://franklintnguide.com/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+```
+
+For each article and news page, ensure the page-specific `<title>` and `<meta name="description">` are dynamic and pull from the article's frontmatter / data. If they're currently static or duplicated across pages, fix that — that alone is a major indexation blocker.
+
+# Step 10 — Validate
+
+After all changes are applied and deployed:
+
+1. Pick one URL from each schema-bearing page type:
+   - Homepage `/`
+   - One section/pillar page (`/cost-of-living`)
+   - One article (`/articles/moving-to-franklin-tn-from-california`)
+   - One news post (`/news/in-n-out-opens-franklin-tn`)
+   - One neighborhood guide (`/articles/westhaven-franklin-tn`)
+   - The `/about` page
+
+2. For each, paste the rendered HTML into Google's Rich Results Test at https://search.google.com/test/rich-results OR https://validator.schema.org/
+
+3. Report back: which schemas validated cleanly, which had warnings (warnings are OK if intentional — e.g., missing optional fields), and which had errors (errors need fixing before this is done).
+
+4. Also verify:
+   - `https://franklintnguide.com/sitemap.xml` renders without errors and reflects the updated changefreq/lastmod policy
+   - `https://franklintnguide.com/robots.txt` references the sitemap
+   - `curl -I` on each of the four 301'd URLs returns the right destination
+   - The homepage `<title>` and meta description show the new copy
+
+# Step 11 — What I'll do manually after you're done
+
+You don't do these; I'll handle them in GSC:
+1. GSC → Sitemaps → Refresh `sitemap.xml`
+2. GSC → URL Inspection → "Request indexing" on the top 10 pages (`/cost-of-living`, `/news/in-n-out-opens-franklin-tn`, `/articles/things-to-do-in-franklin-tn`, `/articles/franklin-tn-vs-nashville`, `/articles/moving-to-franklin-tn-from-california`, the homepage, `/schools`, `/articles/best-neighborhoods-in-franklin-tn`, `/about`, and one neighborhood page)
+3. GSC → Page indexing → Crawled - currently not indexed → click "Validate Fix" once the schema work has been live for 48 hrs
+4. GSC → Page indexing → Redirect error → click "Validate Fix"
+
+Just tell me when you're done with Step 10 and I'll run Step 11.
+
+# Constraints
+
+- Do not invent data. If an article has no `dateModified`, omit (or set equal to `datePublished` only where Google requires it like NewsArticle).
+- Do not strip or replace any existing schema markup without showing me what's there first.
+- Render all JSON-LD as `<script type="application/ld+json">` blocks in the page head, server-side, so it's in the initial HTML.
+- Do not add analytics, tracking pixels, or any third-party scripts in this change. Infrastructure + schema only.
+- If you discover an issue not listed here (e.g., a page with no `<title>`, an article with broken markdown, a route that 500s), flag it but don't fix it in the same change — separate concerns.
+- Keep all redirects as 301 (permanent), not 302. Permanence is what passes the link equity.
+
+When you're ready, begin Step 1 and stop at Checkpoint 1.
