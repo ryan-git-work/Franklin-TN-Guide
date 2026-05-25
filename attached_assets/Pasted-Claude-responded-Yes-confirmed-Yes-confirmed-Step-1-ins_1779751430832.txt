@@ -1,0 +1,75 @@
+Claude responded: Yes, confirmed.Yes, confirmed. Step 1 inspection looks accurate. Here's the field mapping for the 5 posts so they match your existing parser exactly:
+Drop these fields from each POST block (your parser doesn't read them, no point including):
+
+date_modified
+category
+author
+hero_image
+
+Translate these field names:
+
+description → metaDescription
+date_published → date
+
+Add these to each post (your parser reads them, my drafts didn't include them):
+
+metaTitle — same value as title
+keywords — array of 5-7 SEO keywords per post
+
+Here are the exact frontmatter blocks to use for each of the 5 posts. Body content stays exactly as written in the original POST blocks — just swap the frontmatter for these:
+
+Post 1 — Hawkers (hawkers-asian-street-food-mcewen-northside-franklin.md):
+yaml---
+slug: hawkers-asian-street-food-mcewen-northside-franklin
+title: Hawkers Asian Street Food Coming to McEwen Northside in Early 2026
+metaTitle: Hawkers Asian Street Food Coming to McEwen Northside in Early 2026
+metaDescription: The Nashville-favorite pan-Asian restaurant is opening its second Tennessee location at Franklin's McEwen Northside, joining Culinary Dropout in the district's newest $125 million building.
+date: 2026-05-25
+keywords: [Hawkers Asian Street Food Franklin TN, McEwen Northside restaurants, new restaurants Franklin TN 2026, Asian restaurant Franklin TN, Culinary Dropout Franklin, Cool Springs restaurants]
+---
+Post 2 — EMBREY Aureum (embrey-aureum-604-apartments-franklin.md):
+yaml---
+slug: embrey-aureum-604-apartments-franklin
+title: "604 New Apartments Coming to Franklin: EMBREY Closes on Aureum Phases II and III"
+metaTitle: "604 New Apartments Coming to Franklin: EMBREY Closes on Aureum Phases II and III"
+metaDescription: Texas-based EMBREY has closed on six acres near Carothers Parkway and East McEwen Drive for 604 apartment homes, the latest signal that Franklin's rental supply is finally starting to catch up with demand.
+date: 2026-05-25
+keywords: [Franklin TN apartments, new apartments Franklin TN 2026, EMBREY Aureum Franklin, Cool Springs apartments, Carothers Parkway apartments, Franklin TN rental market, Williamson County multifamily]
+---
+Post 3 — Liberty Pike (liberty-pike-roundabouts-franklin-2026.md):
+yaml---
+slug: liberty-pike-roundabouts-franklin-2026
+title: "Liberty Pike's Dual-Lane Roundabouts Set to Finish Mid-2026: What Franklin Commuters Need to Know"
+metaTitle: "Liberty Pike Dual-Lane Roundabouts Set to Finish Mid-2026 in Franklin TN"
+metaDescription: Two new dual-lane roundabouts at Liberty Pike's intersections with Stanwick Drive and Mallory Lane / North Royal Oaks Boulevard are scheduled to wrap by mid-2026. Here's what's actually changing and why it matters for your commute.
+date: 2026-05-25
+keywords: [Liberty Pike Franklin TN, Mallory Lane roundabout, Franklin TN traffic 2026, Cool Springs commute, Franklin TN road construction, Williamson County infrastructure, Royal Oaks Boulevard]
+---
+Post 4 — Char (char-steakhouse-canteen-carothers-franklin.md):
+yaml---
+slug: char-steakhouse-canteen-carothers-franklin
+title: Char Steakhouse to Open at Canteen on Carothers in Early 2026
+metaTitle: Char Steakhouse to Open at Canteen on Carothers in Franklin TN
+metaDescription: The Nashville-favorite upscale steakhouse, known for its nightly piano music, award-winning wine list, and 4Top Hospitality's understated polish, is bringing 6,500 square feet and about 50 jobs to Franklin's Canteen on Carothers.
+date: 2026-05-25
+keywords: [Char Steakhouse Franklin TN, Canteen on Carothers, upscale restaurants Franklin TN, 4Top Hospitality Franklin, Cool Springs steakhouse, new restaurants Franklin TN 2026, Carothers Parkway restaurants]
+---
+Post 5 — WillCo WellFest (willco-wellfest-factory-franklin-2026.md):
+yaml---
+slug: willco-wellfest-factory-franklin-2026
+title: "WillCo WellFest Brought 50+ Wellness Vendors to The Factory at Franklin: Here's What to Know for 2027"
+metaTitle: "WillCo WellFest at The Factory at Franklin: Recap and 2027 Preview"
+metaDescription: The inaugural WillCo WellFest at The Factory at Franklin drew a crowd of families on May 16 for a free, vendor-rich wellness festival. Organizers are positioning it as the start of an annual Williamson County tradition.
+date: 2026-05-25
+keywords: [WillCo WellFest Franklin TN, Factory at Franklin events, family events Franklin TN, Williamson County wellness, Franklin TN wellness festival, Dr. Anis Khalaf, integrative health Franklin TN]
+---
+
+A few notes:
+
+I shortened a couple of metaTitle values that would otherwise hit Google's ~60-character display limit and get truncated in SERPs. The original title stays full-length for the H1 on the page.
+I wrapped titles that contain colons in double quotes so the YAML parser doesn't misinterpret them.
+The sitemap auto-populates from src/content/news/*.md per your generate-sitemap.ts — no manual sitemap edits needed. Just confirm after build that the 5 new URLs appear in https://franklintnguide.com/sitemap.xml.
+The hardcoded "By Franklin TN Guide" byline in the template is fine. The "By Franklin TN Guide Editorial Team" framing in my drafts was just for the dropped author frontmatter field — the actual on-page byline stays as the template renders.
+Body content for each post stays exactly as in the original POST blocks — no changes there.
+
+Go ahead and proceed through Steps 2–5.
