@@ -14,6 +14,32 @@ const formatDate = (dateString: string) => {
   });
 };
 
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Franklin TN Guide',
+  url: 'https://franklintnguide.com',
+  logo: 'https://franklintnguide.com/images/hero-franklin.png',
+  description: 'Your comprehensive relocation guide to Franklin, Tennessee \u2014 neighborhoods, schools, cost of living, and lifestyle.',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'ryan@locheventures.com',
+    contactType: 'General Inquiries',
+  },
+};
+
+const siteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Franklin TN Guide',
+  url: 'https://franklintnguide.com',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://franklintnguide.com?q={search_term_string}',
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 export default function NewsArticle() {
   const [, params] = useRoute('/news/:slug');
   const slug = params?.slug ?? '';
@@ -83,6 +109,8 @@ export default function NewsArticle() {
         <meta name="twitter:image" content={ogImage} />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(orgSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(siteSchema)}</script>
       </Helmet>
 
       <article className="pb-24">
@@ -109,6 +137,12 @@ export default function NewsArticle() {
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-[#2D6A4F]" />
               <time dateTime={article.date} className="text-lg">{formatDate(article.date)}</time>
+            </div>
+            <div className="flex items-center gap-2 text-sm">
+              <span>By</span>
+              <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">
+                Franklin TN Guide
+              </Link>
             </div>
           </div>
         </header>

@@ -1,5 +1,4 @@
 import { PageWrapper } from '@/components/layout/page-wrapper';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { getAllNewsSync } from '@/lib/news';
 
@@ -15,22 +14,22 @@ const formatDate = (dateString: string) => {
 };
 
 export default function NewsIndex() {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://franklintnguide.com' },
+      { '@type': 'ListItem', position: 2, name: 'News', item: 'https://franklintnguide.com/news' },
+    ],
+  };
+
   return (
-    <PageWrapper>
-      <Helmet>
-        <title>Franklin TN News &amp; Updates | Franklin TN Guide</title>
-        <meta name="description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
-        <link rel="canonical" href="https://franklintnguide.com/news" />
-        <meta property="og:title" content="Franklin TN News &amp; Updates" />
-        <meta property="og:description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://franklintnguide.com/news" />
-        <meta property="og:image" content="https://franklintnguide.com/images/hero-franklin.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Franklin TN News &amp; Updates" />
-        <meta name="twitter:description" content="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community." />
-        <meta name="twitter:image" content="https://franklintnguide.com/images/hero-franklin.png" />
-      </Helmet>
+    <PageWrapper
+      title="Franklin TN News & Updates"
+      description="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community."
+      canonicalUrl="/news"
+      schema={breadcrumbSchema}
+    >
 
       {/* Header */}
       <header className="mb-16 pt-8">
@@ -61,9 +60,13 @@ export default function NewsIndex() {
                 className="bg-white rounded-2xl p-8 shadow-lg shadow-stone-100/50 border border-stone-100 hover:shadow-xl hover:shadow-stone-200/50 transition-all duration-300"
               >
                 <div className="flex flex-col gap-4">
-                  <time className="text-sm font-medium text-[#2D6A4F]">
-                    {formatDate(item.date)}
-                  </time>
+                  <div className="flex items-center gap-3 text-sm text-stone-500">
+                    <time className="font-medium text-[#2D6A4F]">
+                      {formatDate(item.date)}
+                    </time>
+                    <span>&middot;</span>
+                    <span>By <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-medium transition-colors">Franklin TN Guide</Link></span>
+                  </div>
                   <Link href={`/news/${item.slug}`}>
                     <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#1B2A4A] hover:text-[#2D6A4F] transition-colors cursor-pointer">
                       {item.title}

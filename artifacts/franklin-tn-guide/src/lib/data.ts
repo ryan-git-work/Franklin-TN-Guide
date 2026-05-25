@@ -14,11 +14,11 @@ export interface Article {
 export const articles: Record<string, Article> = {
   "why-move-to-franklin-tn": {
     slug: "why-move-to-franklin-tn",
-    title: "Why Move to Franklin, TN? 15 Reasons Families Are Relocating in 2025",
-    metaTitle: "Why Move to Franklin, TN? 15 Reasons Families Are Relocating in 2025",
+    title: "Why Move to Franklin, TN? 15 Reasons Families Are Relocating in 2026",
+    metaTitle: "Why Move to Franklin, TN? 15 Reasons Families Are Relocating in 2026",
     metaDescription: "Thinking about moving to Franklin, Tennessee? Discover why thousands of families, professionals, and retirees are choosing Franklin TN — from top-rated schools to a booming job market and small-town charm.",
     keywords: ["why move to Franklin TN", "moving to Franklin TN", "relocating to Franklin Tennessee", "Franklin TN relocation guide", "is Franklin TN a good place to live"],
-    date: "March 15, 2025",
+    date: "March 15, 2026",
     readTime: "12 min read",
     excerpt: "Discover why thousands of families, professionals, and retirees are choosing Franklin, TN — from top-rated schools to small-town charm.",
     imageUrl: "/images/hero-franklin.png",
@@ -58,11 +58,11 @@ The decision to move is never easy, but Franklin makes a compelling case. It’s
   },
   "best-neighborhoods-in-franklin-tn": {
     slug: "best-neighborhoods-in-franklin-tn",
-    title: "Best Neighborhoods in Franklin, TN: A Complete Guide for 2025",
-    metaTitle: "Best Neighborhoods in Franklin, TN: A Complete Guide (2025)",
+    title: "Best Neighborhoods in Franklin, TN: A Complete Guide for 2026",
+    metaTitle: "Best Neighborhoods in Franklin, TN: A Complete Guide (2026)",
     metaDescription: "Explore the best neighborhoods in Franklin, TN. From the historic charm of Downtown to the resort lifestyle of Westhaven and the convenience of Cool Springs.",
     keywords: ["best neighborhoods in Franklin TN", "where to live in Franklin Tennessee", "Westhaven Franklin TN", "Downtown Franklin homes", "safe neighborhoods Franklin TN"],
-    date: "March 20, 2025",
+    date: "March 20, 2026",
     readTime: "14 min read",
     excerpt: "A deep dive into Franklin's most sought-after communities, helping you find the perfect fit for your lifestyle, budget, and family.",
     imageUrl: "/images/westhaven-neighborhood.png",
@@ -98,10 +98,10 @@ There's no objectively "best" neighborhood in Franklin — only the best neighbo
   "williamson-county-schools-guide": {
     slug: "williamson-county-schools-guide",
     title: "Williamson County Schools: Complete Guide for Families Moving to Franklin TN",
-    metaTitle: "Williamson County Schools: Complete Guide for Families Moving to Franklin TN (2025)",
+    metaTitle: "Williamson County Schools: Complete Guide for Families Moving to Franklin TN (2026)",
     metaDescription: "Williamson County Schools are among the best in the nation. Here's everything families relocating to Franklin, TN need to know — schools by zone, test scores, programs, and what makes WCS different.",
     keywords: ["Williamson County Schools", "Franklin TN schools", "best schools in Franklin TN", "moving to Franklin TN schools", "Williamson County Schools guide"],
-    date: "March 22, 2025",
+    date: "March 22, 2026",
     readTime: "11 min read",
     excerpt: "Williamson County Schools are among the best in the nation. Here's everything families relocating to Franklin, TN need to know.",
     imageUrl: "/images/schools-hero.png",
@@ -164,10 +164,10 @@ The single most important practical advice for families buying in Franklin: veri
   "cost-of-living-franklin-tn": {
     slug: "cost-of-living-franklin-tn",
     title: "Cost of Living in Franklin, TN: What to Actually Expect in 2025",
-    metaTitle: "Cost of Living in Franklin, TN: What to Actually Expect in 2025",
+    metaTitle: "Cost of Living in Franklin, TN: What to Actually Expect in 2026",
     metaDescription: "Thinking about moving to Franklin, TN? Here's an honest, detailed breakdown of the cost of living — housing, taxes, groceries, utilities, and how Franklin compares to where you're coming from.",
     keywords: ["cost of living Franklin TN", "Franklin TN cost of living", "is Franklin TN expensive", "moving to Franklin TN cost", "Franklin Tennessee housing costs"],
-    date: "March 22, 2025",
+    date: "March 22, 2026",
     readTime: "10 min read",
     excerpt: "An honest, detailed breakdown of the cost of living — housing, taxes, groceries, utilities, and how Franklin compares to where you're coming from.",
     imageUrl: "/images/cost-of-living-franklin.png",
@@ -254,10 +254,10 @@ One of Franklin's genuine advantages: public education through Williamson County
   "franklin-tn-vs-nashville": {
     slug: "franklin-tn-vs-nashville",
     title: "Franklin, TN vs. Nashville — Which Is Right for You?",
-    metaTitle: "Franklin TN vs Nashville: Which Is Right for You? (2025 Guide)",
+    metaTitle: "Franklin TN vs Nashville: Which Is Right for You? (2026 Guide)",
     metaDescription: "Deciding between Franklin TN and Nashville? This honest comparison covers cost of living, schools, lifestyle, commute, and neighborhoods to help you choose the right fit.",
     keywords: ["Franklin TN vs Nashville", "Franklin vs Nashville", "should I live in Franklin or Nashville", "moving to Franklin vs Nashville Tennessee", "Nashville vs Franklin TN"],
-    date: "March 22, 2025",
+    date: "March 22, 2026",
     readTime: "9 min read",
     excerpt: "Deciding between Franklin TN and Nashville? This honest comparison covers cost of living, schools, lifestyle, commute, and neighborhoods to help you choose the right fit.",
     imageUrl: "/images/franklin-vs-nashville.png",
@@ -668,7 +668,7 @@ This phase is where most relocating families either hit their stride or get over
 **Related reading:**
 
 - [Why Move to Franklin, TN? 15 Reasons People Are Relocating Here](/articles/why-move-to-franklin-tn)
-- [Best Neighborhoods in Franklin, TN: A Complete Guide](/articles/best-neighborhoods-in-franklin-tn)
+- [Best Neighborhoods in Franklin, TN: A Complete Guide](/neighborhoods)
 - [Williamson County Schools: A Complete Guide for Families](/schools)
 - [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
     `
@@ -1906,7 +1906,7 @@ For people matching that profile, Franklin's reputation is earned, not manufactu
 **Related reading:**
 
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
     `
   },
@@ -2032,7 +2032,7 @@ It's not the objectively best neighborhood in Franklin (that's a matter of prior
 
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
     `
   },
   "moving-to-franklin-tn-from-texas": {
@@ -2126,7 +2126,7 @@ The move works for people who wanted to exit the Texas growth economy, not for p
 
 **Related reading:**
 
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
     `
@@ -2224,7 +2224,7 @@ Being clear about what you're trading — and what you're gaining — determines
 
 **Related reading:**
 
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Pros and Cons of Living in Franklin, TN](/articles/pros-cons-living-franklin-tn)
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
     `
@@ -2432,7 +2432,7 @@ For families who prioritize financial wisdom, established community, and practic
 **Related reading:**
 
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
     `
   },
@@ -2569,7 +2569,7 @@ The choice depends less on Nashville's appeal and more on your family profile, p
 
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
     `
   },
   "cool-springs-franklin-tn": {
@@ -2652,7 +2652,7 @@ Unlike Westhaven or Berry Farms, Cool Springs doesn't aspire to be anything othe
 
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
 - [Westhaven Franklin TN: Complete Neighborhood Guide](/articles/westhaven-franklin-tn)
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
     `
   },
   "downtown-franklin-tn-neighborhood": {
@@ -2869,7 +2869,7 @@ The move is harder for dual-career couples dependent on DC employment, and for p
 
 **Related reading:**
 
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
 - [Pros and Cons of Living in Franklin, TN](/articles/pros-cons-living-franklin-tn)
     `
@@ -3098,7 +3098,7 @@ For families committed to living in Franklin long-term, buying at current prices
 
 **Related reading:**
 
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
     `
@@ -3171,7 +3171,7 @@ The city works best for people who either already have portable income or are mo
 
 **Related reading:**
 
-- [Cost of Living in Franklin, TN: What to Actually Expect](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN: What to Actually Expect](/cost-of-living)
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
 - [Why Move to Franklin, TN? 15 Reasons](/articles/why-move-to-franklin-tn)
     `
@@ -3278,7 +3278,7 @@ Franklin High is a very good school in a very good district. It is not unusual t
 
 **Related reading:**
 
-- [Williamson County Schools: Complete Guide for Families](/articles/williamson-county-schools-guide)
+- [Williamson County Schools: Complete Guide for Families](/schools)
 - [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-franklin-tn)
 - [Moving to Franklin, TN from Texas](/articles/moving-to-franklin-tn-from-texas)
     `
@@ -3476,10 +3476,10 @@ I live in Franklin, I've helped Atlanta transplants make this move, and I work a
 
 ### Related reading
 
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
-- [Williamson County Schools: Complete Guide](/articles/williamson-county-schools-guide)
-- [Cost of Living in Franklin, TN](/articles/cost-of-living-franklin-tn)
-- [Franklin TN vs Nashville](/articles/franklin-tn-vs-nashville)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
+- [Williamson County Schools: Complete Guide](/schools)
+- [Cost of Living in Franklin, TN](/cost-of-living)
+- [Franklin TN vs Nashville](/franklin-vs-nashville)
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
     `
   },
@@ -3609,10 +3609,10 @@ I live in Franklin, I've helped New England buyers make this move, and I work as
 ### Related reading
 
 - [Moving to Franklin, TN from New York](/articles/moving-to-franklin-tn-from-new-york)
-- [Cost of Living in Franklin, TN](/articles/cost-of-living-franklin-tn)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
-- [Williamson County Schools Guide](/articles/williamson-county-schools-guide)
-- [Franklin TN vs Nashville](/articles/franklin-tn-vs-nashville)
+- [Cost of Living in Franklin, TN](/cost-of-living)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
+- [Williamson County Schools Guide](/schools)
+- [Franklin TN vs Nashville](/franklin-vs-nashville)
     `
   },
   "franklin-tn-vs-spring-hill": {
@@ -3763,9 +3763,9 @@ I live in Franklin, I work as a referral agent for buyers across Williamson Coun
 
 - [Best Places to Live Near Nashville](/articles/best-places-to-live-near-nashville)
 - [Brentwood vs Franklin TN](/articles/brentwood-vs-franklin-tn)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
-- [Williamson County Schools Guide](/articles/williamson-county-schools-guide)
-- [Cost of Living in Franklin, TN](/articles/cost-of-living-franklin-tn)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
+- [Williamson County Schools Guide](/schools)
+- [Cost of Living in Franklin, TN](/cost-of-living)
     `
   },
   "franklin-tn-vs-nolensville": {
@@ -3910,8 +3910,8 @@ I live in Franklin, work as a referral agent across Williamson County, and have 
 - [Franklin TN vs Spring Hill TN](/articles/franklin-tn-vs-spring-hill)
 - [Brentwood vs Franklin TN](/articles/brentwood-vs-franklin-tn)
 - [Best Places to Live Near Nashville](/articles/best-places-to-live-near-nashville)
-- [Williamson County Schools Guide](/articles/williamson-county-schools-guide)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
+- [Williamson County Schools Guide](/schools)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
     `
   },
   "laurelbrooke-franklin-tn": {
@@ -4069,9 +4069,9 @@ I live in Franklin, work as a referral agent connecting buyers to top local agen
 ### Related reading
 
 - [Westhaven Franklin TN: Complete Guide](/articles/westhaven-franklin-tn)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
-- [Williamson County Schools Guide](/articles/williamson-county-schools-guide)
+- [Williamson County Schools Guide](/schools)
     `
   },
   "mckays-mill-franklin-tn": {
@@ -4230,10 +4230,10 @@ I live in Franklin, work as a referral agent, and have helped many families comp
 
 ### Related reading
 
-- [Best Neighborhoods in Franklin, TN for Families](/articles/best-neighborhoods-in-franklin-tn)
+- [Best Neighborhoods in Franklin, TN for Families](/neighborhoods)
 - [Westhaven Franklin TN](/articles/westhaven-franklin-tn)
-- [Williamson County Schools Guide](/articles/williamson-county-schools-guide)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
+- [Williamson County Schools Guide](/schools)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
     `
   },
   "retiring-in-franklin-tn": {
@@ -4383,9 +4383,9 @@ I live in Franklin, work as a referral agent, and have helped a number of retire
 
 ### Related reading
 
-- [Cost of Living in Franklin, TN](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN](/cost-of-living)
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
 - [Is Franklin, TN Safe?](/articles/is-franklin-tn-safe)
 - [Pros and Cons of Living in Franklin, TN](/articles/pros-cons-living-franklin-tn)
     `
@@ -4530,7 +4530,7 @@ I live in Franklin, work as a referral agent, and have helped buyers navigate tr
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
 - [Berry Farms Franklin TN](/articles/berry-farms-franklin-tn)
 - [Westhaven Franklin TN](/articles/westhaven-franklin-tn)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
     `
   },
   "franklin-tn-property-taxes": {
@@ -4693,7 +4693,7 @@ I live in Franklin, work as a referral agent, and have walked through the tax ma
 
 ### Related reading
 
-- [Cost of Living in Franklin, TN](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN](/cost-of-living)
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
 - [Why Move to Franklin, TN](/articles/why-move-to-franklin-tn)
 - [Retiring in Franklin, TN](/articles/retiring-in-franklin-tn)
@@ -4854,9 +4854,9 @@ I live in Franklin, work as a referral agent, and have helped a number of remote
 
 ### Related reading
 
-- [Cost of Living in Franklin, TN](/articles/cost-of-living-franklin-tn)
+- [Cost of Living in Franklin, TN](/cost-of-living)
 - [Franklin TN Job Market 2026](/articles/franklin-tn-job-market)
-- [Best Neighborhoods in Franklin, TN](/articles/best-neighborhoods-in-franklin-tn)
+- [Best Neighborhoods in Franklin, TN](/neighborhoods)
 - [Why Move to Franklin, TN](/articles/why-move-to-franklin-tn)
 - [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes)
     `

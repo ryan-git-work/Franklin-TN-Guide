@@ -3,11 +3,21 @@ import { Link } from "wouter";
 import { ArrowRight, Check } from "lucide-react";
 
 export default function Schools() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+      { "@type": "ListItem", position: 2, name: "Schools", item: "https://franklintnguide.com/schools" },
+    ],
+  };
+
   return (
-    <PageWrapper 
-      title="Schools & Education" 
+    <PageWrapper
+      title="Schools & Education"
       description="Everything families need to know about Franklin TN schools — Williamson County Schools, Franklin Special School District, top high schools, and private school options. One of the best school districts in the nation."
       canonicalUrl="/schools"
+      schema={breadcrumbSchema}
     >
       <div className="bg-primary pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
@@ -17,6 +27,9 @@ export default function Schools() {
           <p className="text-xl text-white/80 font-light leading-relaxed">
             A Complete Guide for Relocating Families
           </p>
+          <div className="mt-6 text-white/60 text-sm">
+            By <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">Franklin TN Guide</Link>
+          </div>
         </div>
       </div>
 
@@ -301,7 +314,7 @@ export default function Schools() {
             <h4 className="font-semibold text-foreground mb-6">Related Articles</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/articles/best-neighborhoods-in-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/neighborhoods" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Best Neighborhoods in Franklin, TN: A Complete Guide
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -313,13 +326,13 @@ export default function Schools() {
                 </Link>
               </li>
               <li>
-                <Link href="/articles/cost-of-living-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/cost-of-living" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Cost of Living in Franklin, TN: What to Actually Expect
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href="/articles/franklin-tn-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/franklin-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Franklin TN vs. Nashville: Which Is Right for You?
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>

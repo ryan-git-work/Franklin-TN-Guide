@@ -9,11 +9,12 @@ interface PageWrapperProps {
   title?: string;
   description?: string;
   canonicalUrl?: string;
-  schema?: Record<string, any>;
+  schema?: Record<string, any> | Record<string, any>[];
   type?: 'website' | 'article';
+  ogImage?: string;
 }
 
-export function PageWrapper({ children, title, description, canonicalUrl, schema, type }: PageWrapperProps) {
+export function PageWrapper({ children, title, description, canonicalUrl, schema, type, ogImage }: PageWrapperProps) {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {title && description && (
@@ -23,6 +24,7 @@ export function PageWrapper({ children, title, description, canonicalUrl, schema
           canonicalUrl={canonicalUrl}
           schema={schema}
           type={type}
+          ogImage={ogImage}
         />
       )}
       <Navbar />

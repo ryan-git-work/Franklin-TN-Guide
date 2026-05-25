@@ -9,10 +9,52 @@ interface SEOProps {
   ogImage?: string;
 }
 
+const siteUrl = 'https://franklintnguide.com';
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Franklin TN Guide',
+  url: siteUrl,
+  logo: `${siteUrl}/images/hero-franklin.png`,
+  description: 'Your comprehensive relocation guide to Franklin, Tennessee \u2014 neighborhoods, schools, cost of living, and lifestyle.',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'ryan@locheventures.com',
+    contactType: 'General Inquiries',
+  },
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Franklin TN Guide',
+  url: siteUrl,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${siteUrl}?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+function renderSchema(schema: Record<string, any>, key: string) {
+  return (
+    <script key={key} type="application/ld+json">{JSON.stringify(schema)}</script>
+  );
+}
+
 export function SEO({ title, description, canonicalUrl, type = 'website', schema, ogImage }: SEOProps) {
-  const siteUrl = 'https://franklintnguide.com';
   const fullCanonical = canonicalUrl ? `${siteUrl}${canonicalUrl}` : siteUrl;
   const image = ogImage || 'https://franklintnguide.com/images/hero-franklin.png';
+
+  const allSchemas: Record<string, any>[] = [organizationSchema, websiteSchema];
+  if (schema) {
+    if (Array.isArray(schema)) {
+      allSchemas.push(...schema);
+    } else {
+      allSchemas.push(schema);
+    }
+  }
 
   return (
     <Helmet>
@@ -35,11 +77,7 @@ export function SEO({ title, description, canonicalUrl, type = 'website', schema
 
       <link rel="canonical" href={fullCanonical} />
 
-      {schema && (
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-      )}
+      {allSchemas.map((s, i) => renderSchema(s, String(i)))}
     </Helmet>
   );
 }

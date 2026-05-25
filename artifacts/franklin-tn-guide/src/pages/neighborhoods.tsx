@@ -3,11 +3,43 @@ import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
 
 export default function Neighborhoods() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+      { "@type": "ListItem", position: 2, name: "Neighborhoods", item: "https://franklintnguide.com/neighborhoods" },
+    ],
+  };
+
+  const placeSchema = {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    name: "Franklin, Tennessee",
+    description: "A historic city in Williamson County, Tennessee, consistently ranked among the best places to live in the United States.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Franklin",
+      addressRegion: "TN",
+      addressCountry: "US",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "35.9251",
+      longitude: "-86.8689",
+    },
+    containedInPlace: {
+      "@type": "AdministrativeArea",
+      name: "Williamson County",
+    },
+  };
+
   return (
-    <PageWrapper 
-      title="Best Neighborhoods" 
+    <PageWrapper
+      title="Best Neighborhoods"
       description="Explore Franklin Tennessee's best neighborhoods — from the historic downtown to Westhaven, Berry Farms, Cool Springs, and Fieldstone Farms. Find the right fit for your lifestyle and budget."
       canonicalUrl="/neighborhoods"
+      schema={[breadcrumbSchema, placeSchema]}
     >
       <div className="bg-primary pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
@@ -17,6 +49,9 @@ export default function Neighborhoods() {
           <p className="text-xl text-white/80 font-light leading-relaxed">
             Find Your Perfect Community
           </p>
+          <div className="mt-6 text-white/60 text-sm">
+            By <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">Franklin TN Guide</Link>
+          </div>
         </div>
       </div>
 
@@ -446,7 +481,7 @@ export default function Neighborhoods() {
                 </a>
               </li>
               <li>
-                <Link href="/articles/cost-of-living-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/cost-of-living" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Cost of Living in Franklin, TN: What to Actually Expect
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>

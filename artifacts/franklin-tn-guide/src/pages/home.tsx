@@ -12,14 +12,22 @@ export default function Home() {
     "url": "https://franklintnguide.com",
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+    ],
+  };
+
   const articleList = Object.values(articles);
 
   return (
-    <PageWrapper 
-      title="Welcome to Franklin, Tennessee" 
+    <PageWrapper
+      title="Welcome to Franklin, Tennessee"
       description="Whether you're relocating for a new career, seeking top-tier schools, or simply craving historic charm with modern luxury, your journey starts here."
       type="website"
-      schema={homeSchema}
+      schema={[homeSchema, breadcrumbSchema]}
     >
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">

@@ -3,11 +3,21 @@ import { Link } from "wouter";
 import { ArrowRight, TrendingDown } from "lucide-react";
 
 export default function CostOfLiving() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+      { "@type": "ListItem", position: 2, name: "Cost of Living", item: "https://franklintnguide.com/cost-of-living" },
+    ],
+  };
+
   return (
-    <PageWrapper 
-      title="Cost of Living" 
+    <PageWrapper
+      title="Cost of Living"
       description="Is Franklin, TN expensive? Here's an honest breakdown of Franklin's cost of living — housing prices, rent, taxes, utilities, groceries, and how it compares to where you're moving from."
       canonicalUrl="/cost-of-living"
+      schema={breadcrumbSchema}
     >
       <div className="bg-primary pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
@@ -17,6 +27,9 @@ export default function CostOfLiving() {
           <p className="text-xl text-white/80 font-light leading-relaxed">
             What to Actually Expect
           </p>
+          <div className="mt-6 text-white/60 text-sm">
+            By <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">Franklin TN Guide</Link>
+          </div>
         </div>
       </div>
 
@@ -397,7 +410,7 @@ export default function CostOfLiving() {
                 </Link>
               </li>
               <li>
-                <Link href="/articles/franklin-tn-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/franklin-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Franklin TN vs. Nashville: Which Is Right for You?
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>

@@ -8,6 +8,15 @@ export default function About() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+      { "@type": "ListItem", position: 2, name: "About", item: "https://franklintnguide.com/about" },
+    ],
+  };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -39,6 +48,7 @@ export default function About() {
       title="About Franklin TN Guide"
       description="Franklin TN Guide is a local resource for anyone moving to or living in Franklin, Tennessee. Honest guides on neighborhoods, schools, restaurants, things to do, and everything in between."
       canonicalUrl="/about"
+      schema={breadcrumbSchema}
     >
       <div className="bg-primary pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
@@ -48,6 +58,9 @@ export default function About() {
           <p className="text-xl text-white/80 font-light leading-relaxed">
             Franklin TN Guide was built by someone who actually lives here.
           </p>
+          <div className="mt-6 text-white/60 text-sm">
+            Created by <span className="font-semibold text-white/80">Franklin TN Guide</span> &middot; <a href="mailto:ryan@locheventures.com" className="hover:text-white transition-colors">ryan@locheventures.com</a>
+          </div>
         </div>
       </div>
 
@@ -210,7 +223,7 @@ export default function About() {
               </Link>
             </li>
             <li>
-              <Link href="/articles/franklin-tn-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/franklin-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Franklin vs. Nashville
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
