@@ -7,8 +7,6 @@ date: 2026-05-25
 keywords: [Hawkers Asian Street Food Franklin TN, McEwen Northside restaurants, new restaurants Franklin TN 2026, Asian restaurant Franklin TN, Culinary Dropout Franklin, Cool Springs restaurants]
 ---
 
-# Hawkers Asian Street Food Coming to McEwen Northside in Early 2026
-
 The pan-Asian restaurant best known as a craft cocktail and shareable-plates favorite in East Nashville is heading south. Hawkers Asian Street Food has confirmed it will open its second Tennessee location at McEwen Northside in Franklin in early 2026, anchoring the ground floor of the district's newest building alongside Culinary Dropout.
 
 For Franklin's dining scene, this is another data point in a years-long pattern: Nashville's stronger restaurant brands are no longer waiting for a Franklin location to be the back-of-the-roadmap nice-to-have. They're treating McEwen Northside and the surrounding Cool Springs corridor as a first-choice market on its own merits.

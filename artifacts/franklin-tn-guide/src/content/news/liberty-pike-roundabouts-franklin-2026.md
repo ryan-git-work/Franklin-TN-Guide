@@ -7,8 +7,6 @@ date: 2026-05-25
 keywords: [Liberty Pike Franklin TN, Mallory Lane roundabout, Franklin TN traffic 2026, Cool Springs commute, Franklin TN road construction, Williamson County infrastructure, Royal Oaks Boulevard]
 ---
 
-# Liberty Pike's Dual-Lane Roundabouts Set to Finish Mid-2026: What Franklin Commuters Need to Know
-
 If you live in Franklin and your daily route puts you through the Mallory Lane / Liberty Pike / North Royal Oaks Boulevard intersection, you've been driving through one of the city's most consistently congested choke points for years. That's about to change. Two new dual-lane roundabouts, one at Liberty Pike and Stanwick Drive, and one at the Mallory Lane / Royal Oaks / Liberty Pike intersection, are scheduled to be complete by mid-2026 as part of the Liberty Pike corridor improvements.
 
 For a city that has spent the past decade absorbing population growth without proportional roadway expansion, this is one of the higher-impact local infrastructure projects coming online this year. Here's what's actually being built, when, and why it matters for the routes most relocators end up using.

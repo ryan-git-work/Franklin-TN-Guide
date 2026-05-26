@@ -7,8 +7,6 @@ date: 2026-05-25
 keywords: [Franklin TN apartments, new apartments Franklin TN 2026, EMBREY Aureum Franklin, Cool Springs apartments, Carothers Parkway apartments, Franklin TN rental market, Williamson County multifamily]
 ---
 
-# 604 New Apartments Coming to Franklin: EMBREY Closes on Aureum Phases II and III
-
 EMBREY, the San Antonio-based real estate investment company, has closed on six acres of land in Franklin for the next two phases of Aureum, a multifamily development inside SouthStar's 22-acre Aureum master-planned project in the Cool Springs submarket. The combined development will deliver 604 apartment homes across two three-acre sites near the intersection of Carothers Parkway and East McEwen Drive, directly adjacent to Interstate 65.
 
 For anyone trying to read the actual signals on Franklin's housing market -- not the headlines, but where capital is moving and what supply is coming online -- this announcement is one of the more substantive data points of early 2026.

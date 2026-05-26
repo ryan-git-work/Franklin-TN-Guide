@@ -7,8 +7,6 @@ date: 2026-05-25
 keywords: [Char Steakhouse Franklin TN, Canteen on Carothers, upscale restaurants Franklin TN, 4Top Hospitality Franklin, Cool Springs steakhouse, new restaurants Franklin TN 2026, Carothers Parkway restaurants]
 ---
 
-# Char Steakhouse to Open at Canteen on Carothers in Early 2026
-
 Char, the Nashville steakhouse known for its nightly piano music, elevated comfort food, and the kind of award-winning wine list that pulls in older diners who've been doing this for decades, is opening a Franklin location at Canteen on Carothers in early 2026. The new restaurant will occupy 6,500 square feet inside the mixed-use development, create approximately 50 new jobs, and seat more than 200 guests across its dining room and outdoor patio.
 
 For Franklin's higher-end dining scene, which has been gradually maturing toward something competitive with the best of Nashville, this is one of the more consequential openings of the year.

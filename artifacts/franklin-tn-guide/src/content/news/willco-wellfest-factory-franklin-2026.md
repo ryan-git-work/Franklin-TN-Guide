@@ -7,8 +7,6 @@ date: 2026-05-25
 keywords: [WillCo WellFest Franklin TN, Factory at Franklin events, family events Franklin TN, Williamson County wellness, Franklin TN wellness festival, Dr. Anis Khalaf, integrative health Franklin TN]
 ---
 
-# WillCo WellFest Brought 50+ Wellness Vendors to The Factory at Franklin: Here's What to Know for 2027
-
 The inaugural WillCo WellFest landed at The Factory at Franklin on May 16, drawing families from across Williamson County for a free, all-day festival anchored around integrative health, family wellness, and a live podcast experience. Organizer Dr. Anis Khalaf, the medically trained acupuncture physician behind Acupuncture Fit, built the event as a community gathering with the explicit ambition of becoming one of Williamson County's largest annual family wellness events.
 
 For relocators trying to get an honest read on what life in Franklin actually looks like outside the relocation-brochure version, events like this are useful data. Here's what the festival was, how it landed, and what to expect if you're considering attending the next one.
