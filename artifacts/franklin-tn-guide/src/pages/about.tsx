@@ -199,37 +199,37 @@ export default function About() {
           <h4 className="font-semibold text-foreground mb-6">Explore the Guide</h4>
           <ul className="space-y-3">
             <li>
-              <Link href="/articles/why-move-to-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/articles/why-move-to-franklin-tn/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Why Move to Franklin, TN?
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </li>
             <li>
-              <Link href="/neighborhoods" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/neighborhoods/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Best Neighborhoods in Franklin
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </li>
             <li>
-              <Link href="/schools" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/schools/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Williamson County Schools Guide
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </li>
             <li>
-              <Link href="/cost-of-living" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/cost-of-living/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Cost of Living in Franklin
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </li>
             <li>
-              <Link href="/franklin-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/franklin-vs-nashville/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Franklin vs. Nashville
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </li>
             <li>
-              <Link href="/articles/things-to-do-in-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+              <Link href="/articles/things-to-do-in-franklin-tn/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                 Things to Do in Franklin
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>

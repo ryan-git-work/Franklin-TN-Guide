@@ -3462,13 +3462,11 @@ The biggest mistake Atlantans make is moving without scouting neighborhoods care
 
 ---
 
-## Talk to a Franklin local before you move
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, I've helped Atlanta transplants make this move, and I work as a referral agent for the buyers and sellers I send to top local agents. If you're 6–12 months out from a move and want a free 30-minute call to talk through neighborhoods, schools, and budget realities — no sales pitch, just real local knowledge — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -3592,13 +3590,11 @@ The biggest mistakes are made by buyers who skip the second scouting visit, unde
 
 ---
 
-## Talk to a Franklin local before you move
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, I've helped New England buyers make this move, and I work as a referral agent connecting buyers and sellers to top local agents. If you're 6–12 months out and want a free 30-minute call to talk through neighborhoods, schools, taxes, and the parts you're worried about — no sales pitch — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -3743,13 +3739,11 @@ The right answer is the one your budget supports without strain, and the one tha
 
 ---
 
-## Need help deciding?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, I work as a referral agent for buyers across Williamson County, and I've helped families talk through this exact decision dozens of times. If you want a free 30-minute call to walk through your specific situation — work location, family stage, budget, and priorities — book a time below. No pitch, no pressure.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -3887,13 +3881,11 @@ Both are excellent. The right answer is the one that matches your priorities and
 
 ---
 
-## Need help deciding?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent across Williamson County, and have helped dozens of families walk through this exact comparison. If you want a free 30-minute call to talk through schools, neighborhoods, commute, and budget for your specific situation — no pitch — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -4046,13 +4038,11 @@ The right Laurelbrooke buyer knows which side of that line they're on before the
 
 ---
 
-## Considering Laurelbrooke?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent connecting buyers to top local agents, and know Laurelbrooke and Franklin's luxury market well. If you want a free 30-minute call to talk through whether Laurelbrooke fits your priorities — and how it compares to Westhaven, Legends Ridge, and other luxury options — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -4206,13 +4196,11 @@ The buyers who don't fit here are those who'd prefer larger lots, newer construc
 
 ---
 
-## Considering McKays Mill?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent, and have helped many families compare McKays Mill to Fieldstone Farms, Westhaven, and Berry Farms. If you want a free 30-minute call to talk through whether McKays Mill fits your priorities — and how it compares to other Franklin family neighborhoods — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -4357,13 +4345,11 @@ For everyone else, the combination of tax structure, healthcare access, cultural
 
 ---
 
-## Considering retirement in Franklin?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent, and have helped a number of retirees navigate this move. If you want a free 30-minute call to talk through your specific situation — budget, healthcare needs, neighborhood fit, and timing — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -4499,13 +4485,11 @@ The single most valuable thing you can do as a buyer: bring your own representat
 
 ---
 
-## Considering new construction in Franklin?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent, and have helped buyers navigate transactions with most of the active builders in the Williamson County market. If you want a free 30-minute call to talk through builder options, contract red flags, and the right communities for your priorities — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -4663,13 +4647,11 @@ That savings, year after year, is roughly equivalent to a paid-off second mortga
 
 ---
 
-## Questions about Franklin's tax structure?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent, and have walked through the tax math with dozens of relocators. If you want a free 30-minute call to look at your specific situation — current state taxes, projected Tennessee bill, and whether the financial case justifies the move — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 
@@ -4822,13 +4804,11 @@ If that profile fits, Franklin deserves a serious look.
 
 ---
 
-## Considering Franklin as your remote-work base?
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
-I live in Franklin, work as a referral agent, and have helped a number of remote-working buyers think through this move. If you want a free 30-minute call to talk through neighborhoods, internet/infrastructure, school options if relevant, and whether Franklin matches your specific work situation — book a time below.
+[**Book a free Franklin relocation call**](/contact/)
 
-[**Book a free relocation call →**](/contact)
-
-[**Download the free Franklin Relocation Toolkit (PDF)** →](/toolkit)
+[**Download the free Franklin Relocation Toolkit**](/toolkit/)
 
 ---
 

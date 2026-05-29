@@ -28,7 +28,7 @@ export default function Schools() {
             A Complete Guide for Relocating Families
           </p>
           <div className="mt-6 text-white/60 text-sm">
-            By <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">Franklin TN Guide</Link>
+            By <Link href="/about/" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">Franklin TN Guide</Link>
           </div>
         </div>
       </div>
@@ -314,25 +314,25 @@ export default function Schools() {
             <h4 className="font-semibold text-foreground mb-6">Related Articles</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/neighborhoods" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/neighborhoods/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Best Neighborhoods in Franklin, TN: A Complete Guide
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href="/articles/why-move-to-franklin-tn" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/articles/why-move-to-franklin-tn/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Why Move to Franklin, TN? 15 Reasons People Are Relocating Here
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href="/cost-of-living" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/cost-of-living/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Cost of Living in Franklin, TN: What to Actually Expect
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href="/franklin-vs-nashville" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/franklin-vs-nashville/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Franklin TN vs. Nashville: Which Is Right for You?
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>

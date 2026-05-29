@@ -41,7 +41,7 @@ const siteSchema = {
 };
 
 export default function NewsArticle() {
-  const [, params] = useRoute('/news/:slug');
+  const [, params] = useRoute('/news/:slug/');
   const slug = params?.slug ?? '';
   const article = getNewsBySlugSync(slug);
 
@@ -51,7 +51,7 @@ export default function NewsArticle() {
         <div className="max-w-5xl mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-serif font-bold text-[#1B2A4A] mb-4">Article Not Found</h1>
           <p className="text-stone-600 mb-8">The news article you're looking for doesn't exist.</p>
-          <Link href="/news">
+          <Link href="/news/">
             <span className="inline-block text-[#2D6A4F] hover:text-[#1e4a36] font-semibold cursor-pointer">
               ← Back to News
             </span>
@@ -116,7 +116,7 @@ export default function NewsArticle() {
       <article className="pb-24">
         {/* Navigation */}
         <div className="max-w-5xl mx-auto px-4 pt-8 mb-8">
-          <Link href="/news">
+          <Link href="/news/">
             <span className="text-[#2D6A4F] hover:text-[#1e4a36] text-sm font-medium cursor-pointer">
               ← Back to News
             </span>
@@ -140,7 +140,7 @@ export default function NewsArticle() {
             </div>
             <div className="flex items-center gap-2 text-sm">
               <span>By</span>
-              <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">
+              <Link href="/about/" className="text-[#2D6A4F] hover:text-[#1e4a36] font-semibold transition-colors">
                 Franklin TN Guide
               </Link>
             </div>
@@ -161,17 +161,25 @@ export default function NewsArticle() {
               F
             </div>
             <h3 className="text-3xl font-serif font-bold text-[#1B2A4A] mb-4">
-              Thinking about moving to Franklin?
+              Considering a move to Franklin?
             </h3>
             <p className="text-stone-600 text-lg mb-8 max-w-xl mx-auto">
-              Relocating is a huge decision. Get in touch with a local expert who can give you the honest, unfiltered truth about living here.
+              Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
             </p>
-            <a
-              href="mailto:ryan@locheventures.com"
-              className="inline-block bg-[#2D6A4F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1e4a36] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
-            >
-              Speak to a Local Expert
-            </a>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="/contact/"
+                className="inline-block bg-[#2D6A4F] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1e4a36] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+              >
+                Book a free Franklin relocation call
+              </a>
+              <a
+                href="/toolkit/"
+                className="inline-block bg-white text-[#2D6A4F] border-2 border-[#2D6A4F] px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#2D6A4F] hover:text-white transition-all duration-300"
+              >
+                Download the free Franklin Relocation Toolkit
+              </a>
+            </div>
           </div>
         </div>
       </article>

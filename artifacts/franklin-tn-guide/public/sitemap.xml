@@ -7,373 +7,385 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/neighborhoods</loc>
+    <loc>https://franklintnguide.com/neighborhoods/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/schools</loc>
+    <loc>https://franklintnguide.com/schools/</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/cost-of-living</loc>
+    <loc>https://franklintnguide.com/cost-of-living/</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/franklin-vs-nashville</loc>
+    <loc>https://franklintnguide.com/franklin-vs-nashville/</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news</loc>
+    <loc>https://franklintnguide.com/news/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/about</loc>
+    <loc>https://franklintnguide.com/about/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/why-move-to-franklin-tn</loc>
+    <loc>https://franklintnguide.com/contact/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://franklintnguide.com/toolkit/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://franklintnguide.com/articles/why-move-to-franklin-tn/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/things-to-do-in-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/things-to-do-in-franklin-tn/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-relocation-checklist</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-relocation-checklist/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-california</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-california/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-chicago</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-chicago/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-new-york</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-new-york/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/best-neighborhoods-franklin-tn-families</loc>
+    <loc>https://franklintnguide.com/articles/best-neighborhoods-franklin-tn-families/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/best-restaurants-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/best-restaurants-franklin-tn/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/best-parks-trails-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/best-parks-trails-franklin-tn/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-farmers-market</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-farmers-market/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/family-activities-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/family-activities-franklin-tn/</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/free-things-to-do-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/free-things-to-do-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/things-to-do-with-kids-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/things-to-do-with-kids-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/things-to-do-downtown-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/things-to-do-downtown-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/pros-cons-living-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/pros-cons-living-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/westhaven-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/westhaven-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-texas</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-texas/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-florida</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-florida/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/berry-farms-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/berry-farms-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/fieldstone-farms-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/fieldstone-farms-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/best-places-to-live-near-nashville</loc>
+    <loc>https://franklintnguide.com/articles/best-places-to-live-near-nashville/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/cool-springs-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/cool-springs-franklin-tn/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/downtown-franklin-tn-neighborhood</loc>
+    <loc>https://franklintnguide.com/articles/downtown-franklin-tn-neighborhood/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-dc</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-dc/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/is-franklin-tn-safe</loc>
+    <loc>https://franklintnguide.com/articles/is-franklin-tn-safe/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-real-estate-market-2026</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-real-estate-market-2026/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-job-market</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-job-market/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/brentwood-vs-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/brentwood-vs-franklin-tn/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-high-school-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/franklin-high-school-franklin-tn/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/main-street-festival-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/main-street-festival-franklin-tn/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/dickens-of-a-christmas-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/dickens-of-a-christmas-franklin-tn/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-atlanta</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-atlanta/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-boston</loc>
+    <loc>https://franklintnguide.com/articles/moving-to-franklin-tn-from-boston/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-vs-spring-hill</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-vs-spring-hill/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-vs-nolensville</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-vs-nolensville/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/laurelbrooke-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/laurelbrooke-franklin-tn/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/mckays-mill-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/mckays-mill-franklin-tn/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/retiring-in-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/retiring-in-franklin-tn/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/new-construction-homes-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/new-construction-homes-franklin-tn/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/franklin-tn-property-taxes</loc>
+    <loc>https://franklintnguide.com/articles/franklin-tn-property-taxes/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/articles/remote-work-franklin-tn</loc>
+    <loc>https://franklintnguide.com/articles/remote-work-franklin-tn/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/carter-house-visitor-center-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/carter-house-visitor-center-franklin-tn/</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/char-steakhouse-canteen-carothers-franklin</loc>
+    <loc>https://franklintnguide.com/news/char-steakhouse-canteen-carothers-franklin/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/culinary-dropout-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/culinary-dropout-franklin-tn/</loc>
     <lastmod>2026-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/east-mcewen-drive-widening-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/east-mcewen-drive-widening-franklin-tn/</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/embrey-aureum-604-apartments-franklin</loc>
+    <loc>https://franklintnguide.com/news/embrey-aureum-604-apartments-franklin/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/hawkers-asian-street-food-mcewen-northside-franklin</loc>
+    <loc>https://franklintnguide.com/news/hawkers-asian-street-food-mcewen-northside-franklin/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/in-n-out-opens-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/in-n-out-opens-franklin-tn/</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/liberty-pike-roundabouts-franklin-2026</loc>
+    <loc>https://franklintnguide.com/news/liberty-pike-roundabouts-franklin-2026/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/pelato-italian-restaurant-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/pelato-italian-restaurant-franklin-tn/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/prickly-pear-coffee-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/prickly-pear-coffee-franklin-tn/</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/the-pearl-park-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/the-pearl-park-franklin-tn/</loc>
     <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/wcs-innovation-center-2026</loc>
+    <loc>https://franklintnguide.com/news/wcs-innovation-center-2026/</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/wcs-open-zoning-2026-27</loc>
+    <loc>https://franklintnguide.com/news/wcs-open-zoning-2026-27/</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/willco-wellfest-factory-franklin-2026</loc>
+    <loc>https://franklintnguide.com/news/willco-wellfest-factory-franklin-2026/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://franklintnguide.com/news/wyelea-luxury-development-franklin-tn</loc>
+    <loc>https://franklintnguide.com/news/wyelea-luxury-development-franklin-tn/</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

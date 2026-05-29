@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const links = [
-  { href: "/neighborhoods", label: "Neighborhoods" },
-  { href: "/schools", label: "Schools" },
-  { href: "/cost-of-living", label: "Cost of Living" },
-  { href: "/franklin-vs-nashville", label: "Franklin vs Nashville" },
-  { href: "/news", label: "News" },
-  { href: "/about", label: "About" },
+  { href: "/neighborhoods/", label: "Neighborhoods" },
+  { href: "/schools/", label: "Schools" },
+  { href: "/cost-of-living/", label: "Cost of Living" },
+  { href: "/franklin-vs-nashville/", label: "Franklin vs Nashville" },
+  { href: "/news/", label: "News" },
+  { href: "/about/", label: "About" },
 ];
 
 export function Navbar() {
@@ -64,8 +64,8 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link 
-              href="/about" 
+            <Link
+              href="/contact/"
               className="bg-primary text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-secondary hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
             >
               Get in Touch

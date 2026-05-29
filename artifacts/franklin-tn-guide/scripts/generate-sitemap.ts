@@ -18,12 +18,14 @@ const REDIRECTED_ARTICLES = new Set([
 
 const staticPages = [
   { path: '/', changefreq: 'weekly', priority: '1.0', lastmod: TODAY },
-  { path: '/neighborhoods', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-20' },
-  { path: '/schools', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-22' },
-  { path: '/cost-of-living', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-22' },
-  { path: '/franklin-vs-nashville', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-22' },
-  { path: '/news', changefreq: 'weekly', priority: '0.9', lastmod: TODAY },
-  { path: '/about', changefreq: 'yearly', priority: '0.5', lastmod: TODAY },
+  { path: '/neighborhoods/', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-20' },
+  { path: '/schools/', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-22' },
+  { path: '/cost-of-living/', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-22' },
+  { path: '/franklin-vs-nashville/', changefreq: 'monthly', priority: '1.0', lastmod: '2026-03-22' },
+  { path: '/news/', changefreq: 'weekly', priority: '0.9', lastmod: TODAY },
+  { path: '/about/', changefreq: 'yearly', priority: '0.5', lastmod: TODAY },
+  { path: '/contact/', changefreq: 'monthly', priority: '0.8', lastmod: TODAY },
+  { path: '/toolkit/', changefreq: 'monthly', priority: '0.8', lastmod: TODAY },
 ];
 
 function convertDateFormat(dateStr: string): string {
@@ -52,7 +54,7 @@ function normalizeISODate(dateStr: string): string {
 const articleUrls = Object.values(articles)
   .filter(article => !REDIRECTED_ARTICLES.has(article.slug))
   .map(article => ({
-    path: `/articles/${article.slug}`,
+    path: `/articles/${article.slug}/`,
     changefreq: 'monthly',
     priority: '0.8',
     lastmod: normalizeISODate(article.date),
@@ -78,7 +80,7 @@ function generateNewsUrls() {
         const date = dateMatch ? dateMatch[1].trim() : '';
         if (slug && date) {
           urls.push({
-            path: `/news/${slug}`,
+            path: `/news/${slug}/`,
             changefreq: 'weekly',
             priority: '0.9',
             lastmod: normalizeISODate(date),

@@ -62,7 +62,7 @@ async function prerender() {
     try {
       const { html, head } = render(route);
 
-      // Strip the default <title> from the template (Helmet provides the correct per-page title)
+      // Strip the default <title> from the template (entry-server provides the correct per-page title)
       const templateWithoutTitle = template.replace(/<title>[^<]*<\/title>/, '');
 
       // Inject pre-rendered head tags and HTML content into template

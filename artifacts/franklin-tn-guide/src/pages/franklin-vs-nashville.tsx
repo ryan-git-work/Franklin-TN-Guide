@@ -193,7 +193,7 @@ export default function FranklinVsNashville() {
             Two incredible cities. Two entirely different ways to live. Here is the honest truth about which is right for you.
           </p>
           <div className="mt-6 text-blue-100/60 text-sm">
-            By <Link href="/about" className="text-blue-200 hover:text-white font-semibold transition-colors">Franklin TN Guide</Link>
+            By <Link href="/about/" className="text-blue-200 hover:text-white font-semibold transition-colors">Franklin TN Guide</Link>
           </div>
         </div>
       </section>

@@ -52,11 +52,11 @@ export default function Home() {
             Whether you're relocating for a new career, seeking top-tier schools, or simply craving historic charm with modern luxury, your journey starts here.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/neighborhoods" className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 hover:scale-105 transition-all shadow-xl text-center">
+            <Link href="/neighborhoods/" className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 hover:scale-105 transition-all shadow-xl text-center">
               Explore Neighborhoods
             </Link>
-            <a href="mailto:ryan@locheventures.com" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white backdrop-blur-md border border-white/20 rounded-full font-semibold hover:bg-white/20 transition-all shadow-lg text-center">
-              Speak to a Local Expert
+            <a href="/contact/" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white backdrop-blur-md border border-white/20 rounded-full font-semibold hover:bg-white/20 transition-all shadow-lg text-center">
+              Book a free Franklin relocation call
             </a>
           </div>
         </div>

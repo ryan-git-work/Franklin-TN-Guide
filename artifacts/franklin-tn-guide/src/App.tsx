@@ -14,6 +14,8 @@ import ArticlePage from "@/pages/article";
 import NewsIndex from "@/pages/news/index";
 import NewsArticle from "@/pages/news/[slug]";
 import About from "@/pages/about";
+import Contact from "@/pages/contact";
+import Toolkit from "@/pages/toolkit";
 import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
@@ -22,14 +24,16 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/neighborhoods" component={Neighborhoods} />
-      <Route path="/schools" component={Schools} />
-      <Route path="/cost-of-living" component={CostOfLiving} />
-      <Route path="/franklin-vs-nashville" component={FranklinVsNashville} />
-      <Route path="/about" component={About} />
-      <Route path="/articles/:slug" component={ArticlePage} />
-      <Route path="/news" component={NewsIndex} />
-      <Route path="/news/:slug" component={NewsArticle} />
+      <Route path="/neighborhoods/" component={Neighborhoods} />
+      <Route path="/schools/" component={Schools} />
+      <Route path="/cost-of-living/" component={CostOfLiving} />
+      <Route path="/franklin-vs-nashville/" component={FranklinVsNashville} />
+      <Route path="/about/" component={About} />
+      <Route path="/contact/" component={Contact} />
+      <Route path="/toolkit/" component={Toolkit} />
+      <Route path="/articles/:slug/" component={ArticlePage} />
+      <Route path="/news/" component={NewsIndex} />
+      <Route path="/news/:slug/" component={NewsArticle} />
       <Route component={NotFound} />
     </Switch>
   );

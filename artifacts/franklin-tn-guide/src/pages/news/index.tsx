@@ -65,7 +65,7 @@ export default function NewsIndex() {
                       {formatDate(item.date)}
                     </time>
                     <span>&middot;</span>
-                    <span>By <Link href="/about" className="text-[#2D6A4F] hover:text-[#1e4a36] font-medium transition-colors">Franklin TN Guide</Link></span>
+                    <span>By <Link href="/about/" className="text-[#2D6A4F] hover:text-[#1e4a36] font-medium transition-colors">Franklin TN Guide</Link></span>
                   </div>
                   <Link href={`/news/${item.slug}`}>
                     <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#1B2A4A] hover:text-[#2D6A4F] transition-colors cursor-pointer">
