@@ -3369,13 +3369,11 @@ Dickens of a Christmas is one of the clearest examples of how Franklin uses its 
     metaTitle: "Moving to Franklin TN from Atlanta: Honest Guide (2026)",
     metaDescription: "Atlanta to Franklin is one of the South's fastest-growing migration paths. Honest cost, traffic, schools, and lifestyle comparison from a local.",
     keywords: ["moving to franklin tn from atlanta", "atlanta to franklin tennessee", "atlanta to nashville move", "georgia to franklin tn", "atlanta vs franklin"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "11 min read",
     excerpt: "Atlanta to Franklin is one of the most established migration paths in the South. Same time zone, same climate, same SEC football culture — but real differences that matter.",
     imageUrl: "/images/articles/moving-from-atlanta.png",
     content: `
-# Moving to Franklin, TN from Atlanta: The Honest Guide
-
 Atlanta to Franklin is one of the most established migration paths in the South — and one of the easiest transitions you'll ever make. Same time zone, same climate, same SEC football culture, same sweet tea. The differences are smaller than the leap from California or New York, but they're real, and they matter.
 
 Here's the honest version of what Atlanta transplants find when they get here, what they say surprised them, and what's worth knowing before you sign anything.
@@ -3489,13 +3487,11 @@ I live in Franklin, I've helped Atlanta transplants make this move, and I work a
     metaTitle: "Moving to Franklin TN from Boston: Honest Guide (2026)",
     metaDescription: "Boston to Franklin is increasingly common for tax, weather, and space. Honest comparison of cost, schools, culture, and what New Englanders find here.",
     keywords: ["moving to franklin tn from boston", "boston to franklin tennessee", "boston to nashville move", "massachusetts to tennessee", "new england to franklin tn"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "11 min read",
     excerpt: "Boston-to-Franklin isn't the highest-volume migration into Williamson County, but it's one of the most consistent — and the people making it arrive with realistic expectations.",
     imageUrl: "/images/articles/moving-from-boston.png",
     content: `
-# Moving to Franklin, TN from Boston: The Honest Guide
-
 Boston-to-Franklin isn't the highest-volume migration into Williamson County, but it's one of the most consistent. The people making this move are usually hyper-deliberate — they've run the spreadsheets, visited multiple times, and arrive with realistic expectations. Then a few things still surprise them anyway.
 
 Here's the honest version of what New Englanders find when they move to Franklin: what's better than they expected, what's harder, and how to think about the whole transition.
@@ -3621,13 +3617,11 @@ I live in Franklin, I've helped New England buyers make this move, and I work as
     metaTitle: "Franklin TN vs Spring Hill TN: Which Is Right for You? (2026)",
     metaDescription: "Honest comparison of Franklin and Spring Hill — schools, cost, commute, neighborhoods, and which fits your stage of life. From a Williamson County local.",
     keywords: ["franklin tn vs spring hill", "spring hill vs franklin tennessee", "should i move to franklin or spring hill", "spring hill tn or franklin", "franklin or spring hill better"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "10 min read",
     excerpt: "Franklin and Spring Hill are 12 miles apart on I-65 — same orbit, same Middle Tennessee character. But the lived experience is meaningfully different, and the right choice depends on stage of life and budget.",
     imageUrl: "/images/articles/franklin-vs-spring-hill.png",
     content: `
-# Franklin TN vs Spring Hill TN: Which One Should You Move To?
-
 If you've been researching Williamson County for more than a week, you've run into the Franklin vs. Spring Hill question. They're 12 miles apart on I-65. Same school district pull (mostly), same general orbit, same Middle Tennessee character. But the lived experience is meaningfully different, and the right choice depends on stage of life and budget far more than aerial geography suggests.
 
 Here's the honest local comparison, with the real trade-offs neither realtor blogs nor the city websites tell you.
@@ -3774,13 +3768,11 @@ I live in Franklin, I work as a referral agent for buyers across Williamson Coun
     metaTitle: "Franklin vs Nolensville TN: Honest Comparison (2026)",
     metaDescription: "Franklin or Nolensville? Honest comparison of schools, cost, commute, lifestyle, and which Williamson County town fits your family. From a local.",
     keywords: ["franklin tn vs nolensville", "nolensville vs franklin tennessee", "should i move to franklin or nolensville", "nolensville or franklin tn", "best williamson county town"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "10 min read",
     excerpt: "Nolensville used to be the answer to a question nobody outside Williamson County was asking. Today it's one of the fastest-growing towns in Tennessee and a very real alternative to Franklin.",
     imageUrl: "/images/articles/franklin-vs-nolensville.png",
     content: `
-# Franklin TN vs Nolensville TN: Which Is Right for You?
-
 Nolensville used to be the answer to a question nobody outside Williamson County was asking. That changed around 2018. Today it's one of the fastest-growing towns in Tennessee and a very real alternative to Franklin for the family buyer who wants Williamson County Schools, a small-town feel, and a less expensive entry point than Franklin proper.
 
 Here's the honest comparison from someone who lives in Franklin, has spent a lot of weekends in Nolensville, and has helped families on both sides of this decision.
@@ -3920,13 +3912,11 @@ I live in Franklin, work as a referral agent across Williamson County, and have 
     metaTitle: "Laurelbrooke Franklin TN: Luxury Neighborhood Guide (2026)",
     metaDescription: "Laurelbrooke is Franklin's premier gated luxury neighborhood. Honest local guide to homes, HOA, schools, amenities, and what buyers should know.",
     keywords: ["laurelbrooke franklin tn", "laurelbrooke neighborhood", "laurelbrooke homes for sale", "luxury homes in franklin tn", "gated communities franklin tn"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "9 min read",
     excerpt: "Laurelbrooke sits behind a guarded gate on Sneed Road, on the western edge of Franklin — quietly one of Franklin's most prestigious addresses.",
     imageUrl: "/images/articles/laurelbrooke.png",
     content: `
-# Laurelbrooke Franklin TN: Complete Neighborhood Guide
-
 Laurelbrooke sits behind a guarded gate on Sneed Road, on the western edge of Franklin where the rolling hills start climbing toward Leiper's Fork. It's quietly one of Franklin's most prestigious addresses — the place where music industry executives, healthcare CEOs, and old Williamson County families share back-fence views with each other and with the resident herd of horses and a few visiting deer.
 
 If you're searching Laurelbrooke, you're probably already most of the way to a decision. Here's the honest local guide to what life there actually looks like, what the homes deliver, and what to know before you sign anything.
@@ -4080,13 +4070,11 @@ I live in Franklin, work as a referral agent connecting buyers to top local agen
     metaTitle: "McKays Mill Franklin TN: Complete Neighborhood Guide (2026)",
     metaDescription: "McKays Mill is Franklin's most popular family neighborhood — pools, schools, accessible price point. Honest local guide to what life there is really like.",
     keywords: ["mckays mill franklin tn", "mckays mill neighborhood", "mckays mill homes for sale", "best family neighborhoods franklin tn", "mckays mill hoa"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "9 min read",
     excerpt: "McKays Mill is the neighborhood that shows up on virtually every 'best of' list for Franklin family living — and it earns the spot.",
     imageUrl: "/images/articles/mckays-mill.png",
     content: `
-# McKays Mill Franklin TN: Complete Neighborhood Guide
-
 McKays Mill is the neighborhood that shows up on virtually every "best of" list for Franklin family living, and it earns the spot. It's not the showiest community in Williamson County. It's not the cheapest, the newest, or the most exclusive. What it is, consistently, is the highest-functioning family neighborhood in Franklin at its price point — and that combination is harder to find than it looks.
 
 Here's the honest local guide to McKays Mill: what life there actually looks like, what buyers love, what catches them off guard, and how to know if it's the right fit.
@@ -4242,13 +4230,11 @@ I live in Franklin, work as a referral agent, and have helped many families comp
     metaTitle: "Retiring in Franklin TN: Complete 2026 Retirement Guide",
     metaDescription: "Franklin TN is a top retirement destination — no state income tax, healthcare access, and small-town charm. Honest guide for retirees considering the move.",
     keywords: ["retiring in franklin tn", "retire in franklin tennessee", "best place to retire near nashville", "55+ communities franklin tn", "retirement franklin tn"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "11 min read",
     excerpt: "Franklin shows up on retirement lists for legitimate reasons — Tennessee's tax structure, Williamson County's healthcare access, and a walkable historic downtown. Here's the honest picture.",
     imageUrl: "/images/articles/retiring-in-franklin.png",
     content: `
-# Retiring in Franklin, TN: The Complete Guide
-
 Franklin shows up on retirement lists for legitimate reasons — Tennessee's tax structure, Williamson County's healthcare access, the walkable historic downtown, and a community life that's easier to plug into at 60 than it is in most suburbs. It also costs more than most retirement guides admit, and the housing inventory specifically designed for retirees is thinner than the relocation pages suggest.
 
 Here's the honest picture for anyone considering Franklin for retirement: what works, what costs more than you think, and how to position the move so you actually thrive here.
@@ -4396,13 +4382,11 @@ I live in Franklin, work as a referral agent, and have helped a number of retire
     metaTitle: "New Construction Homes in Franklin TN: Buyer's Guide (2026)",
     metaDescription: "Buying new construction in Franklin TN? Honest guide to builders, communities, contracts, upgrade traps, and what every buyer should know before signing.",
     keywords: ["new construction homes franklin tn", "new homes for sale franklin tn", "franklin tn new construction", "new build franklin tennessee", "best builders franklin tn"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "12 min read",
     excerpt: "New construction makes up 25–35% of Franklin and Williamson County home sales. Here's the honest local guide to where the inventory is, who's building it, and the traps that catch out-of-state buyers.",
     imageUrl: "/images/articles/new-construction.png",
     content: `
-# Buying New Construction in Franklin, TN: The Complete Buyer's Guide
-
 New construction makes up a meaningful share of Franklin and Williamson County home sales — somewhere between 25–35% of annual transactions in most recent years. For a buyer relocating from a market where new construction is rare or expensive, the abundance of new inventory in Williamson is genuinely attractive. It's also where buyers without local guidance most often make expensive mistakes.
 
 Here's the honest local guide to buying new construction in Franklin: where the inventory is, who's building it, what to negotiate, and the traps that catch out-of-state buyers most often.
@@ -4539,13 +4523,11 @@ I live in Franklin, work as a referral agent, and have helped buyers navigate tr
     metaTitle: "Franklin TN Property Taxes: Williamson County Tax Guide 2026",
     metaDescription: "How property taxes work in Franklin TN — assessment, rates, payment schedule, and how Williamson County compares to other states. From a local.",
     keywords: ["franklin tn property taxes", "williamson county property tax", "tennessee property tax rate", "franklin tn taxes", "property tax in franklin tennessee"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "8 min read",
     excerpt: "Tennessee has no state income tax — most relocators know this. What fewer realize is that the state's property tax structure is also unusually buyer-friendly.",
     imageUrl: "/images/articles/property-taxes.png",
     content: `
-# Franklin TN Property Taxes: The Complete Williamson County Guide (2026)
-
 Tennessee has no state income tax — most relocators know this. What fewer realize is that the state's property tax structure is also unusually buyer-friendly, and Williamson County's effective rates are meaningfully below national averages despite Franklin's high home values. Combined, the tax math is one of the strongest financial arguments for the move.
 
 Here's an honest, plain-English guide to how property taxes actually work in Franklin and Williamson County, what they'll cost you on a typical home, when they're due, and how to think about reassessment over time.
@@ -4705,13 +4687,11 @@ I live in Franklin, work as a referral agent, and have walked through the tax ma
     metaTitle: "Remote Work in Franklin TN: Complete Guide (2026)",
     metaDescription: "Franklin is one of the South's strongest remote-work destinations — taxes, fiber internet, lifestyle. Honest guide for remote workers considering the move.",
     keywords: ["remote work franklin tn", "working from home in franklin tn", "remote workers franklin tennessee", "best places for remote work tennessee", "franklin tn for remote work"],
-    date: "April 25, 2026",
+    date: "May 29, 2026",
     readTime: "10 min read",
     excerpt: "Franklin is having a quiet remote-work moment. The combination of Tennessee's tax structure, Williamson County's housing quality, and expanded flight connections has put Franklin on a lot of remote workers' shortlists.",
     imageUrl: "/images/articles/remote-work-franklin.png",
     content: `
-# Working Remotely from Franklin, TN: The Complete Guide
-
 Franklin is having a quiet remote-work moment. The combination of Tennessee's tax structure, Williamson County's housing quality, BNA's expanded direct-flight network, and the kind of community fabric that makes remote work sustainable rather than isolating has put Franklin on a lot of remote workers' shortlists.
 
 Here's the honest version: who Franklin works for as a remote-work base, what the practical infrastructure actually looks like, and what to think about before you commit.

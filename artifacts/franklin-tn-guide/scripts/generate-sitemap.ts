@@ -6,7 +6,7 @@ import { articles } from '../src/lib/data.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const TODAY = '2026-05-25';
+const TODAY = '2026-05-29';
 
 // Articles that will be 301'd to section pages — exclude from sitemap
 const REDIRECTED_ARTICLES = new Set([
