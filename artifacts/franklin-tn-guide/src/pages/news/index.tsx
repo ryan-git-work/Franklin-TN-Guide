@@ -26,7 +26,7 @@ export default function NewsIndex() {
   return (
     <PageWrapper
       title="Franklin TN News & Updates"
-      description="Latest news and updates about Franklin, TN — restaurants, events, development, schools, and community."
+      description="Latest news and updates about Franklin, TN , restaurants, events, development, schools, and community."
       canonicalUrl="/news"
       schema={breadcrumbSchema}
     >
@@ -41,7 +41,7 @@ export default function NewsIndex() {
             Franklin News &amp; Updates
           </h1>
           <p className="text-xl text-stone-600 leading-relaxed max-w-2xl">
-            Stay informed about what's happening in Franklin — from new restaurants and parks to school initiatives and community development.
+            Stay informed about what's happening in Franklin , from new restaurants and parks to school initiatives and community development.
           </p>
         </div>
       </header>

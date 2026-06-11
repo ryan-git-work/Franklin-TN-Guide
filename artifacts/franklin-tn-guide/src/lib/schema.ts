@@ -6,7 +6,7 @@ export const organizationSchema = {
   name: 'Franklin TN Guide',
   url: siteUrl,
   logo: `${siteUrl}/images/hero-franklin.png`,
-  description: 'Your comprehensive relocation guide to Franklin, Tennessee \u2014 neighborhoods, schools, cost of living, and lifestyle.',
+  description: 'Your comprehensive relocation guide to Franklin, Tennessee , neighborhoods, schools, cost of living, and lifestyle.',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'ryan@locheventures.com',

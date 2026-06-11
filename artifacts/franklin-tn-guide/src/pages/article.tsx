@@ -2,6 +2,7 @@ import { useRoute } from "wouter";
 import { Helmet } from "react-helmet-async";
 import ReactMarkdown from "react-markdown";
 import { PageWrapper } from "@/components/layout/page-wrapper";
+import { absoluteCanonical } from "@/components/seo";
 import { articles } from "@/lib/data";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
@@ -33,7 +34,7 @@ const orgSchema = {
   name: "Franklin TN Guide",
   url: "https://franklintnguide.com",
   logo: "https://franklintnguide.com/images/hero-franklin.png",
-  description: "Your comprehensive relocation guide to Franklin, Tennessee \u2014 neighborhoods, schools, cost of living, and lifestyle.",
+  description: "Your comprehensive relocation guide to Franklin, Tennessee, neighborhoods, schools, cost of living, and lifestyle.",
   contactPoint: {
     "@type": "ContactPoint",
     email: "ryan@locheventures.com",
@@ -62,7 +63,7 @@ export default function ArticlePage() {
     return <NotFound />;
   }
 
-  const canonicalUrl = `https://franklintnguide.com/articles/${article.slug}`;
+  const canonicalUrl = absoluteCanonical(`/articles/${article.slug}/`);
   const ogImage = article.imageUrl.startsWith("http")
     ? article.imageUrl
     : `https://franklintnguide.com${article.imageUrl}`;
@@ -90,7 +91,7 @@ export default function ArticlePage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com/" },
       { "@type": "ListItem", position: 2, name: article.title, item: canonicalUrl },
     ],
   };

@@ -1,13 +1,14 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { PageWrapper } from "@/components/layout/page-wrapper";
+import { absoluteCanonical } from "@/components/seo";
 import { MapPin, Building, School, Car, DollarSign, Shield } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 
 const fullContent = `
 It's the first question most people ask when they're relocating to Middle Tennessee: do I live in Nashville, or do I live outside of it?
 
-Franklin comes up immediately \u2014 it's the most prominent suburb, the most well-known, and the one most people have already heard about. But "Franklin or Nashville" isn't always a simple question. The two cities attract different people for different reasons, and the right answer depends entirely on what you're optimizing for.
+Franklin comes up immediately , it's the most prominent suburb, the most well-known, and the one most people have already heard about. But "Franklin or Nashville" isn't always a simple question. The two cities attract different people for different reasons, and the right answer depends entirely on what you're optimizing for.
 
 This guide lays out the comparison honestly, category by category, so you can make the call with clear information.
 
@@ -31,11 +32,11 @@ In general terms:
 - **Green Hills, Belle Meade:** $800,000\u2013$3M+, established and expensive
 - **Franklin:** $450,000\u2013$2M+, larger lots on average, more new construction options
 
-The honest comparison: you can get more square footage and more land in Franklin for a given price point in most cases. But if walkability and neighborhood character are the priority, some Nashville neighborhoods offer something Franklin simply doesn't have \u2014 the density and energy of an urban residential neighborhood.
+The honest comparison: you can get more square footage and more land in Franklin for a given price point in most cases. But if walkability and neighborhood character are the priority, some Nashville neighborhoods offer something Franklin simply doesn't have , the density and energy of an urban residential neighborhood.
 
 ### Taxes
 
-Both Nashville (Davidson County) and Franklin (Williamson County) benefit from Tennessee's no-state-income-tax environment. However, Williamson County has lower property tax rates than Davidson County \u2014 meaningfully so. On an equivalent home value, Franklin buyers typically pay less in annual property taxes than Nashville buyers.
+Both Nashville (Davidson County) and Franklin (Williamson County) benefit from Tennessee's no-state-income-tax environment. However, Williamson County has lower property tax rates than Davidson County , meaningfully so. On an equivalent home value, Franklin buyers typically pay less in annual property taxes than Nashville buyers.
 
 Davidson County's property tax rate runs approximately 20\u201325% higher than Williamson County's effective rate. On an $800,000 home, this difference can amount to $1,500\u2013$2,500 per year.
 
@@ -49,7 +50,7 @@ Metro Nashville Public Schools (MNPS) serves Nashville proper and presents a far
 
 Families with children who are prioritizing public school quality and don't want to pay private school tuition have a compelling reason to choose Franklin. This single factor drives a substantial portion of Franklin's in-migration from Nashville neighborhoods.
 
-Private school options exist in both markets \u2014 Nashville has several prestigious independent schools including Montgomery Bell Academy, Harpeth Hall, and Ensworth. For families committed to private education, Nashville's options are arguably broader. But for public school families, the comparison isn't particularly close.
+Private school options exist in both markets , Nashville has several prestigious independent schools including Montgomery Bell Academy, Harpeth Hall, and Ensworth. For families committed to private education, Nashville's options are arguably broader. But for public school families, the comparison isn't particularly close.
 
 ## Lifestyle and Neighborhood Character
 
@@ -57,25 +58,25 @@ Private school options exist in both markets \u2014 Nashville has several presti
 
 Nashville's residential neighborhoods offer something Franklin genuinely doesn't: the texture and energy of urban living.
 
-East Nashville has developed into one of the most interesting residential neighborhoods in the South \u2014 walkable, creative, with a mix of restored craftsman homes and local businesses that gives it a real sense of place. 12South, Germantown, and the Nations each have distinct identities and genuine walkability. Living in these neighborhoods means being embedded in a city in a way that Franklin's suburban character cannot replicate.
+East Nashville has developed into one of the most interesting residential neighborhoods in the South , walkable, creative, with a mix of restored craftsman homes and local businesses that gives it a real sense of place. 12South, Germantown, and the Nations each have distinct identities and genuine walkability. Living in these neighborhoods means being embedded in a city in a way that Franklin's suburban character cannot replicate.
 
-Nashville also has the critical mass that produces a certain kind of cultural life. Live music venues, independent restaurants and bars, arts institutions, professional sports, an international airport within 20\u201330 minutes \u2014 Nashville proper has the infrastructure of a real city.
+Nashville also has the critical mass that produces a certain kind of cultural life. Live music venues, independent restaurants and bars, arts institutions, professional sports, an international airport within 20\u201330 minutes , Nashville proper has the infrastructure of a real city.
 
 ### Franklin
 
-Franklin's residential character is fundamentally different \u2014 more spacious, quieter, more family-oriented. The downtown Franklin experience is genuinely excellent for a small city, but it's a small city. The density of cultural options, the late-night energy, the feeling of being inside a major metropolitan area \u2014 Franklin doesn't offer that, and doesn't try to.
+Franklin's residential character is fundamentally different , more spacious, quieter, more family-oriented. The downtown Franklin experience is genuinely excellent for a small city, but it's a small city. The density of cultural options, the late-night energy, the feeling of being inside a major metropolitan area , Franklin doesn't offer that, and doesn't try to.
 
-What Franklin offers instead is a quality of neighborhood life that Nashville's most desirable areas command a significant premium to approximate. Front porches, quiet streets, school pickup, community events, neighbors who know each other \u2014 the suburban family lifestyle, executed at a high level.
+What Franklin offers instead is a quality of neighborhood life that Nashville's most desirable areas command a significant premium to approximate. Front porches, quiet streets, school pickup, community events, neighbors who know each other , the suburban family lifestyle, executed at a high level.
 
 ## Commute and Access
 
 ### If You Work in Nashville
 
-Franklin to downtown Nashville is approximately 21 miles via I-65. In normal traffic, this is a 25\u201335 minute drive. During morning and evening peak hours \u2014 particularly on I-65 and I-65's merge points \u2014 this can stretch to 45\u201360 minutes or more.
+Franklin to downtown Nashville is approximately 21 miles via I-65. In normal traffic, this is a 25\u201335 minute drive. During morning and evening peak hours , particularly on I-65 and I-65's merge points , this can stretch to 45\u201360 minutes or more.
 
 If you're commuting to Nashville daily, the commute is real and worth experiencing before committing to a Franklin address. Drive it on a Tuesday morning at 7:45am before you decide. Some people find it completely manageable. Others find it erodes quality of life in ways that are hard to anticipate from a distance.
 
-Franklin residents who work in Cool Springs or have flexible/remote arrangements experience this calculation very differently \u2014 the commute essentially disappears.
+Franklin residents who work in Cool Springs or have flexible/remote arrangements experience this calculation very differently , the commute essentially disappears.
 
 ### If You Want Nashville Occasionally
 
@@ -85,7 +86,7 @@ For Franklin residents who work locally or remotely and want Nashville access fo
 
 Franklin's crime rate is significantly lower than Nashville's across all major categories. This is a consistent and meaningful difference, not a marginal one.
 
-Nashville, like most major American cities, has pockets of higher crime alongside very safe neighborhoods. The variation within Nashville is significant \u2014 East Nashville and 12South have very different safety profiles than other parts of the city. Franklin as a whole benchmarks well below national and state averages.
+Nashville, like most major American cities, has pockets of higher crime alongside very safe neighborhoods. The variation within Nashville is significant , East Nashville and 12South have very different safety profiles than other parts of the city. Franklin as a whole benchmarks well below national and state averages.
 
 For families with children, this difference tends to be weighted heavily in the Franklin column.
 
@@ -97,7 +98,7 @@ Nashville's social infrastructure for young professionals, creatives, and people
 
 ### Franklin
 
-Franklin's social infrastructure is more structured and more family-oriented. Churches, neighborhood associations, school communities, sports leagues, and HOA events are the primary on-ramps for social connection. For families with children, this works extremely well \u2014 school communities and neighborhood life create natural social structures. For single professionals or couples without children, Franklin's social scene requires more intentionality.
+Franklin's social infrastructure is more structured and more family-oriented. Churches, neighborhood associations, school communities, sports leagues, and HOA events are the primary on-ramps for social connection. For families with children, this works extremely well , school communities and neighborhood life create natural social structures. For single professionals or couples without children, Franklin's social scene requires more intentionality.
 
 ## The Relocation Decision Framework
 
@@ -111,7 +112,7 @@ A few clarifying questions that tend to resolve the Franklin vs. Nashville quest
 
 ## The Honest Answer
 
-Most people who move to Franklin from Nashville will tell you they don't miss Nashville as a place to live. They miss specific things \u2014 certain restaurants, the energy on a given street, the feeling of being inside something bigger. But the overall quality of daily life in Franklin tends to exceed what Nashville was delivering, particularly for families.
+Most people who move to Franklin from Nashville will tell you they don't miss Nashville as a place to live. They miss specific things , certain restaurants, the energy on a given street, the feeling of being inside something bigger. But the overall quality of daily life in Franklin tends to exceed what Nashville was delivering, particularly for families.
 
 Most people who stay in Nashville do so deliberately. They value what Nashville is, they've built lives there, and the urban energy is part of the value proposition they're paying for.
 
@@ -119,7 +120,7 @@ Both are correct. The question is which correct answer applies to you.
 `;
 
 export default function FranklinVsNashville() {
-  const canonicalUrl = "https://franklintnguide.com/franklin-vs-nashville";
+  const canonicalUrl = absoluteCanonical("/franklin-vs-nashville/");
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -132,7 +133,7 @@ export default function FranklinVsNashville() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Franklin, TN vs. Nashville \u2014 Which Is Right for You?",
+    headline: "Franklin, TN vs. Nashville , Which Is Right for You?",
     description: "Deciding between Franklin TN and Nashville? This honest comparison covers cost of living, schools, lifestyle, commute, and neighborhoods to help you choose the right fit.",
     author: { "@type": "Organization", name: "Franklin TN Guide" },
     publisher: {
@@ -203,7 +204,7 @@ export default function FranklinVsNashville() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <p className="text-xl md:text-2xl text-stone-700 leading-relaxed font-serif">
             It\u2019s the first question most people ask when they're relocating to Middle Tennessee.
-            The answer isn't about which city is "better" \u2014 it's entirely about what you are optimizing for in your daily life.
+            The answer isn't about which city is "better" , it's entirely about what you are optimizing for in your daily life.
           </p>
         </div>
       </section>

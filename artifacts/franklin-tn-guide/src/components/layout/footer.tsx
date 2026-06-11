@@ -32,17 +32,17 @@ export function Footer() {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-4">Explore</h4>
             <ul className="space-y-3">
-              <li><Link href="/neighborhoods" className="text-primary-foreground/70 hover:text-white transition-colors">Neighborhoods</Link></li>
-              <li><Link href="/schools" className="text-primary-foreground/70 hover:text-white transition-colors">Schools</Link></li>
-              <li><Link href="/cost-of-living" className="text-primary-foreground/70 hover:text-white transition-colors">Cost of Living</Link></li>
-              <li><Link href="/franklin-vs-nashville" className="text-primary-foreground/70 hover:text-white transition-colors">Vs. Nashville</Link></li>
+              <li><Link href="/neighborhoods/" className="text-primary-foreground/70 hover:text-white transition-colors">Neighborhoods</Link></li>
+              <li><Link href="/schools/" className="text-primary-foreground/70 hover:text-white transition-colors">Schools</Link></li>
+              <li><Link href="/cost-of-living/" className="text-primary-foreground/70 hover:text-white transition-colors">Cost of Living</Link></li>
+              <li><Link href="/franklin-vs-nashville/" className="text-primary-foreground/70 hover:text-white transition-colors">Vs. Nashville</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-serif text-lg font-semibold mb-4">Connect</h4>
             <ul className="space-y-3">
-              <li><Link href="/about" className="text-primary-foreground/70 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link href="/about/" className="text-primary-foreground/70 hover:text-white transition-colors">About Us</Link></li>
               <li>
                 <a href="mailto:ryan@locheventures.com" className="flex items-center gap-2 text-primary-foreground/70 hover:text-white transition-colors">
                   <Mail className="w-4 h-4" />

@@ -37,7 +37,7 @@ export default function Neighborhoods() {
   return (
     <PageWrapper
       title="Best Neighborhoods"
-      description="Explore Franklin Tennessee's best neighborhoods — from the historic downtown to Westhaven, Berry Farms, Cool Springs, and Fieldstone Farms. Find the right fit for your lifestyle and budget."
+      description="Explore Franklin Tennessee's best neighborhoods , from the historic downtown to Westhaven, Berry Farms, Cool Springs, and Fieldstone Farms. Find the right fit for your lifestyle and budget."
       canonicalUrl="/neighborhoods"
       schema={[breadcrumbSchema, placeSchema]}
     >
@@ -58,7 +58,7 @@ export default function Neighborhoods() {
       <div className="container mx-auto max-w-3xl px-4 py-20">
         <div className="prose prose-lg max-w-none prose-stone prose-headings:font-serif prose-headings:text-[#1B2A4A] prose-a:text-[#2D6A4F] hover:prose-a:text-[#1e4a36]">
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Franklin, Tennessee doesn't have one kind of neighborhood — it has many. That's one of the things that makes it work for such a wide range of people. A retired couple downsizing from a large home in the Northeast and a young family relocating from California with three kids and a dog can both find exactly what they're looking for here, often within a few miles of each other.
+            Franklin, Tennessee doesn't have one kind of neighborhood , it has many. That's one of the things that makes it work for such a wide range of people. A retired couple downsizing from a large home in the Northeast and a young family relocating from California with three kids and a dog can both find exactly what they're looking for here, often within a few miles of each other.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
@@ -66,7 +66,7 @@ export default function Neighborhoods() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-16">
-            Here's an honest look at Franklin's most established neighborhoods — what makes each one distinctive, who it tends to suit, and what to weigh before you decide.
+            Here's an honest look at Franklin's most established neighborhoods , what makes each one distinctive, who it tends to suit, and what to weigh before you decide.
           </p>
 
           {/* Downtown Franklin */}
@@ -81,7 +81,7 @@ export default function Neighborhoods() {
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Living here means being embedded in the city's cultural life in a way no other Franklin neighborhood offers. The Main Street Festival, Dickens of a Christmas, and year-round community events happen practically outside your door. The Factory at Franklin — a converted 19th-century stove plant now housing dozens of businesses, restaurants, and studios — is a short walk away.
+              Living here means being embedded in the city's cultural life in a way no other Franklin neighborhood offers. The Main Street Festival, Dickens of a Christmas, and year-round community events happen practically outside your door. The Factory at Franklin , a converted 19th-century stove plant now housing dozens of businesses, restaurants, and studios , is a short walk away.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -90,7 +90,7 @@ export default function Neighborhoods() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-secondary mt-1.5">•</span>
-                    <span>Genuinely walkable — rare in Franklin</span>
+                    <span>Genuinely walkable , rare in Franklin</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-secondary mt-1.5">•</span>
@@ -144,11 +144,11 @@ export default function Neighborhoods() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Westhaven is Franklin's most well-known neighborhood and its reputation holds up. Built around the principles of new urbanism — walkable streets, front porches, community-oriented design — it delivers on the promise of a neighborhood where people actually know their neighbors.
+              Westhaven is Franklin's most well-known neighborhood and its reputation holds up. Built around the principles of new urbanism , walkable streets, front porches, community-oriented design , it delivers on the promise of a neighborhood where people actually know their neighbors.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              The amenity package is extensive: an 18-hole golf course, multiple resort-style pools, a clubhouse, tennis courts, miles of walking and biking trails, and a self-contained town center with a grocery store, restaurants, and medical offices. Community events are frequent and well-attended. The HOA is active and the architectural standards are enforced — which is either reassuring or constraining depending on your orientation.
+              The amenity package is extensive: an 18-hole golf course, multiple resort-style pools, a clubhouse, tennis courts, miles of walking and biking trails, and a self-contained town center with a grocery store, restaurants, and medical offices. Community events are frequent and well-attended. The HOA is active and the architectural standards are enforced , which is either reassuring or constraining depending on your orientation.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
@@ -179,7 +179,7 @@ export default function Neighborhoods() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
-                    <span>HOA fees reflect the amenity load — budget accordingly</span>
+                    <span>HOA fees reflect the amenity load , budget accordingly</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
@@ -215,7 +215,7 @@ export default function Neighborhoods() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Cool Springs is less a traditional neighborhood and more a zone — a dense corridor of corporate campuses, retail, restaurants, hotels, and residential communities that has grown up along I-65 over the past 25 years. The CoolSprings Galleria anchors the commercial core. Major employers including Nissan North America, Community Health Systems, and dozens of others have significant operations here.
+              Cool Springs is less a traditional neighborhood and more a zone , a dense corridor of corporate campuses, retail, restaurants, hotels, and residential communities that has grown up along I-65 over the past 25 years. The CoolSprings Galleria anchors the commercial core. Major employers including Nissan North America, Community Health Systems, and dozens of others have significant operations here.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
@@ -250,7 +250,7 @@ export default function Neighborhoods() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
-                    <span>Car-dependent — limited walkability outside specific pockets</span>
+                    <span>Car-dependent , limited walkability outside specific pockets</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
@@ -286,11 +286,11 @@ export default function Neighborhoods() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Berry Farms is Franklin's most ambitious newer development — a mixed-use master-planned community in southern Franklin that combines residential neighborhoods with retail, restaurants, office space, and community programming. A walkable Publix-anchored retail village, a farmer's market, and a growing calendar of community events give it more daily-life texture than most new construction developments manage.
+              Berry Farms is Franklin's most ambitious newer development , a mixed-use master-planned community in southern Franklin that combines residential neighborhoods with retail, restaurants, office space, and community programming. A walkable Publix-anchored retail village, a farmer's market, and a growing calendar of community events give it more daily-life texture than most new construction developments manage.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              The homes feature traditional Southern architecture with modern interiors — the quality finishes and open floor plans that buyers coming from newer construction elsewhere will recognize. Because Berry Farms is newer than Westhaven, it has a slightly different energy: still becoming itself rather than fully formed. Trees are younger, retail is filling in, and the community culture is still being established.
+              The homes feature traditional Southern architecture with modern interiors , the quality finishes and open floor plans that buyers coming from newer construction elsewhere will recognize. Because Berry Farms is newer than Westhaven, it has a slightly different energy: still becoming itself rather than fully formed. Trees are younger, retail is filling in, and the community culture is still being established.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
@@ -325,7 +325,7 @@ export default function Neighborhoods() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
-                    <span>Younger landscaping — the mature tree canopy is still years away</span>
+                    <span>Younger landscaping , the mature tree canopy is still years away</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
@@ -361,11 +361,11 @@ export default function Neighborhoods() {
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              This is the Franklin neighborhood where families have lived for fifteen and twenty years. Where kids grew up and came back to raise their own children. Where neighbors have been watching each other's houses through multiple administrations. That kind of organic community cohesion can't be designed into a new development — it accumulates over time, and Fieldstone Farms has it.
+              This is the Franklin neighborhood where families have lived for fifteen and twenty years. Where kids grew up and came back to raise their own children. Where neighbors have been watching each other's houses through multiple administrations. That kind of organic community cohesion can't be designed into a new development , it accumulates over time, and Fieldstone Farms has it.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              The housing variety is genuine. Built out in phases over years, the neighborhood contains a real mix of more modest starter homes and larger executive-style houses on the same streets — making it one of the most accessible entry points into the Franklin market for buyers who want established quality without the premium of downtown or brand-new construction.
+              The housing variety is genuine. Built out in phases over years, the neighborhood contains a real mix of more modest starter homes and larger executive-style houses on the same streets , making it one of the most accessible entry points into the Franklin market for buyers who want established quality without the premium of downtown or brand-new construction.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -382,7 +382,7 @@ export default function Neighborhoods() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-secondary mt-1.5">•</span>
-                    <span>Genuine long-term community cohesion — neighbors who actually know each other</span>
+                    <span>Genuine long-term community cohesion , neighbors who actually know each other</span>
                   </li>
                 </ul>
               </div>
@@ -392,7 +392,7 @@ export default function Neighborhoods() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
-                    <span>Older homes typically require updating — budget accordingly</span>
+                    <span>Older homes typically require updating , budget accordingly</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-destructive mt-1.5">•</span>
@@ -425,7 +425,7 @@ export default function Neighborhoods() {
             <h3 className="text-3xl font-serif font-bold text-foreground mb-8">Not Sure Which Neighborhood Is Right for You?</h3>
             
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              The right Franklin neighborhood depends on factors that are genuinely personal — where you work, what stage of life you're in, how you want to spend your time, and what you're optimizing for in a home.
+              The right Franklin neighborhood depends on factors that are genuinely personal , where you work, what stage of life you're in, how you want to spend your time, and what you're optimizing for in a home.
             </p>
 
             <p className="font-semibold text-foreground mb-6">A few questions that tend to clarify the decision quickly:</p>
@@ -454,7 +454,7 @@ export default function Neighborhoods() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed mt-8">
-              Still have questions? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — we've helped a lot of families think through this decision and are happy to talk through your specific situation.
+              Still have questions? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> , we've helped a lot of families think through this decision and are happy to talk through your specific situation.
             </p>
           </div>
 

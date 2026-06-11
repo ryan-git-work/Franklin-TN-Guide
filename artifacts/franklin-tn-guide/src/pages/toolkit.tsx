@@ -15,7 +15,7 @@ export default function Toolkit() {
   return (
     <PageWrapper
       title="Free Franklin Relocation Toolkit"
-      description="Download the free Franklin Relocation Toolkit — a comprehensive guide to neighborhoods, schools, cost of living, and everything you need to know before moving to Franklin, TN."
+      description="Download the free Franklin Relocation Toolkit , a comprehensive guide to neighborhoods, schools, cost of living, and everything you need to know before moving to Franklin, TN."
       canonicalUrl="/toolkit/"
       schema={breadcrumbSchema}
     >
@@ -25,7 +25,7 @@ export default function Toolkit() {
             Free Franklin Relocation Toolkit
           </h1>
           <p className="text-xl text-white/80 font-light leading-relaxed max-w-2xl mx-auto">
-            Everything you need to evaluate Franklin before you move — neighborhood breakdowns, school data, cost comparisons, and a relocation checklist.
+            Everything you need to evaluate Franklin before you move , neighborhood breakdowns, school data, cost comparisons, and a relocation checklist.
           </p>
         </div>
       </div>

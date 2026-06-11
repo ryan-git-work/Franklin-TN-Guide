@@ -5,30 +5,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dir = dirname(__filename);
 
-// 301 redirects: old article URL → new canonical section URL
-const REDIRECTS: Record<string, string> = {
-  '/articles/cost-of-living-franklin-tn': '/cost-of-living',
-  '/articles/williamson-county-schools-guide': '/schools',
-  '/articles/franklin-tn-vs-nashville': '/franklin-vs-nashville',
-  '/articles/best-neighborhoods-in-franklin-tn': '/neighborhoods',
-};
-
-function makeRedirectHtml(targetPath: string): string {
-  const targetUrl = `https://franklintnguide.com${targetPath}`;
-  return `<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="refresh" content="0;url=${targetUrl}">
-<link rel="canonical" href="${targetUrl}">
-<title>Moved Permanently</title>
-</head>
-<body>
-<p>This page has moved to <a href="${targetUrl}">${targetUrl}</a>.</p>
-</body>
-</html>`;
-}
-
 async function prerender() {
   // Read routes from sitemap.xml
   const sitemapPath = resolve(__dir, '../public/sitemap.xml');
@@ -87,14 +63,6 @@ async function prerender() {
       failCount++;
       failures.push(route);
     }
-  }
-
-  // Write redirect HTML files for URLs that are 301'd
-  for (const [fromPath, toPath] of Object.entries(REDIRECTS)) {
-    const redirectPath = resolve(__dir, `../dist/public${fromPath}/index.html`);
-    mkdirSync(dirname(redirectPath), { recursive: true });
-    writeFileSync(redirectPath, makeRedirectHtml(toPath), 'utf-8');
-    console.log(`➡️  Redirect ${fromPath} → ${toPath}`);
   }
 
   console.log(`\n📄 Pre-rendering complete:`);

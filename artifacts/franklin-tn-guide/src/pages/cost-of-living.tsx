@@ -15,7 +15,7 @@ export default function CostOfLiving() {
   return (
     <PageWrapper
       title="Cost of Living"
-      description="Is Franklin, TN expensive? Here's an honest breakdown of Franklin's cost of living — housing prices, rent, taxes, utilities, groceries, and how it compares to where you're moving from."
+      description="Is Franklin, TN expensive? Here's an honest breakdown of Franklin's cost of living , housing prices, rent, taxes, utilities, groceries, and how it compares to where you're moving from."
       canonicalUrl="/cost-of-living"
       schema={breadcrumbSchema}
     >
@@ -36,7 +36,7 @@ export default function CostOfLiving() {
       <div className="container mx-auto max-w-3xl px-4 py-20">
         <div className="prose prose-lg max-w-none prose-stone prose-headings:font-serif prose-headings:text-[#1B2A4A] prose-a:text-[#2D6A4F] hover:prose-a:text-[#1e4a36]">
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Let's be direct: Franklin, Tennessee is not cheap. If you've been reading relocation content that leans heavily on Tennessee's affordable reputation without acknowledging what Williamson County actually costs, this page will give you a more honest picture — including the context that makes Franklin's costs make sense for the people choosing to move here.
+            Let's be direct: Franklin, Tennessee is not cheap. If you've been reading relocation content that leans heavily on Tennessee's affordable reputation without acknowledging what Williamson County actually costs, this page will give you a more honest picture , including the context that makes Franklin's costs make sense for the people choosing to move here.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
@@ -50,7 +50,7 @@ export default function CostOfLiving() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Housing is the primary driver of that gap. Everything else — groceries, utilities, transportation — is closer to national norms. Tennessee's tax environment, particularly the absence of a state income tax, works meaningfully in the other direction.
+            Housing is the primary driver of that gap. Everything else , groceries, utilities, transportation , is closer to national norms. Tennessee's tax environment, particularly the absence of a state income tax, works meaningfully in the other direction.
           </p>
 
           <h2>Housing: The Biggest Line Item</h2>
@@ -89,7 +89,7 @@ export default function CostOfLiving() {
           </div>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Prices have moderated from the peak frenzy of 2021–2022 but remain elevated by any historical Franklin standard. Inventory is limited in most neighborhoods, and well-priced homes still move quickly. This is not a buyer's market — but it's a more balanced one than it was three years ago.
+            Prices have moderated from the peak frenzy of 2021–2022 but remain elevated by any historical Franklin standard. Inventory is limited in most neighborhoods, and well-priced homes still move quickly. This is not a buyer's market , but it's a more balanced one than it was three years ago.
           </p>
 
           <h3>Renting</h3>
@@ -116,7 +116,7 @@ export default function CostOfLiving() {
           <h2>The Context That Actually Matters</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Franklin's housing prices need to be understood relative to where most people moving here are coming from — not relative to Tennessee's statewide median.
+            Franklin's housing prices need to be understood relative to where most people moving here are coming from , not relative to Tennessee's statewide median.
           </p>
 
           <div className="space-y-4 my-8">
@@ -137,7 +137,7 @@ export default function CostOfLiving() {
 
             <div className="border-l-4 border-secondary pl-6">
               <p className="font-semibold text-foreground mb-2">For buyers leaving Nashville proper:</p>
-              <p className="text-muted-foreground">Franklin is comparable or slightly higher than Nashville's most desirable neighborhoods — but the school quality differential is significant enough that many families consider the premium worthwhile.</p>
+              <p className="text-muted-foreground">Franklin is comparable or slightly higher than Nashville's most desirable neighborhoods , but the school quality differential is significant enough that many families consider the premium worthwhile.</p>
             </div>
           </div>
 
@@ -185,12 +185,12 @@ export default function CostOfLiving() {
                 <tr>
                   <td className="py-3 text-muted-foreground">Texas</td>
                   <td className="py-3 text-muted-foreground">0%</td>
-                  <td className="py-3 font-bold text-primary">—</td>
+                  <td className="py-3 font-bold text-primary">,</td>
                 </tr>
                 <tr>
                   <td className="py-3 text-muted-foreground font-semibold">Tennessee</td>
                   <td className="py-3 text-muted-foreground font-semibold">0%</td>
-                  <td className="py-3 font-bold text-secondary">—</td>
+                  <td className="py-3 font-bold text-secondary">,</td>
                 </tr>
               </tbody>
             </table>
@@ -199,7 +199,7 @@ export default function CostOfLiving() {
           <h3>Property Taxes</h3>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Williamson County's effective property tax rate runs approximately 0.55%–0.75% of assessed value annually — meaningfully lower than most Northeastern, Midwestern, and West Coast states.
+            Williamson County's effective property tax rate runs approximately 0.55%–0.75% of assessed value annually , meaningfully lower than most Northeastern, Midwestern, and West Coast states.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -209,7 +209,7 @@ export default function CostOfLiving() {
           <h3>Sales Tax</h3>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Tennessee's combined state and local sales tax rate runs approximately 9.25%–9.75% in Williamson County — one of the higher rates in the country. This is the tax you'll notice in daily life. Groceries are taxed at a reduced rate of 4%; general retail purchases carry the full rate.
+            Tennessee's combined state and local sales tax rate runs approximately 9.25%–9.75% in Williamson County , one of the higher rates in the country. This is the tax you'll notice in daily life. Groceries are taxed at a reduced rate of 4%; general retail purchases carry the full rate.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -299,7 +299,7 @@ export default function CostOfLiving() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span>If you're relocating from a city where you didn't own a car, budget for at least one vehicle — two is the norm for families</span>
+              <span>If you're relocating from a city where you didn't own a car, budget for at least one vehicle , two is the norm for families</span>
             </li>
           </ul>
 
@@ -376,7 +376,7 @@ export default function CostOfLiving() {
           <h2>The Honest Bottom Line</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Franklin is expensive relative to Tennessee's overall cost of living. It is considerably less expensive than the coastal and major metro markets most of its new residents are leaving. And when you run the full tax calculation — particularly for high-earning households — the total financial picture frequently looks better than the sticker price on homes suggests.
+            Franklin is expensive relative to Tennessee's overall cost of living. It is considerably less expensive than the coastal and major metro markets most of its new residents are leaving. And when you run the full tax calculation , particularly for high-earning households , the total financial picture frequently looks better than the sticker price on homes suggests.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -389,7 +389,7 @@ export default function CostOfLiving() {
 
           <div className="bg-muted/50 p-8 rounded-2xl mb-12 mt-12">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Want to talk through what Franklin living would actually cost for your specific situation? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — happy to run through the numbers with you.
+              Want to talk through what Franklin living would actually cost for your specific situation? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> , happy to run through the numbers with you.
             </p>
           </div>
 

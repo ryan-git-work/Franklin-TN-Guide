@@ -78,7 +78,7 @@ export default function About() {
           <h2>What This Site Is</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Franklin TN Guide is a comprehensive local resource for anyone considering a move to Franklin — or anyone already here who wants to get more out of living in one of the best cities in the South.
+            Franklin TN Guide is a comprehensive local resource for anyone considering a move to Franklin , or anyone already here who wants to get more out of living in one of the best cities in the South.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">You'll find honest, detailed guides on:</p>
@@ -86,38 +86,38 @@ export default function About() {
           <ul className="space-y-3 mb-8 not-prose">
             <li className="flex items-start gap-3 text-muted-foreground">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span><strong className="text-foreground">Neighborhoods</strong> — what each community is really like, who it suits, and what to weigh before you decide</span>
+              <span><strong className="text-foreground">Neighborhoods</strong> , what each community is really like, who it suits, and what to weigh before you decide</span>
             </li>
             <li className="flex items-start gap-3 text-muted-foreground">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span><strong className="text-foreground">Schools</strong> — how Williamson County Schools works, which schools serve which areas, and what relocating families consistently say after their kids have been through the system</span>
+              <span><strong className="text-foreground">Schools</strong> , how Williamson County Schools works, which schools serve which areas, and what relocating families consistently say after their kids have been through the system</span>
             </li>
             <li className="flex items-start gap-3 text-muted-foreground">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span><strong className="text-foreground">Cost of living</strong> — real numbers, not glossy marketing figures</span>
+              <span><strong className="text-foreground">Cost of living</strong> , real numbers, not glossy marketing figures</span>
             </li>
             <li className="flex items-start gap-3 text-muted-foreground">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span><strong className="text-foreground">Things to do</strong> — the restaurants, parks, trails, festivals, and local spots worth knowing about</span>
+              <span><strong className="text-foreground">Things to do</strong> , the restaurants, parks, trails, festivals, and local spots worth knowing about</span>
             </li>
             <li className="flex items-start gap-3 text-muted-foreground">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span><strong className="text-foreground">Family life</strong> — where kids play, where families gather, what weekends look like here</span>
+              <span><strong className="text-foreground">Family life</strong> , where kids play, where families gather, what weekends look like here</span>
             </li>
             <li className="flex items-start gap-3 text-muted-foreground">
               <span className="text-secondary font-bold mt-1">•</span>
-              <span><strong className="text-foreground">The Franklin vs. Nashville question</strong> — answered honestly, for different kinds of people</span>
+              <span><strong className="text-foreground">The Franklin vs. Nashville question</strong> , answered honestly, for different kinds of people</span>
             </li>
           </ul>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            The goal is to give you the information you'd get from a friend who lives here — specific, candid, and actually useful.
+            The goal is to give you the information you'd get from a friend who lives here , specific, candid, and actually useful.
           </p>
 
           <h2>A Little About Franklin</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Franklin has a way of exceeding expectations. People research it because of the schools or the job market or the proximity to Nashville, and then they visit and realize there's something harder to quantify going on — a quality of daily life that feels increasingly rare.
+            Franklin has a way of exceeding expectations. People research it because of the schools or the job market or the proximity to Nashville, and then they visit and realize there's something harder to quantify going on , a quality of daily life that feels increasingly rare.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -125,13 +125,13 @@ export default function About() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            It's the kind of place where people plan to stay a few years and end up raising their families. That's not an accident — and it's what this site is ultimately trying to help you understand before you make the decision.
+            It's the kind of place where people plan to stay a few years and end up raising their families. That's not an accident , and it's what this site is ultimately trying to help you understand before you make the decision.
           </p>
 
           <h2>Ready to Make the Move?</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-            When you're ready to start seriously exploring a move to Franklin, we're happy to connect you with trusted local resources — real estate professionals, neighborhood specialists, and people who know this market at the street level. No pressure, no sales pitch. Just a conversation about whether Franklin is the right fit for your family and what that next step might look like.
+            When you're ready to start seriously exploring a move to Franklin, we're happy to connect you with trusted local resources , real estate professionals, neighborhood specialists, and people who know this market at the street level. No pressure, no sales pitch. Just a conversation about whether Franklin is the right fit for your family and what that next step might look like.
           </p>
         </div>
 

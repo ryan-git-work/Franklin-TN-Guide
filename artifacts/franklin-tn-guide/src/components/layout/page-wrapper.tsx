@@ -15,11 +15,15 @@ interface PageWrapperProps {
 }
 
 export function PageWrapper({ children, title, description, canonicalUrl, schema, type, ogImage }: PageWrapperProps) {
+  const pageTitle = title?.includes("Franklin TN Guide") || title?.startsWith("Franklin, TN Guide")
+    ? title
+    : `${title} | Franklin TN Guide`;
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {title && description && (
         <SEO
-          title={`${title} | Franklin TN Guide`}
+          title={pageTitle}
           description={description}
           canonicalUrl={canonicalUrl}
           schema={schema}

@@ -11,13 +11,19 @@ interface SEOProps {
 
 const siteUrl = 'https://franklintnguide.com';
 
+export function absoluteCanonical(path?: string) {
+  if (!path || path === '/') return `${siteUrl}/`;
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  return `${siteUrl}${normalizedPath.endsWith('/') ? normalizedPath : `${normalizedPath}/`}`;
+}
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Franklin TN Guide',
   url: siteUrl,
   logo: `${siteUrl}/images/hero-franklin.png`,
-  description: 'Your comprehensive relocation guide to Franklin, Tennessee \u2014 neighborhoods, schools, cost of living, and lifestyle.',
+  description: 'Your comprehensive relocation guide to Franklin, Tennessee, neighborhoods, schools, cost of living, and lifestyle.',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'ryan@locheventures.com',
@@ -44,7 +50,7 @@ function renderSchema(schema: Record<string, any>, key: string) {
 }
 
 export function SEO({ title, description, canonicalUrl, type = 'website', schema, ogImage }: SEOProps) {
-  const fullCanonical = canonicalUrl ? `${siteUrl}${canonicalUrl}` : siteUrl;
+  const fullCanonical = absoluteCanonical(canonicalUrl);
   const image = ogImage || 'https://franklintnguide.com/images/hero-franklin.png';
 
   const allSchemas: Record<string, any>[] = [organizationSchema, websiteSchema];

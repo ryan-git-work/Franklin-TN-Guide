@@ -15,7 +15,7 @@ export default function Schools() {
   return (
     <PageWrapper
       title="Schools & Education"
-      description="Everything families need to know about Franklin TN schools — Williamson County Schools, Franklin Special School District, top high schools, and private school options. One of the best school districts in the nation."
+      description="Everything families need to know about Franklin TN schools , Williamson County Schools, Franklin Special School District, top high schools, and private school options. One of the best school districts in the nation."
       canonicalUrl="/schools"
       schema={breadcrumbSchema}
     >
@@ -36,7 +36,7 @@ export default function Schools() {
       <div className="container mx-auto max-w-3xl px-4 py-20">
         <div className="prose prose-lg max-w-none prose-stone prose-headings:font-serif prose-headings:text-[#1B2A4A] prose-a:text-[#2D6A4F] hover:prose-a:text-[#1e4a36]">
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            For most families moving to Franklin, the schools aren't just a checkbox — they're the reason Franklin made the list in the first place. Williamson County's public school system is genuinely one of the strongest in the country, and it's a primary driver of the area's sustained in-migration from higher-cost markets across the country.
+            For most families moving to Franklin, the schools aren't just a checkbox , they're the reason Franklin made the list in the first place. Williamson County's public school system is genuinely one of the strongest in the country, and it's a primary driver of the area's sustained in-migration from higher-cost markets across the country.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-12">
@@ -79,14 +79,14 @@ export default function Schools() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground mt-6 mb-0">
-              These aren't marketing numbers — they reflect a district that has invested consistently in teacher quality, facilities, curriculum breadth, and student outcomes over decades.
+              These aren't marketing numbers , they reflect a district that has invested consistently in teacher quality, facilities, curriculum breadth, and student outcomes over decades.
             </p>
           </div>
 
           <h2>Understanding Franklin's Two Public School Districts</h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            This is the part that surprises most people researching Franklin schools — and it's important to understand before you buy. Franklin is served by two separate public school districts, not one. Which district your child attends depends entirely on your home's address.
+            This is the part that surprises most people researching Franklin schools , and it's important to understand before you buy. Franklin is served by two separate public school districts, not one. Which district your child attends depends entirely on your home's address.
           </p>
 
           <h3>Williamson County Schools (WCS)</h3>
@@ -100,7 +100,7 @@ export default function Schools() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            What the numbers don't fully capture: the culture of academic expectation that runs through the district. Teachers are well-compensated by Tennessee standards, turnover is lower than comparable districts nationally, and parent involvement is high across most schools. These are the conditions that produce sustained academic outcomes — and they don't happen by accident.
+            What the numbers don't fully capture: the culture of academic expectation that runs through the district. Teachers are well-compensated by Tennessee standards, turnover is lower than comparable districts nationally, and parent involvement is high across most schools. These are the conditions that produce sustained academic outcomes , and they don't happen by accident.
           </p>
 
           <h4>WCS High Schools Serving Franklin</h4>
@@ -109,7 +109,7 @@ export default function Schools() {
             <div className="border-l-4 border-secondary pl-6">
               <h5 className="text-xl font-semibold text-foreground mb-2">Franklin High School</h5>
               <p className="text-muted-foreground">
-                One of the oldest and most established schools in the county, Franklin High serves much of central and eastern Franklin. Strong AP offerings, competitive athletics, and deep institutional roots give it the energy of a school with real history. The performing arts programs — particularly theater and band — are well-regarded across the district.
+                One of the oldest and most established schools in the county, Franklin High serves much of central and eastern Franklin. Strong AP offerings, competitive athletics, and deep institutional roots give it the energy of a school with real history. The performing arts programs , particularly theater and band , are well-regarded across the district.
               </p>
             </div>
 
@@ -149,7 +149,7 @@ export default function Schools() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Notable middle schools serving Franklin families include Freedom Middle, Grassland Middle, and Legacy Middle — each feeding into different high schools based on location.
+            Notable middle schools serving Franklin families include Freedom Middle, Grassland Middle, and Legacy Middle , each feeding into different high schools based on location.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed font-semibold bg-muted p-4 rounded-lg">
@@ -159,11 +159,11 @@ export default function Schools() {
           <h3>Franklin Special School District (FSSD)</h3>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            The Franklin Special School District is one of the more distinctive features of Franklin's educational landscape — and one that many people researching a move here don't know exists until they're well into the process.
+            The Franklin Special School District is one of the more distinctive features of Franklin's educational landscape , and one that many people researching a move here don't know exists until they're well into the process.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            FSSD is a separate, independent public school district serving students in Pre-K through 8th grade who live within specific historic Franklin city limits. It is not part of Williamson County Schools. After 8th grade, FSSD students feed into WCS high schools — primarily Franklin High School.
+            FSSD is a separate, independent public school district serving students in Pre-K through 8th grade who live within specific historic Franklin city limits. It is not part of Williamson County Schools. After 8th grade, FSSD students feed into WCS high schools , primarily Franklin High School.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
@@ -179,7 +179,7 @@ export default function Schools() {
             <ul className="space-y-2 text-muted-foreground">
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
-                <span>Serves Pre-K through 8th grade only — high school is through WCS</span>
+                <span>Serves Pre-K through 8th grade only , high school is through WCS</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
@@ -195,7 +195,7 @@ export default function Schools() {
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
-                <span>Whether your address falls in FSSD or WCS depends entirely on your specific location — verify before buying</span>
+                <span>Whether your address falls in FSSD or WCS depends entirely on your specific location , verify before buying</span>
               </li>
             </ul>
           </div>
@@ -239,7 +239,7 @@ export default function Schools() {
           <h4>Other Area Options Worth Noting</h4>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Families committed to private education and willing to drive into the Nashville area have access to several nationally recognized independent schools including Montgomery Bell Academy, Harpeth Hall School, and Ensworth — all highly regarded college-preparatory institutions with strong reputations that extend well beyond Tennessee.
+            Families committed to private education and willing to drive into the Nashville area have access to several nationally recognized independent schools including Montgomery Bell Academy, Harpeth Hall School, and Ensworth , all highly regarded college-preparatory institutions with strong reputations that extend well beyond Tennessee.
           </p>
 
           <h2>What Relocating Families Consistently Say About Franklin Schools</h2>
@@ -256,7 +256,7 @@ export default function Schools() {
 
             <div>
               <p className="font-semibold text-foreground mb-2">The academic expectations are real.</p>
-              <p className="text-muted-foreground text-sm">Kids coming from lower-performing districts occasionally need time to adjust to the pace and expectation level. This is almost always described as a short-term transition challenge rather than a lasting problem — but it's worth preparing children for, particularly at the middle and high school level.</p>
+              <p className="text-muted-foreground text-sm">Kids coming from lower-performing districts occasionally need time to adjust to the pace and expectation level. This is almost always described as a short-term transition challenge rather than a lasting problem , but it's worth preparing children for, particularly at the middle and high school level.</p>
             </div>
 
             <div>
@@ -266,7 +266,7 @@ export default function Schools() {
 
             <div>
               <p className="font-semibold text-foreground mb-2">The schools deliver.</p>
-              <p className="text-muted-foreground text-sm">Beneath all the caveats, the fundamental thing families say is that the schools work — that their kids are learning, growing, and being prepared. That's the part that matters, and it's what keeps families choosing Franklin even at premium price points.</p>
+              <p className="text-muted-foreground text-sm">Beneath all the caveats, the fundamental thing families say is that the schools work , that their kids are learning, growing, and being prepared. That's the part that matters, and it's what keeps families choosing Franklin even at premium price points.</p>
             </div>
           </div>
 
@@ -287,15 +287,15 @@ export default function Schools() {
             </div>
             <div className="flex items-start gap-3">
               <Check className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
-              <span className="text-muted-foreground">Research those specific schools — district-wide averages are strong, but individual schools vary</span>
+              <span className="text-muted-foreground">Research those specific schools , district-wide averages are strong, but individual schools vary</span>
             </div>
             <div className="flex items-start gap-3">
               <Check className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
-              <span className="text-muted-foreground">Ask about recent or pending rezoning in the area — boundaries shift as the district manages growth</span>
+              <span className="text-muted-foreground">Ask about recent or pending rezoning in the area , boundaries shift as the district manages growth</span>
             </div>
             <div className="flex items-start gap-3">
               <Check className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
-              <span className="text-muted-foreground">If private school is a priority, research admission timelines — BGA and other selective schools have application windows that may affect your moving timeline</span>
+              <span className="text-muted-foreground">If private school is a priority, research admission timelines , BGA and other selective schools have application windows that may affect your moving timeline</span>
             </div>
             <div className="flex items-start gap-3">
               <Check className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
@@ -305,7 +305,7 @@ export default function Schools() {
 
           <div className="bg-muted/50 p-8 rounded-2xl mb-12">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Have questions about which Franklin neighborhoods feed into the strongest school zones? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> — we're happy to walk through the specifics.
+              Have questions about which Franklin neighborhoods feed into the strongest school zones? <a href="mailto:ryan@locheventures.com" className="text-secondary hover:text-secondary/80 font-semibold">Get in touch</a> , we're happy to walk through the specifics.
             </p>
           </div>
 

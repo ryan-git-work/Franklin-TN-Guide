@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import { Calendar } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { getNewsBySlugSync } from '@/lib/news';
+import { absoluteCanonical } from '@/components/seo';
 
 const formatDate = (dateString: string) => {
   const date = new Date(dateString);
@@ -20,7 +21,7 @@ const orgSchema = {
   name: 'Franklin TN Guide',
   url: 'https://franklintnguide.com',
   logo: 'https://franklintnguide.com/images/hero-franklin.png',
-  description: 'Your comprehensive relocation guide to Franklin, Tennessee \u2014 neighborhoods, schools, cost of living, and lifestyle.',
+  description: 'Your comprehensive relocation guide to Franklin, Tennessee, neighborhoods, schools, cost of living, and lifestyle.',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'ryan@locheventures.com',
@@ -61,12 +62,12 @@ export default function NewsArticle() {
     );
   }
 
-  const canonicalUrl = `https://franklintnguide.com/news/${article.slug}`;
+  const canonicalUrl = absoluteCanonical(`/news/${article.slug}/`);
   const ogImage = 'https://franklintnguide.com/images/hero-franklin.png';
 
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'NewsArticle',
     headline: article.title,
     description: article.metaDescription,
     author: { '@type': 'Organization', name: 'Franklin TN Guide' },
@@ -86,8 +87,8 @@ export default function NewsArticle() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://franklintnguide.com' },
-      { '@type': 'ListItem', position: 2, name: 'News', item: 'https://franklintnguide.com/news' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://franklintnguide.com/' },
+      { '@type': 'ListItem', position: 2, name: 'News', item: 'https://franklintnguide.com/news/' },
       { '@type': 'ListItem', position: 3, name: article.title, item: canonicalUrl },
     ],
   };

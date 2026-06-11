@@ -8,15 +8,15 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Franklin TN Guide",
-    "description": "Your comprehensive relocation guide to living in Franklin, Tennessee.",
-    "url": "https://franklintnguide.com",
+    "description": "The honest local guide to Franklin, Tennessee, moving costs, neighborhoods, schools, restaurants, and resident perspective.",
+    "url": "https://franklintnguide.com/",
   };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com/" },
     ],
   };
 
@@ -24,8 +24,9 @@ export default function Home() {
 
   return (
     <PageWrapper
-      title="Welcome to Franklin, Tennessee"
-      description="Whether you're relocating for a new career, seeking top-tier schools, or simply craving historic charm with modern luxury, your journey starts here."
+      title="Franklin, TN Guide — Moving, Living & Local Insider Info"
+      description="The honest local guide to Franklin, Tennessee — moving costs, neighborhoods, schools, restaurants, and what residents actually say about life in Williamson County."
+      canonicalUrl="/"
       type="website"
       schema={[homeSchema, breadcrumbSchema]}
     >
@@ -46,7 +47,7 @@ export default function Home() {
             Tennessee's Best Kept Secret
           </div>
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 tracking-tight drop-shadow-lg">
-            Welcome to <br/><span className="italic">Franklin, Tennessee</span>
+            The Honest Local Guide to <br/><span className="italic">Franklin, Tennessee</span>
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow">
             Whether you're relocating for a new career, seeking top-tier schools, or simply craving historic charm with modern luxury, your journey starts here.
@@ -67,10 +68,10 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
-              { title: "Neighborhoods", icon: MapPin, href: "/neighborhoods", desc: "Find your perfect community" },
-              { title: "Schools", icon: GraduationCap, href: "/schools", desc: "Top-rated education" },
-              { title: "Cost of Living", icon: Wallet, href: "/cost-of-living", desc: "Housing & expenses" },
-              { title: "Franklin vs Nashville", icon: Building2, href: "/franklin-vs-nashville", desc: "Compare the cities" }
+              { title: "Neighborhoods", icon: MapPin, href: "/neighborhoods/", desc: "Find your perfect community" },
+              { title: "Schools", icon: GraduationCap, href: "/schools/", desc: "Top-rated education" },
+              { title: "Cost of Living", icon: Wallet, href: "/cost-of-living/", desc: "Housing & expenses" },
+              { title: "Franklin vs Nashville", icon: Building2, href: "/franklin-vs-nashville/", desc: "Compare the cities" }
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group bg-card p-6 rounded-2xl shadow-lg border border-border/50 hover:shadow-xl hover:-translate-y-1 hover:border-primary/30 transition-all flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mb-4 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
@@ -96,7 +97,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {articleList.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group flex flex-col bg-card rounded-3xl overflow-hidden shadow-md border border-border hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <Link key={article.slug} href={`/articles/${article.slug}/`} className="group flex flex-col bg-card rounded-3xl overflow-hidden shadow-md border border-border hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="h-64 overflow-hidden relative">
                   {article.imageUrl && (
                     <img 
