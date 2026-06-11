@@ -1,6 +1,8 @@
 import { PageWrapper } from "@/components/layout/page-wrapper";
-import { Download, ArrowRight, CheckCircle, Mail } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import { Link } from "wouter";
+
+const SHOW_TOOLKIT_EMAIL_CAPTURE = false;
 
 export default function Toolkit() {
   const breadcrumbSchema = {
@@ -14,18 +16,18 @@ export default function Toolkit() {
 
   return (
     <PageWrapper
-      title="Free Franklin Relocation Toolkit"
-      description="Download the free Franklin Relocation Toolkit , a comprehensive guide to neighborhoods, schools, cost of living, and everything you need to know before moving to Franklin, TN."
+      title="Franklin Relocation Toolkit"
+      description="The Franklin Relocation Toolkit is in production. Contact Franklin TN Guide for relocation questions while the public toolkit is being prepared."
       canonicalUrl="/toolkit/"
       schema={breadcrumbSchema}
     >
       <div className="bg-primary pt-32 pb-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6">
-            Free Franklin Relocation Toolkit
+            Franklin Relocation Toolkit
           </h1>
           <p className="text-xl text-white/80 font-light leading-relaxed max-w-2xl mx-auto">
-            Everything you need to evaluate Franklin before you move , neighborhood breakdowns, school data, cost comparisons, and a relocation checklist.
+            A practical relocation resource is in production for families comparing neighborhoods, schools, housing costs, and the details of moving to Franklin.
           </p>
         </div>
       </div>
@@ -33,25 +35,33 @@ export default function Toolkit() {
       <div className="container mx-auto max-w-3xl px-4 py-20">
         <div className="bg-card p-8 md:p-10 rounded-3xl shadow-lg border border-border mb-12 text-center">
           <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-6">
-            <Download className="w-8 h-8" />
+            <CheckCircle className="w-8 h-8" />
           </div>
           <h2 className="text-2xl font-serif font-bold text-primary mb-4">
-            Download the Toolkit
+            Toolkit in Production
           </h2>
           <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-            The toolkit is delivered as a PDF and includes neighborhood guides, school data, cost-of-living breakdowns, and a pre-move checklist.
+            We're tightening this resource before publishing it publicly. For now, the best next step is a direct note with what you're trying to compare or decide.
           </p>
-          <a
-            href="mailto:ryan@locheventures.com?subject=Franklin%20Relocation%20Toolkit%20Request"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-xl font-bold text-lg hover:bg-secondary shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
-          >
-            <Download className="w-5 h-5" />
-            Request Free Toolkit
-          </a>
-          <p className="text-sm text-muted-foreground mt-4 flex items-center justify-center gap-2">
-            <Mail className="w-4 h-4" />
-            ryan@locheventures.com
-          </p>
+          {SHOW_TOOLKIT_EMAIL_CAPTURE ? null : (
+            <Link
+              href="/contact/"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-xl font-bold text-lg hover:bg-secondary shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+            >
+              Contact Franklin TN Guide
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          )}
+          {SHOW_TOOLKIT_EMAIL_CAPTURE && (
+            <Link
+              href="/contact/"
+              aria-label="Request help with the Franklin relocation resource"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-xl font-bold text-lg hover:bg-secondary shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+            >
+              Request Franklin relocation help
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          )}
         </div>
 
         <div className="mb-12">

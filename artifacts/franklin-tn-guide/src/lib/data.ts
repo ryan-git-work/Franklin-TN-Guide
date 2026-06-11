@@ -3465,9 +3465,6 @@ The biggest mistake Atlantans make is moving without scouting neighborhoods care
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -3593,9 +3590,6 @@ The biggest mistakes are made by buyers who skip the second scouting visit, unde
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -3742,9 +3736,6 @@ The right answer is the one your budget supports without strain, and the one tha
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -3884,9 +3875,6 @@ Both are excellent. The right answer is the one that matches your priorities and
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4041,9 +4029,6 @@ The right Laurelbrooke buyer knows which side of that line they're on before the
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4199,9 +4184,6 @@ The buyers who don't fit here are those who'd prefer larger lots, newer construc
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4348,9 +4330,6 @@ For everyone else, the combination of tax structure, healthcare access, cultural
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4488,9 +4467,6 @@ The single most valuable thing you can do as a buyer: bring your own representat
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4650,9 +4626,6 @@ That savings, year after year, is roughly equivalent to a paid-off second mortga
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4807,9 +4780,6 @@ If that profile fits, Franklin deserves a serious look.
 Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
 
 [**Book a free Franklin relocation call**](/contact/)
-
-[**Download the free Franklin Relocation Toolkit**](/toolkit/)
-
 ---
 
 ### Related reading
@@ -4819,6 +4789,936 @@ Considering a move to Franklin? Talk through the details with a Franklin residen
 - [Best Neighborhoods in Franklin, TN](/neighborhoods)
 - [Why Move to Franklin, TN](/articles/why-move-to-franklin-tn)
 - [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes)
+    `
+  },
+  "franklin-tn-vs-murfreesboro": {
+    slug: "franklin-tn-vs-murfreesboro",
+    title: "Franklin TN vs Murfreesboro: Which Nashville Suburb Fits You? (2026)",
+    metaTitle: "Franklin TN vs Murfreesboro: Honest Comparison (2026)",
+    metaDescription: "Franklin and Murfreesboro sit on opposite sides of Nashville at very different price points. Schools, commutes, housing, and who each suburb actually fits.",
+    keywords: ["franklin tn vs murfreesboro","[Franklin Tn Vs Murfreesboro","Nashville Suburbs","Murfreesboro Tn","Relocation Comparison]"],
+    date: "June 10, 2026",
+    readTime: "9 min read",
+    excerpt: "Franklin and Murfreesboro sit on opposite sides of Nashville at very different price points. Schools, commutes, housing, and who each suburb actually fits.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Franklin TN vs Murfreesboro: Which Nashville Suburb Fits You? (2026)
+
+The honest version of this comparison starts with a number most articles bury: the median home in Franklin costs roughly twice what the median home in Murfreesboro costs. Everything else in this comparison flows downhill from that gap. The two cities sit on opposite sides of Nashville (Franklin southwest on I-65, Murfreesboro southeast on I-24), serve different buyer profiles, and feel like different places to live, not two flavors of the same suburb.
+
+Here is how the decision actually breaks down for a relocating family.
+
+## The 30-second answer
+
+Choose **Franklin** if your priorities are Williamson County Schools, long-term property value in one of the strongest suburban markets in the South, walkable historic downtown character, and you have the budget for an entry point around the $600s and a median near $900K.
+
+Choose **Murfreesboro** if your priorities are getting the most house per dollar in Middle Tennessee, a sub-$500K budget that still buys new construction, proximity to a true college town (MTSU), and you can tolerate a longer, less predictable commute into Nashville.
+
+## Housing: the defining gap
+
+**Franklin (2026):** median sale price has been running in the high $800s to low $900s. Entry-level townhomes and older condos start in the $400s to $500s, but detached single-family under $650K is scarce. New construction in communities like Berry Farms and southeast Franklin typically starts in the $700s.
+
+**Murfreesboro (2026):** median sale price has been running in the low-to-mid $400s. New construction from national builders is widely available in the $350s to $500s, and resale inventory under $400K still exists in established neighborhoods.
+
+Put plainly: the same monthly payment that gets you a 1,900-square-foot townhome in Franklin gets you a 3,000-square-foot new build with a yard in Murfreesboro. If maximum house per dollar is the deciding factor, Murfreesboro wins and it is not close.
+
+What Franklin buys with that premium is appreciation history, scarcity, and school zoning. Williamson County's growth controls keep supply tight, which has protected values through rate cycles that flattened other markets. Murfreesboro and Rutherford County have approved far more volume building, which keeps prices accessible but also means your resale competes with the next phase of new construction down the road.
+
+## Schools: the reason most people pay the Franklin premium
+
+Franklin is zoned to Williamson County Schools (plus the Franklin Special School District for some K-8 zones inside the city), which is consistently the top-performing large district in Tennessee on state report card data.
+
+Murfreesboro is served by Rutherford County Schools plus Murfreesboro City Schools for elementary grades. Both have solid individual schools, and the gap is narrower at specific schools than district averages suggest. But on aggregate outcomes, funding per student, and college placement, Williamson County leads, and that gap is the single biggest driver of the housing price difference between the two cities.
+
+A practical note for buyers: in both counties, zoning is reviewed periodically and specific school assignments should be verified against the district's current zoning maps before any purchase. See our [Williamson County schools guide](/schools/) for how Franklin zoning works.
+
+## Commute and location
+
+**Franklin to downtown Nashville:** roughly 21 miles up I-65, 25 to 40 minutes depending on the hour. The Cool Springs employment corridor means many Franklin residents do not commute to Nashville at all.
+
+**Murfreesboro to downtown Nashville:** roughly 34 miles up I-24, and this is the comparison's hidden cost. I-24 between Murfreesboro and Nashville carries some of the worst congestion in the state, and peak-hour drives of 60 to 75 minutes are common. If a Nashville office requires daily attendance, this commute deserves a trial run at 7:30 a.m. before signing anything.
+
+Murfreesboro counters with its own employment base: MTSU (the state's largest undergraduate university), the National Guard, healthcare, and a substantial retail and logistics economy. Like Franklin, a large share of residents work locally.
+
+## Taxes and cost of living
+
+Both cities benefit from Tennessee's no-income-tax structure. Property taxes differ: Williamson County's effective rate on a Franklin home runs roughly 0.5 to 0.6 percent of market value, while Rutherford County plus Murfreesboro city rates produce a somewhat higher effective rate. But because Murfreesboro home values are half of Franklin's, the actual annual tax bill on a typical Murfreesboro home is meaningfully lower. Run the math on real listings using the method in our [property tax guide](/articles/franklin-tn-property-taxes/), and see the [cost of living breakdown](/cost-of-living/) for the full picture.
+
+Day-to-day costs (groceries, dining, services) are modestly cheaper in Murfreesboro, though the difference is small compared to the housing gap.
+
+## Character and lifestyle
+
+Franklin's identity is its historic Main Street, the Civil War sites, the festival calendar (Main Street Festival, Pumpkinfest, Dickens of a Christmas), and an affluent, polished suburban culture. Dining and retail have matured to the point where driving into Nashville is optional.
+
+Murfreesboro's identity is a college town wrapped in a fast-growing suburb. The public square has its own historic charm, Stones River National Battlefield anchors the city's green space, and MTSU brings 20,000-plus students, Division I athletics, and a year-round events calendar. The retail spine along Medical Center Parkway (The Avenue, Fountains at Gateway) covers most needs.
+
+The texture difference is real: Franklin reads upscale and curated; Murfreesboro reads younger, bigger, and more in-progress. Neither is wrong. They are different products.
+
+## Who should choose Franklin
+
+- Families buying specifically for Williamson County Schools
+- Buyers who prioritize long-term value protection over square footage
+- Households with Cool Springs or Franklin-based employment
+- Anyone who wants walkable historic-downtown life within reach
+
+## Who should choose Murfreesboro
+
+- Buyers with a firm budget under $500K who want new construction
+- First-time buyers priced out of Williamson County entirely
+- Households tied to MTSU, Rutherford County employers, or southeast-side logistics jobs
+- Anyone who would rather bank the $400K difference than own the Franklin address
+
+## The middle path
+
+If this comparison leaves you torn, the towns between the two price points are worth a look: Spring Hill and Nolensville both offer newer housing below Franklin prices while keeping a foot in (or near) Williamson County. Start with our [Franklin vs Spring Hill](/articles/franklin-tn-vs-spring-hill/) and [Franklin vs Nolensville](/articles/franklin-tn-vs-nolensville/) comparisons.
+
+---
+
+## Still weighing the two?
+
+Considering a move to Middle Tennessee? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Cost of Living in Franklin, TN](/cost-of-living/)
+- [Williamson County Schools Guide](/schools/)
+- [Franklin TN vs Spring Hill](/articles/franklin-tn-vs-spring-hill/)
+- [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes/)
+
+---
+    `
+  },
+  "franklin-tn-vs-hendersonville": {
+    slug: "franklin-tn-vs-hendersonville",
+    title: "Franklin TN vs Hendersonville: South Side or Lake Side? (2026)",
+    metaTitle: "Franklin TN vs Hendersonville: Honest Comparison (2026)",
+    metaDescription: "Franklin and Hendersonville anchor opposite ends of the Nashville metro. Lake life vs Main Street, Sumner vs Williamson schools, and the real price gap.",
+    keywords: ["franklin tn vs hendersonville","[Franklin Tn Vs Hendersonville","Hendersonville Tn","Nashville Suburbs","Old Hickory Lake]"],
+    date: "June 10, 2026",
+    readTime: "9 min read",
+    excerpt: "Franklin and Hendersonville anchor opposite ends of the Nashville metro. Lake life vs Main Street, Sumner vs Williamson schools, and the real price gap.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Franklin TN vs Hendersonville: South Side or Lake Side? (2026)
+
+This comparison is really a question about which direction of the Nashville metro you want to live in, because Franklin and Hendersonville are about as far apart as two major suburbs in this market can be: 35-plus miles and, at the wrong hour, more than an hour of driving. Almost nobody house-hunts in both at once. But plenty of relocators researching Nashville from out of state are deciding between the south side and the north side, and this is the comparison that decides it.
+
+## The 30-second answer
+
+Choose **Franklin** if schools are the primary driver, you want the strongest long-term property market in the metro, and your work or life centers on the south side (Cool Springs, Brentwood, Berry Hill, or remote).
+
+Choose **Hendersonville** if you want water. Old Hickory Lake defines the city: lakefront and lake-access neighborhoods, marinas, and a boating culture that simply does not exist in Williamson County at any price. You also get a meaningfully lower cost of entry, with tradeoffs in school district performance and commute predictability.
+
+## Housing and price
+
+**Franklin (2026):** median sale price in the high $800s to low $900s. Scarce inventory under $650K for detached homes.
+
+**Hendersonville (2026):** median sale price has been running in the mid $400s to low $500s. Lakefront and lake-view properties carry their own premium and can run from the $700s into the multi-millions on the water, but the bulk of the housing stock (established neighborhoods from the 80s through 2010s plus newer infill) sits in a range that Franklin has not seen in a decade.
+
+The structural note: Sumner County has more developable land and looser growth pressure than Williamson, so supply keeps prices gentler. The flip side is the same as everywhere supply is loose: appreciation has historically lagged Williamson County's.
+
+## The lake factor
+
+This deserves its own section because it is the one thing Franklin cannot answer. Old Hickory Lake wraps Hendersonville's southern edge with roughly 26 miles of shoreline in the area, multiple marinas (Anchor High, Drakes Creek, Cherokee Steak House's adjacent docks among the landmarks), and neighborhoods where a boat slip is part of daily life rather than a vacation rental amenity.
+
+If weekends on the water are a lifestyle requirement, Hendersonville wins this comparison before it starts. Franklin's water is the Harpeth River, which is lovely for kayaking and greenway walks and is not a boating lake.
+
+## Schools
+
+Franklin is zoned to Williamson County Schools (with Franklin Special School District serving some in-city K-8 zones), the state's benchmark district.
+
+Hendersonville is served by Sumner County Schools. Sumner has well-regarded individual schools, and Hendersonville's zones (Beech, Hendersonville High, Station Camp area) are among the county's stronger options. On aggregate metrics, Williamson outperforms, and the difference is priced into the housing gap between the two cities.
+
+The fair framing: families choose Williamson for the district; families in Sumner choose specific schools. Verify current zoning with each district before buying. Our [schools guide](/schools/) covers how Franklin's zoning works.
+
+## Commute
+
+**Franklin:** I-65 south corridor, 25 to 40 minutes to downtown Nashville at peak, with the large Cool Springs employment base in-county.
+
+**Hendersonville:** Vietnam Veterans Boulevard (TN-386) feeds into I-65 north of downtown. Typical peak drives to downtown Nashville run 30 to 45 minutes. The corridor has fewer alternate routes than the south side, so incidents produce bigger swings.
+
+The commute question that actually matters: where do you work? Cross-metro commutes (living in Hendersonville and working in Cool Springs, or living in Franklin and working in Gallatin) are punishing and should rule out the far side in either direction.
+
+## Taxes and cost of living
+
+Tennessee's no-income-tax math applies to both. Property taxes: Sumner County plus Hendersonville city rates produce an effective rate broadly comparable to or slightly above Williamson's unusually low one, but on a much lower median home value, so the typical annual bill is smaller in Hendersonville. Daily costs are similar, with Franklin's dining and retail skewing more upscale (and priced accordingly). Full Franklin numbers are in our [cost of living guide](/cost-of-living/).
+
+## Character
+
+Hendersonville is a lake town that grew into a city of roughly 65,000: practical, family-oriented, less curated than Franklin, with its commercial life strung along Main Street (US-31E) and the Indian Lake Boulevard corridor (Streets of Indian Lake, the Glenbrook area). Johnny Cash famously lived on the lake here, and the town still carries some of that older Nashville-adjacent music history.
+
+Franklin is the metro's showpiece suburb: a preserved Victorian Main Street, a dense festival calendar, and a polished affluence that is either the appeal or the turnoff depending on the buyer.
+
+## Who should choose Franklin
+
+- Families optimizing for Williamson County Schools across the board
+- Buyers prioritizing long-term value strength
+- South-side and Cool Springs commuters, or remote workers who want Franklin's downtown
+- Anyone who wants the metro's deepest restaurant and retail bench outside Nashville proper
+
+## Who should choose Hendersonville
+
+- Boaters and lake-lifestyle households, full stop
+- Buyers who want established-neighborhood character in the $400s and $500s
+- North-side commuters (downtown, MetroCenter, Gallatin, Goodlettsville employment)
+- Families targeting specific strong Sumner schools rather than a whole district
+
+---
+
+## Deciding which side of Nashville fits?
+
+Considering a move to Middle Tennessee? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Franklin vs Nashville](/franklin-vs-nashville/)
+- [Franklin TN vs Murfreesboro](/articles/franklin-tn-vs-murfreesboro/)
+- [Cost of Living in Franklin, TN](/cost-of-living/)
+- [Williamson County Schools Guide](/schools/)
+
+---
+    `
+  },
+  "ladd-park-franklin-tn": {
+    slug: "ladd-park-franklin-tn",
+    title: "Ladd Park Franklin TN: Neighborhood Guide for Buyers (2026)",
+    metaTitle: "Ladd Park Franklin TN: Complete Neighborhood Guide (2026)",
+    metaDescription: "Ladd Park is southeast Franklin's value play: newer homes, real amenities, and a price band under the famous master-planned names. What buyers should know.",
+    keywords: ["ladd park franklin tn","[Ladd Park Franklin Tn","Franklin Neighborhoods","Southeast Franklin","Williamson County Homes]"],
+    date: "June 10, 2026",
+    readTime: "8 min read",
+    excerpt: "Ladd Park is southeast Franklin's value play: newer homes, real amenities, and a price band under the famous master-planned names. What buyers should know.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Ladd Park Franklin TN: Neighborhood Guide for Buyers (2026)
+
+Ladd Park does not make the glossy lists the way Westhaven does, and that is exactly why buyers should know about it. Tucked into southeast Franklin off Clovercroft Road near the Carothers Parkway extension, it is one of the city's larger newer communities, and it has quietly become the answer to a common relocator question: "Is there anything in actual Franklin, with actual amenities, that does not start with a 1 and a comma?"
+
+Often, the answer is Ladd Park.
+
+## Quick facts
+
+- **Location:** Southeast Franklin, off Clovercroft Road and the Carothers corridor, east of I-65
+- **Type:** Large single-family community built out in phases through the 2010s and early 2020s, multiple builders
+- **Approximate size:** Over a thousand homes across its sections (verify current count)
+- **Price band (2026):** Roughly the $600s to low $1Ms, with most activity in the $700s and $800s
+- **HOA:** Yes, with community pool, playgrounds, and trail amenities; dues modest compared to resort-style communities (verify current amount)
+- **Schools:** Zoned to Williamson County Schools; assignments have shifted as the southeast corridor grows, so verify current zoning for any specific address before buying
+
+## The housing stock
+
+Ladd Park's homes are mostly traditional single-family builds from the 2010s onward: brick and hardboard exteriors, two-story floor plans in the 2,200 to 3,800 square foot range, usable yards, and two- or three-car garages. Several national and regional builders worked the community across its phases, so finishes vary noticeably between sections and build years. Buyers comparing resales should pay attention to which phase and builder a listing comes from rather than treating the neighborhood as uniform.
+
+What you give up versus Franklin's premium master-planned names: no town center, no resort-scale amenity campus, less architectural curation. What you get: more recent construction per dollar than almost anywhere else inside Franklin city limits.
+
+## Amenities and daily life
+
+The community amenity set centers on the pool, playgrounds, green spaces, and walking trails connecting sections. The bigger amenity is position. Ladd Park sits on the growing southeast side, which means:
+
+- **Carothers corridor access:** the retail, dining, and employment growth along Carothers Parkway and the McEwen interchange is a short drive north
+- **Berry Farms:** Franklin's newest town-center development is minutes south, and its grocery, dining, and services increasingly function as Ladd Park's neighborhood retail
+- **I-65 access:** via the Goose Creek Bypass interchange to the south or McEwen to the north
+
+The honest tradeoff: southeast Franklin is an active construction zone. The Carothers extension, ongoing residential building, and the East McEwen widening project mean trucks, detours, and evolving traffic patterns for the next several years. Most residents read this as short-term pain attached to long-term value. Read our [pros and cons piece](/articles/pros-cons-living-franklin-tn/) for the broader version of that trade.
+
+## Schools
+
+Ladd Park is zoned to Williamson County Schools. The southeast corridor's rapid growth has made this part of the county the most likely area for periodic rezoning as new schools open, and assignments for specific streets have changed before. Treat any school assignment in a listing as a claim to verify against the WCS zoning lookup, not a guarantee. Our [schools guide](/schools/) explains how zoning and the district structure work.
+
+## Commute
+
+- **Downtown Franklin:** 10 to 15 minutes
+- **Cool Springs:** 10 to 15 minutes via Carothers
+- **Downtown Nashville:** 30 to 45 minutes peak via I-65
+- **Nashville airport (BNA):** roughly 35 minutes outside rush hour
+
+## Who Ladd Park is best for
+
+- Families who want Williamson County Schools and newer construction without the $1M-plus entry of the marquee communities
+- Buyers who value space and yard over town-center walkability
+- Relocators arriving from markets where $750K is a normal family-home budget and who want it to go further than it does in central Franklin
+- Anyone betting on the southeast corridor's growth arc (Berry Farms, Carothers extension, new schools)
+
+## Who should think twice
+
+- Buyers who want the amenity-dense, walk-to-dinner experience: that is [Westhaven](/articles/westhaven-franklin-tn/) or [Berry Farms](/articles/berry-farms-franklin-tn/), at a different price
+- Anyone allergic to living near active construction for the next few years
+- Buyers needing entry under the $600s: look at [Spring Hill](/articles/franklin-tn-vs-spring-hill/) or [Nolensville](/articles/franklin-tn-vs-nolensville/)
+
+## How Ladd Park compares to its neighbors
+
+The natural cross-shops are [McKay's Mill](/articles/mckays-mill-franklin-tn/) (more established, similar price band, closer to Cool Springs) and Berry Farms (newer, town-center model, generally higher entry). McKay's Mill trades newer construction for maturity and location; Berry Farms trades dollars for walkability. Ladd Park sits between them as the square-footage play. See all options in our [neighborhoods directory](/neighborhoods/).
+
+---
+
+## Want a local read on southeast Franklin?
+
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Franklin Neighborhoods Guide](/neighborhoods/)
+- [McKay's Mill Neighborhood Guide](/articles/mckays-mill-franklin-tn/)
+- [Berry Farms Neighborhood Guide](/articles/berry-farms-franklin-tn/)
+- [Williamson County Schools Guide](/schools/)
+
+---
+    `
+  },
+  "moving-to-franklin-tn-from-nashville": {
+    slug: "moving-to-franklin-tn-from-nashville",
+    title: "Moving to Franklin TN from Nashville: When Leaving the City Makes Sense (2026)",
+    metaTitle: "Moving to Franklin TN from Nashville: Honest Guide (2026)",
+    metaDescription: "Thousands of Nashville households move south to Franklin every year. The school math, the tax math, what you give up, and when the move is wrong.",
+    keywords: ["moving to franklin tn from nashville","[Moving To Franklin From Nashville","Nashville To Franklin","Davidson To Williamson County","Franklin Tn Relocation]"],
+    date: "June 10, 2026",
+    readTime: "9 min read",
+    excerpt: "Thousands of Nashville households move south to Franklin every year. The school math, the tax math, what you give up, and when the move is wrong.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Moving to Franklin TN from Nashville: When Leaving the City Makes Sense (2026)
+
+The most common Franklin relocation is not from California or New York. It is the 20-mile move down I-65 from Davidson County, usually somewhere between a first kid's second birthday and a fifth grader's school decision. This guide is for that move: what actually changes when you cross the county line, what it costs, what you give up, and the cases where staying in Nashville is the better call.
+
+## Why this move happens
+
+Three drivers come up over and over, and they are worth naming plainly.
+
+**1. The school decision.** Metro Nashville Public Schools is a big urban district with genuine bright spots (academic magnets like Hume-Fogg and Martin Luther King Jr. rank among the state's best) and a lottery system that means your zoned option and your preferred option are often different schools. Williamson County Schools is a suburban district where the zoned school is, for most families, the school you would have picked anyway. Families pay the Franklin premium to remove the lottery variable. The private-school alternative in Nashville (commonly $15K to $35K per child per year) makes the Williamson math look different too: two kids in private school for ten years can exceed the entire price gap between a Nashville and a Franklin house.
+
+**2. The space equation.** Davidson County's close-in neighborhoods (12South, Sylvan Park, East Nashville, Green Hills) price detached family homes from the $700s well into the $1M-plus range, often on small lots with older systems. Franklin's $800s and $900s buy newer construction, bigger footprints, and yards. On price per square foot of recent-build family housing, Franklin frequently comes out comparable or better than the Nashville neighborhoods this buyer is leaving.
+
+**3. The tax line.** Both counties enjoy Tennessee's lack of state income tax, but property taxes differ meaningfully. Davidson County's Urban Services District rate produces an effective rate noticeably higher than Williamson County's roughly half-percent effective rate. On a $900K home, the annual difference typically runs in the low thousands of dollars, year after year. The mechanics are in our [property tax guide](/articles/franklin-tn-property-taxes/).
+
+## What you give up
+
+This guide does not pretend the move is free. Leaving Nashville costs you things that mattered when you chose the city.
+
+**Proximity culture.** The 8-minute drive to a chef-driven dinner, a show at the Ryman, a Preds game, or a friend's porch becomes 35 to 50 minutes each way. Franklin's own dining scene has matured to the point where weeknights are covered locally (the Cool Springs and McEwen corridor openings keep stacking), but spontaneous Nashville evenings become planned Nashville evenings.
+
+**Neighborhood texture.** East Nashville's walk-to-coffee streets and the urban energy that comes with them do not transplant. Downtown Franklin and Westhaven offer real walkability, but it is small-town walkability: charming, curated, quieter, earlier-to-bed.
+
+**The commute, if you still work in the city.** I-65 at peak is 35 to 50 minutes to downtown, worse with incidents. Hybrid schedules make this tolerable. Five-day downtown attendance makes it a real quality-of-life cost, and it deserves equal weight with everything above.
+
+## What the move costs in practice
+
+For a household selling in Nashville and buying in Franklin in 2026:
+
+- **Like-for-like trade:** selling a $750K Sylvan Park bungalow and buying a $850K to $950K Franklin family home is the typical shape: a step up in payment, a step up in square footage, a step down in property tax rate
+- **Transaction costs:** standard Tennessee closing costs both directions; see our buying guide for the line items
+- **The hidden line:** two-car dependence. If city life let you flirt with one car, Franklin will not. Budget accordingly.
+
+Run your own numbers against the [cost of living breakdown](/cost-of-living/).
+
+## Where Nashville movers land in Franklin
+
+Patterns we see repeatedly:
+
+- **East Nashville and 12South households** chasing walkability land in downtown Franklin (when budget allows) or [Westhaven](/articles/westhaven-franklin-tn/)
+- **Green Hills and Forest Hills households** land in Laurelbrooke, Fieldstone Farms, or the larger-lot west side; see our [Laurelbrooke guide](/articles/laurelbrooke-franklin-tn/)
+- **Value-focused families** land in [McKay's Mill](/articles/mckays-mill-franklin-tn/), [Ladd Park](/articles/ladd-park-franklin-tn/), or Berry Farms on the growing southeast side
+- **Households not quite ready to pay Franklin prices** keep driving south to [Spring Hill](/articles/franklin-tn-vs-spring-hill/) or east to [Nolensville](/articles/franklin-tn-vs-nolensville/)
+
+## When staying in Nashville is the right call
+
+An honest list, because plenty of Davidson-to-Williamson moves get reversed:
+
+- Your kids are already in a magnet or private school situation that works, and schools were the main reason to move
+- Both careers require regular in-person presence in the urban core
+- Your social and cultural life is the city, and a 40-minute drive will quietly shrink it
+- You are buying primarily for appreciation and can tolerate volatility: close-in Nashville neighborhoods have their own strong long-term story
+
+The full side-by-side lives in our [Franklin vs Nashville comparison](/franklin-vs-nashville/).
+
+## The 90-day playbook for this move
+
+1. **Test the commute twice** at your real hours, both directions, before committing
+2. **Verify school zoning** for any address against the WCS lookup; do not trust listing claims ([schools guide](/schools/))
+3. **Rent first if unsure:** the Cool Springs corridor's apartment supply makes a 6-month trial cheap relative to a wrong purchase
+4. **Tour on a weeknight,** not just Saturday: Franklin's rhythm is the weeknight rhythm
+
+---
+
+## Thinking about the move south?
+
+Talk through the details with a Franklin resident who knows both sides of the county line. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Franklin vs Nashville: The Full Comparison](/franklin-vs-nashville/)
+- [Cost of Living in Franklin, TN](/cost-of-living/)
+- [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes/)
+- [Williamson County Schools Guide](/schools/)
+
+---
+    `
+  },
+  "moving-to-franklin-tn-from-seattle": {
+    slug: "moving-to-franklin-tn-from-seattle",
+    title: "Moving to Franklin TN from Seattle: What Actually Changes (2026)",
+    metaTitle: "Moving to Franklin TN from Seattle: Honest Guide (2026)",
+    metaDescription: "Seattle to Franklin is not a cost-of-housing move, it is a cost-of-everything-else move. Sunshine, schools, taxes, and the tradeoffs nobody mentions.",
+    keywords: ["moving to franklin tn from seattle","[Moving To Franklin Tn From Seattle","Seattle To Tennessee","Pacific Northwest Relocation","Franklin Tn Relocation]"],
+    date: "June 10, 2026",
+    readTime: "9 min read",
+    excerpt: "Seattle to Franklin is not a cost-of-housing move, it is a cost-of-everything-else move. Sunshine, schools, taxes, and the tradeoffs nobody mentions.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Moving to Franklin TN from Seattle: What Actually Changes (2026)
+
+Here is the part that surprises Seattle households researching this move: the house is not where you save. Seattle's median home price and Franklin's have been running in the same general neighborhood for several years, so a like-for-like trade does not produce the windfall a Bay Area or Manhattan seller gets. The Seattle-to-Franklin case is built on everything around the house: yard size, taxes on everything besides income, schools without a lottery, 100 more sunny days a year, and a dramatically lower cost on the daily line items.
+
+This guide plays it straight on both sides.
+
+## The honest housing comparison
+
+**Seattle metro (2026):** city median has been running in the $850Ks, with Eastside markets (Bellevue, Kirkland, Redmond) well above $1.2M. Typical stock: older footprints, small lots, or newer townhomes.
+
+**Franklin (2026):** median in the high $800s to low $900s. Typical stock at that price: 2,800 to 3,800 square feet, built in the last 15 years, on a real yard, in a community with a pool.
+
+So the trade is roughly money-neutral on purchase price and strongly Franklin-positive on what the money buys. A Ballard craftsman seller does not pocket a fortune here; they trade 1,700 square feet and a parking strip for 3,200 square feet and a cul-de-sac. Whether that is an upgrade is a values question, not a math question.
+
+## Taxes: closer than you think, then not
+
+Washington and Tennessee are two of the handful of states with no state income tax, so this move does not produce the income-tax windfall the [California version](/articles/moving-to-franklin-tn-from-california/) does. The differences live elsewhere:
+
+- **Property tax:** King County effective rates have been running roughly 0.85 to 1.0 percent of market value; Williamson County's effective rate on a Franklin home runs roughly 0.5 to 0.6 percent. On a $900K home, that is several thousand dollars a year of difference. Mechanics in our [property tax guide](/articles/franklin-tn-property-taxes/).
+- **Washington's other taxes:** the state capital gains tax on large gains and Seattle's local payroll-adjacent costs have no Tennessee equivalent.
+- **Sales tax:** a wash. Both regions run high (Seattle area around 10 percent, Williamson County 9.75 percent), and Tennessee taxes groceries at a reduced rate, which Washington does not. Net effect is small either way.
+
+## Cost of everything else
+
+This is where the move pays. Across childcare, dining, services, insurance, utilities, and the general cost of being a household, Middle Tennessee runs meaningfully below Puget Sound. Families consistently report the monthly burn dropping by four figures even with an identical mortgage payment. Our [cost of living guide](/cost-of-living/) has the line items.
+
+One exception runs the other way: health insurance and healthcare pricing can be higher in Tennessee depending on your employer plan, and Washington's individual-market options are generally stronger. Worth checking before, not after.
+
+## Weather: the actual reason half these moves happen
+
+Seattle averages roughly 150 sunny days a year; Middle Tennessee roughly 205. The gray-season math is the quiet driver of many Pacific Northwest relocations, and it is legitimate. The trade: Tennessee summers are hot and humid (July and August routinely sit in the low 90s with real humidity), spring brings genuine severe-weather season including tornado risk, and you will use air conditioning the way you used to use a rain shell.
+
+Outdoor life shifts rather than shrinks: the Cascades and Puget Sound become the Harpeth River, the Natchez Trace, Percy Warner's trails, and weekend drives to the Smokies (about 3.5 hours).
+
+## Work and the remote question
+
+Many Seattle-to-Franklin moves are tech households going remote or hybrid-remote. Franklin works well for that: strong fiber coverage across most of the city, a maturing coworking scene, and an airport (BNA) 25 to 35 minutes away with direct service to Seattle for the trips back (verify current carriers and frequency; Alaska and Southwest have historically flown the route). Our [remote work guide](/articles/remote-work-franklin-tn/) covers neighborhoods by connectivity and the practical setup.
+
+The local tech labor market is smaller and pays below Seattle bands. If your plan involves changing jobs locally, model the pay cut with real numbers; Nashville's healthcare-and-logistics-heavy economy is substantial but it is not Redmond.
+
+## Culture shock, named plainly
+
+- **Politics and church culture:** Williamson County is conservative and church life is a default social structure here in a way it is not in Seattle. Plenty of transplants of every persuasion settle in happily; the adjustment is real either way.
+- **Food scene:** Franklin's restaurant bench has gotten legitimately deep (the Cool Springs and McEwen corridor keeps adding chef-driven spots), but it is not Capitol Hill. Nashville, 30 minutes north, closes most of the gap.
+- **Pace:** slower, friendlier, more planned, less spontaneous. People talk to you in line. This is either the point or the problem.
+
+## Who this move fits
+
+- Remote and hybrid tech households optimizing for space, sun, and schools
+- Families weighing Seattle private school costs against Williamson County's public district ([schools guide](/schools/))
+- Households tired of the gray season who want four real seasons with a mild winter
+- Anyone whose Seattle equity buys a comparable house here plus a fully rebuilt monthly budget
+
+## Who should think twice
+
+- Single professionals whose life is built on urban density: Franklin will feel quiet fast
+- Careers requiring a deep local tech employer bench
+- Anyone for whom mountains-and-water access is the non-negotiable; Tennessee's outdoors are good and they are not the Cascades
+
+---
+
+## Ready to compare notes from someone on the ground?
+
+Considering the move from the Northwest? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Cost of Living in Franklin, TN](/cost-of-living/)
+- [Moving to Franklin from California](/articles/moving-to-franklin-tn-from-california/)
+- [Remote Work in Franklin, TN](/articles/remote-work-franklin-tn/)
+- [Williamson County Schools Guide](/schools/)
+
+---
+    `
+  },
+  "renting-in-franklin-tn": {
+    slug: "renting-in-franklin-tn",
+    title: "Renting in Franklin TN: The Rent-First Relocation Guide (2026)",
+    metaTitle: "Renting in Franklin TN: Apartments, Prices & Strategy (2026)",
+    metaDescription: "Most smart Franklin relocations start with a lease. Where the apartments are, what they cost in 2026, what is being built, and how to run a rent-first move.",
+    keywords: ["renting in franklin tn","[Renting In Franklin Tn","Franklin Tn Apartments","Cool Springs Apartments","Rent First Then Buy]"],
+    date: "June 10, 2026",
+    readTime: "8 min read",
+    excerpt: "Most smart Franklin relocations start with a lease. Where the apartments are, what they cost in 2026, what is being built, and how to run a rent-first move.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Renting in Franklin TN: The Rent-First Relocation Guide (2026)
+
+The majority of out-of-state households we hear from do this move in two steps: sign a lease, learn the city, then buy. It is the right instinct. Franklin's neighborhoods differ more than listing photos suggest, school zoning rewards on-the-ground verification, and a wrong purchase here is an expensive mistake to unwind. A 6-to-12-month lease is cheap tuition.
+
+Here is the rental market as it actually stands in 2026.
+
+## What rent costs in Franklin (2026)
+
+Broad bands across the market (verify against current listings; this market moves):
+
+- **1-bedroom apartment:** roughly $1,500 to $2,000/month
+- **2-bedroom apartment:** roughly $1,900 to $2,800/month
+- **3-bedroom apartment or townhome:** roughly $2,400 to $3,400/month
+- **Single-family rental (3BR+):** roughly $2,800 to $4,500/month depending on neighborhood and size
+
+These run well above Nashville metro averages and below what relocators from Seattle, California, or the Northeast are used to paying for equivalent space. The premium over surrounding towns (Spring Hill, Columbia, Murfreesboro) is real and buys you the school zones and the location.
+
+## Where the rentals are
+
+**The Cool Springs / Carothers corridor** is the apartment landing zone: the highest density of complexes in the city, sitting between Cool Springs Galleria and the East McEwen interchange. Practical, central, close to the employment base, and walkable-ish to the McEwen Northside restaurant district as it matures. Most relocators land here first.
+
+**Supply is finally catching up.** The corridor has been structurally tight for years, with waitlists at the most desirable complexes. That is easing: SouthStar's 22-acre Aureum master plan is delivering roughly 900-plus units across three phases, with Thatcher at Aureum first and [EMBREY's Phases II and III (604 homes) now closed and in the pipeline](/news/embrey-aureum-604-apartments-franklin/). New supply will not make Franklin cheap, but it shortens waitlists and gives renters leverage they have not had here in a decade.
+
+**Downtown Franklin** rentals are scarce, charming, and priced like it: a small stock of condos, flats over storefronts, and older houses. If you want to test the Main Street lifestyle before buying into it, expect to compete for inventory.
+
+**Single-family rentals** scatter through the established neighborhoods (Fieldstone Farms, McKay's Mill, Cool Springs-adjacent subdivisions). These are the right product for families who want to test a specific school zone before buying into it, and they move fast when priced sanely.
+
+## The rent-first strategy, done properly
+
+A lease here is not dead money; it is a scouting budget. Use it deliberately:
+
+1. **Rent in the zone you think you will buy in.** If the shortlist is southeast Franklin, do not rent in Cool Springs out of convenience; live the actual commute, school run, and grocery pattern.
+2. **Pick lease length against the buying calendar.** Spring inventory peaks March through June. A lease ending early spring positions you to shop the deepest market.
+3. **Verify school enrollment rules.** Renting in a zone generally enrolls your kids in that zone's schools, which also means a later purchase outside the zone forces a switch. Plan the sequence; our [schools guide](/schools/) explains zoning.
+4. **Use the year to watch micro-markets.** Six months of open houses teaches you more about Westhaven vs Berry Farms vs Ladd Park pricing than any article, including ours. Start with the [neighborhoods directory](/neighborhoods/).
+
+## What landlords will ask for
+
+Standard here: application fee, credit and background check, income at roughly 3x rent, first month plus deposit (often one month, sometimes less at the big complexes). Out-of-state applicants with a job offer letter and good credit clear screening routinely. Pet rent is near-universal at complexes ($25 to $50/month per pet, plus fees) and Franklin is a dog town, so factor it.
+
+## Renting long-term: does it ever make sense here?
+
+Sometimes. The price-to-rent ratio on Franklin single-family homes is high, meaning renting the same house is often cheaper month-to-month than owning it at current rates. Households planning a stay under three years, or unsure about the metro entirely, frequently come out ahead renting the whole time. The counterargument is Williamson County's appreciation history, which has paid owners well for tolerating the monthly premium. Run both scenarios against the numbers in our [cost of living guide](/cost-of-living/) rather than assuming buying always wins.
+
+## Who should rent first
+
+- Any household relocating from out of state sight-unseen or nearly so
+- Families needing to verify a school zone in practice before a seven-figure commitment
+- Anyone arriving mid-school-year who wants to buy on the spring market instead of settling in the fall trough
+- Relocators still deciding between Franklin and its neighbors ([Spring Hill](/articles/franklin-tn-vs-spring-hill/), [Nolensville](/articles/franklin-tn-vs-nolensville/), Brentwood)
+
+## Who can skip the lease
+
+- Buyers who already know the city well (returning locals, [Nashville households moving south](/articles/moving-to-franklin-tn-from-nashville/))
+- Households with a trusted local agent, a verified zone, and time to shop carefully from afar
+
+---
+
+## Want help mapping the rent-then-buy sequence?
+
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Cost of Living in Franklin, TN](/cost-of-living/)
+- [Franklin Neighborhoods Guide](/neighborhoods/)
+- [604 New Apartments Coming to Franklin](/news/embrey-aureum-604-apartments-franklin/)
+- [Moving to Franklin from California](/articles/moving-to-franklin-tn-from-california/)
+
+---
+    `
+  },
+  "franklin-tn-hoa-fees": {
+    slug: "franklin-tn-hoa-fees",
+    title: "HOA Fees in Franklin TN: What Communities Charge and What You Get (2026)",
+    metaTitle: "Franklin TN HOA Fees: Costs by Community Type (2026)",
+    metaDescription: "Almost every Franklin neighborhood built since 1990 has an HOA. What dues actually run in 2026, what they cover, and the questions to ask before you buy.",
+    keywords: ["franklin tn hoa fees","[Franklin Tn Hoa Fees","Hoa Williamson County","Westhaven Hoa","Franklin Neighborhoods Cost]"],
+    date: "June 10, 2026",
+    readTime: "8 min read",
+    excerpt: "Almost every Franklin neighborhood built since 1990 has an HOA. What dues actually run in 2026, what they cover, and the questions to ask before you buy.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# HOA Fees in Franklin TN: What Communities Charge and What You Get (2026)
+
+Buyers run the mortgage math, run the [property tax math](/articles/franklin-tn-property-taxes/), and then get surprised by the third line: HOA dues that range from $40 a month in an older subdivision to $350-plus in the resort-style communities. In a city where nearly every neighborhood platted since 1990 carries an association, the HOA line deserves the same scrutiny as the tax line, because over a decade of ownership it can total $5,000 or $40,000 depending on where you buy.
+
+Here is how the market actually tiers.
+
+## The three tiers of Franklin HOAs
+
+**Tier 1: Basic subdivisions ($30 to $80/month, often billed annually).** Older and simpler communities (parts of Fieldstone Farms' sections, many 90s and 2000s subdivisions). Dues cover common-area landscaping, entrance maintenance, maybe a neighborhood pool, and covenant enforcement. You are paying for upkeep and property-standard protection, not amenities.
+
+**Tier 2: Amenity communities ($80 to $180/month).** The big family neighborhoods: McKay's Mill, Ladd Park, and similar. Dues fund pools, playgrounds, clubhouses, trail networks, and active covenant enforcement. This tier is most of Franklin's family housing stock.
+
+**Tier 3: Resort-style and gated communities ($180 to $350-plus/month).** [Westhaven](/articles/westhaven-franklin-tn/) is the canonical example: multiple pools, a fitness center, tennis and pickleball, roughly 15 miles of internal trails, a town center, and a full calendar of community programming. Gated communities like [Laurelbrooke](/articles/laurelbrooke-franklin-tn/) sit here too, where dues fund gates, security, and extensive common grounds. Some communities also stack a one-time capital contribution or transfer fee at closing (commonly a few hundred dollars to several thousand; verify per community).
+
+Condo and townhome regimes are their own category: $200 to $450/month is common because dues also carry exterior maintenance, roofs, and insurance on the structures.
+
+## What Franklin HOAs actually do well
+
+The unfashionable truth is that Williamson County's strong HOAs are part of why the housing market holds value the way it does. Consistent enforcement keeps streetscapes intact, prevents deferred-maintenance contagion, and protects exactly the things buyers pay Franklin prices for. When you pay a Tier 3 fee, a meaningful slice is buying the neighborhood's resale story.
+
+The amenity math can also beat the à la carte version. A Westhaven-tier fee at roughly $250/month compares against a family gym membership, a pool club, and a summer of paid kids' activities. For families who use the amenities, the dues are often cheaper than buying the lifestyle piecemeal. For households who will not use them, it is pure overhead, which is the point of choosing your tier deliberately.
+
+## What to scrutinize before you buy
+
+Tennessee gives buyers a window to review association documents in resale transactions (your contract should make HOA document review a contingency; ask your agent to write it that way). Use it on these five items:
+
+1. **Reserve study and balance.** An association with thin reserves and aging amenities is a special assessment waiting for a roof to fail. Ask when the last reserve study was done.
+2. **Dues history.** Steady small increases are healthy. Flat dues for ten years often mean deferred reality.
+3. **Pending or recent special assessments.** Ask directly; sellers must typically disclose, but ask anyway.
+4. **Rental restrictions.** Many Franklin associations cap or prohibit leasing. If your plan includes ever renting the home out, verify before closing, not after.
+5. **Architectural review turnaround.** If you plan a fence, pool, or addition, ask how long approvals took for recent projects. The answer tells you how the association actually operates.
+
+## New construction: builder-controlled HOAs
+
+In actively building communities (see our [new construction guide](/articles/new-construction-homes-franklin-tn/)), the developer typically controls the association until buildout. Dues are often artificially low during this period because the builder subsidizes operations, then rise after turnover to homeowners. Budget for the post-turnover number, not the brochure number, and ask the sales office what the funded reserve plan looks like at turnover.
+
+## Can you avoid HOAs in Franklin entirely?
+
+Mostly no, if you want post-1990 construction. The no-HOA inventory is concentrated in older in-town neighborhoods (the historic district and its surroundings, where preservation overlay rules apply instead, which are stricter than any HOA), rural Williamson County acreage outside city limits, and scattered older subdivisions. Buyers who specifically want no association should say so explicitly; it shrinks the map dramatically and usually points away from the master-planned product Franklin is known for. Browse the spectrum in our [neighborhoods directory](/neighborhoods/).
+
+## The budgeting rule
+
+Treat dues as permanent and rising. A realistic Franklin family-home budget line for 2026: $100 to $250/month depending on tier, escalating roughly with inflation, plus a contingency for one special assessment per decade of ownership. Put it in the affordability math next to taxes and insurance from day one.
+
+---
+
+## Want a straight read on a specific community's HOA?
+
+Considering a Franklin neighborhood? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Franklin Neighborhoods Guide](/neighborhoods/)
+- [Westhaven Neighborhood Guide](/articles/westhaven-franklin-tn/)
+- [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes/)
+- [New Construction Homes in Franklin](/articles/new-construction-homes-franklin-tn/)
+
+---
+    `
+  },
+  "salary-needed-to-live-in-franklin-tn": {
+    slug: "salary-needed-to-live-in-franklin-tn",
+    title: "What Salary Do You Need to Live in Franklin TN? The Real Math (2026)",
+    metaTitle: "Salary Needed to Live in Franklin TN: 2026 Breakdown",
+    metaDescription: "What income it actually takes to rent or buy in Franklin TN in 2026, worked from real housing costs, taxes, and family budgets, not vibes.",
+    keywords: ["salary needed to live in franklin tn","[Salary Needed Franklin Tn","Cost Of Living Franklin","Afford Franklin Tn","Franklin Tn Income]"],
+    date: "June 10, 2026",
+    readTime: "8 min read",
+    excerpt: "What income it actually takes to rent or buy in Franklin TN in 2026, worked from real housing costs, taxes, and family budgets, not vibes.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# What Salary Do You Need to Live in Franklin TN? The Real Math (2026)
+
+Short version, then the work: renting comfortably in Franklin takes a household income around $80K to $100K. Buying the median Franklin home on conventional terms takes roughly $190K to $230K. Buying the entry-level end takes roughly $120K to $150K. Those numbers surprise people in both directions: higher than the Tennessee-is-cheap reputation suggests, lower than coastal transplants expect once the missing state income tax does its work.
+
+Here is the math so you can rerun it with your own numbers.
+
+## The renter's number
+
+A comfortable rule: housing at or under 30 percent of gross income.
+
+- A typical 2-bedroom apartment in the Cool Springs corridor runs roughly $1,900 to $2,800/month ([current rental market here](/articles/renting-in-franklin-tn/))
+- At $2,300/month midpoint, the 30 percent rule wants roughly $92K of household income
+- Add Franklin-typical car dependence (two vehicles for most families) and the practical comfortable floor for a renting couple lands around **$80K to $100K**
+
+A single renter sharing housing or taking a smaller 1-bedroom at $1,600 can make Franklin work in the $60Ks, tighter but real.
+
+## The buyer's number: the median home
+
+Work the 2026 median (high $800s; call it $880K) with 10 percent down at prevailing rates in the mid-6s:
+
+- **Loan:** ~$792K
+- **Principal and interest:** roughly $5,000/month at 6.5 percent
+- **Property taxes:** roughly $390/month ([the favorable part of the math](/articles/franklin-tn-property-taxes/))
+- **Insurance:** roughly $250/month
+- **HOA:** $100 to $250/month in most family neighborhoods
+- **All-in housing:** roughly **$5,750 to $5,900/month**
+
+At a 30 percent housing ratio, that wants roughly **$230K of household income**. Stretch to a 33 percent ratio with strong credit and low other debt, and **$190K to $210K** clears. With 20 percent down, the income requirement drops by roughly $25K to $30K.
+
+This is the honest answer to "is Franklin expensive": the house is coastal-priced; everything around the house is not.
+
+## The buyer's number: the entry point
+
+Franklin's entry-level inventory (townhomes, condos, older homes in the $450K to $550K band) at 10 percent down and the same rates produces all-in housing around $3,300 to $3,900/month, which wants roughly **$120K to $150K** of household income. This is where dual-income professional couples and relocators banking equity from a prior sale typically enter the market.
+
+## Why the no-income-tax line changes the comparison
+
+Tennessee takes nothing off your paycheck at the state level. For a $200K household relocating from a high-tax state, that recovers roughly:
+
+- **From California:** $12K to $17K/year
+- **From New York:** $10K to $13K/year
+- **From Georgia or Illinois:** $9K to $11K/year
+
+That recovered income effectively subsidizes the mortgage. A $200K household moving from Atlanta has the spending power of roughly a $210K-plus household here, which is why families who feel priced out on paper often clear comfortably in practice. (Moving from Texas, Florida, or Washington, no such bonus applies; the comparison is housing against housing.)
+
+## The full-budget reality check for a family of four
+
+A workable 2026 monthly sketch for an owner household in a $880K home:
+
+- Housing all-in: ~$5,800
+- Groceries and household: ~$1,400
+- Two cars (payments, insurance, gas): ~$1,400
+- Utilities, internet, phones: ~$550
+- Healthcare premiums and out-of-pocket: ~$800 (varies widely by employer)
+- Kids' activities, dining, everything else: ~$1,500
+
+Total: roughly **$11,400/month, or $137K/year of after-tax spending**, which maps back to roughly $190K to $220K gross in a no-state-income-tax state. The model holds: the median-home Franklin lifestyle is a roughly $200K-household lifestyle. Adjust down meaningfully for renters, owners with pre-2022 mortgages, or anyone who bought their equity in a prior market.
+
+## What incomes actually look like here
+
+Williamson County's median household income runs well north of $120K, the highest in Tennessee, and Franklin's professional base (healthcare administration, the Cool Springs corporate corridor, entrepreneurship, remote tech) skews the curve high. You will not be the only household running these numbers. The [local job market guide](/articles/franklin-tn-job-market/) covers what the employment base pays.
+
+## Who clears comfortably
+
+- Dual-income professional households at $180K-plus buying the median
+- Relocators converting high-tax-state income or coastal equity
+- Remote workers importing coastal salaries ([remote work guide](/articles/remote-work-franklin-tn/))
+- Renters at $90K-plus testing the market first
+
+## Who should run the numbers twice
+
+- Single-income families under $150K targeting the median home: the math works only with a large down payment
+- Buyers assuming Tennessee-cheap applies to Williamson County housing: it does not
+- Anyone carrying significant other debt into a 6-plus percent mortgage
+
+---
+
+## Want help pressure-testing your own numbers?
+
+Considering a move to Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Cost of Living in Franklin, TN](/cost-of-living/)
+- [Renting in Franklin, TN](/articles/renting-in-franklin-tn/)
+- [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes/)
+- [Franklin TN Job Market](/articles/franklin-tn-job-market/)
+
+---
+    `
+  },
+  "buying-a-house-in-franklin-tn": {
+    slug: "buying-a-house-in-franklin-tn",
+    title: "Buying a House in Franklin TN: The Process, Start to Keys (2026)",
+    metaTitle: "Buying a House in Franklin TN: Step-by-Step Guide (2026)",
+    metaDescription: "How buying a home actually works in Franklin and Williamson County: timelines, Tennessee-specific closing details, competition tactics, and the local traps.",
+    keywords: ["buying a house in franklin tn","[Buying A House In Franklin Tn","Home Buying Process Tennessee","Williamson County Real Estate","Franklin Tn Buyers Guide]"],
+    date: "June 10, 2026",
+    readTime: "9 min read",
+    excerpt: "How buying a home actually works in Franklin and Williamson County: timelines, Tennessee-specific closing details, competition tactics, and the local traps.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Buying a House in Franklin TN: The Process, Start to Keys (2026)
+
+Buying in Franklin works mostly like buying anywhere in the United States, with a handful of Tennessee-specific mechanics and a few local market behaviors that catch out-of-state buyers. This guide walks the sequence in order and flags the parts that are different here.
+
+## Step 1: Financing first, always
+
+In a market where well-priced family homes still draw multiple offers, sellers' agents in Williamson County routinely set aside offers without a pre-approval letter. Get fully underwritten pre-approval (not just pre-qualification) before touring. Local lenders carry weight with listing agents here; an out-of-state online lender's letter is accepted but a known Middle Tennessee lender's letter is trusted. If you are running the affordability math first, start with our [salary guide](/articles/salary-needed-to-live-in-franklin-tn/).
+
+## Step 2: Define the search properly
+
+Franklin-specific inputs that matter more than square footage:
+
+- **School zoning by address, not by neighborhood name.** Large communities can split across zones, and the southeast side rezones as new schools open. Verify every address against the district lookup ([how zoning works](/schools/)).
+- **City limits vs unincorporated.** A Franklin mailing address does not always mean Franklin city limits; the difference changes your tax bill and services ([tax mechanics](/articles/franklin-tn-property-taxes/)).
+- **HOA tier.** Dues range from $40 to $350-plus monthly and change the affordability math ([HOA guide](/articles/franklin-tn-hoa-fees/)).
+- **Resale vs new construction.** Active building on the southeast side makes new construction a real option, with its own process ([new construction guide](/articles/new-construction-homes-franklin-tn/)).
+
+Start the neighborhood shortlist at our [directory](/neighborhoods/).
+
+## Step 3: The offer, Tennessee-style
+
+Mechanics that differ from what coastal and midwestern buyers expect:
+
+- **Title companies and attorneys both close here.** Tennessee does not require an attorney closing the way some eastern states do; most Williamson County transactions close at title companies. Your agent will have standing relationships.
+- **Earnest money** typically runs about 1 percent of the purchase price locally, held in escrow, credited at closing.
+- **The inspection contingency is usually a resolution period,** not an automatic exit: you inspect, request repairs or credits, and negotiate within the contract window. Read the timelines; missing one can waive the right.
+- **Competition tactics:** in multiple-offer situations on well-priced homes, local norms include escalation clauses, appraisal-gap coverage, and shortened (not waived) inspection windows. Full inspection waivers, common in 2021-era frenzies, are no longer expected and rarely wise on Franklin's older stock.
+
+## Step 4: Due diligence with local eyes
+
+Beyond the standard inspection, the items experienced local buyers check in Williamson County:
+
+1. **Water and drainage.** Middle Tennessee storms are intense; ask about crawlspace moisture, sump systems, and lot grading. Walk the lot imagining two inches of rain in an hour.
+2. **HVAC age and capacity.** Cooling season is long and real here; a 15-year-old system is a near-term five-figure item.
+3. **HOA documents.** Reserves, dues history, rental restrictions ([what to scrutinize](/articles/franklin-tn-hoa-fees/)).
+4. **For new construction:** an independent inspection at pre-drywall and at completion, even on a national builder's product. The builder's own quality process is not your inspection.
+5. **For older in-town homes:** the historic district and adjacent areas carry preservation overlay rules that govern exterior changes. Know them before you buy a renovation dream.
+
+## Step 5: Closing costs and the Tennessee specifics
+
+Buyer-side closing costs in Tennessee typically run roughly 2 to 3 percent of the purchase price beyond down payment: lender fees, title insurance, escrow setup (taxes and insurance), recording fees, and prorations. Two state specifics worth knowing:
+
+- **Realty transfer tax** in Tennessee runs $0.37 per $100 of value, customarily paid by the buyer in this market (verify current rate and local custom on your contract)
+- **Mortgage recordation tax** applies to the indebtedness as well; your lender's estimate will include it
+
+On a $880K purchase, budget roughly $18K to $26K in cash beyond the down payment, then refine against your lender's official Loan Estimate.
+
+## Step 6: Timeline expectations
+
+A typical Franklin resale transaction in 2026:
+
+- **Pre-approval to accepted offer:** 2 weeks to 3 months, entirely dependent on inventory and your decisiveness; spring (March through June) is the deep market
+- **Accepted offer to closing:** 30 to 45 days for financed purchases
+- **New construction:** 6 to 12 months from contract on a to-be-built, far less on spec inventory
+
+## The local traps, summarized
+
+- Trusting a listing's school claim instead of the district lookup
+- Budgeting the builder's brochure HOA number instead of post-turnover dues
+- Skipping the city-limits check and mis-modeling the tax bill
+- Underweighting commute reality: test I-65 and Carothers at your real hours before, not after
+- Buying the first week in town: the [rent-first route](/articles/renting-in-franklin-tn/) exists because it works
+
+---
+
+## Want a local sounding board before you write an offer?
+
+Considering buying in Franklin? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026/)
+- [New Construction Homes in Franklin](/articles/new-construction-homes-franklin-tn/)
+- [Franklin TN Property Taxes](/articles/franklin-tn-property-taxes/)
+- [Franklin Neighborhoods Guide](/neighborhoods/)
+
+---
+    `
+  },
+  "best-places-to-live-near-nashville-for-families": {
+    slug: "best-places-to-live-near-nashville-for-families",
+    title: "Best Places to Live Near Nashville for Families: A Local Ranking (2026)",
+    metaTitle: "Best Places to Live Near Nashville for Families (2026)",
+    metaDescription: "Seven Nashville-area towns ranked through a family lens: schools, price of entry, commute, and the tradeoffs each one asks you to accept.",
+    keywords: ["best places to live near nashville for families","[Best Places To Live Near Nashville For Families","Nashville Suburbs For Families","Family Friendly Nashville Suburbs","Williamson County]"],
+    date: "June 10, 2026",
+    readTime: "10 min read",
+    excerpt: "Seven Nashville-area towns ranked through a family lens: schools, price of entry, commute, and the tradeoffs each one asks you to accept.",
+    imageUrl: "/images/hero-franklin.png",
+    content: `
+# Best Places to Live Near Nashville for Families: A Local Ranking (2026)
+
+Every list like this hides a value judgment, so here is ours up front: for families, we weight schools first, price of entry second, commute third, and everything else (parks, downtowns, lake access, charm) after that. Different weights produce a different list. These seven towns are ranked through that family lens, each with the tradeoff it asks you to accept, because every one of them asks for something.
+
+For the general version of this list without the family weighting, see our [broader guide](/articles/best-places-to-live-near-nashville/).
+
+## 1. Franklin
+
+**Why first:** the full package. Williamson County Schools across the board, the metro's deepest family infrastructure (parks, sports leagues, festivals, a real downtown), strong long-term property values, and a major employment base in-county so many parents skip the Nashville commute entirely.
+
+**The tradeoff:** price of entry. Median around the high $800s, scarce detached inventory under $650K. Franklin asks for your budget.
+
+**Best fit:** families who can clear the entry point and want to stop compromising. Start with the [neighborhoods directory](/neighborhoods/).
+
+## 2. Nolensville
+
+**Why second:** Williamson County Schools at a (somewhat) gentler price than Franklin, a small-town feel that is still actually small, and a location that triangulates Franklin, Brentwood, and Nashville's southeast side. The newer school cluster serving Nolensville has been a draw since it opened.
+
+**The tradeoff:** infrastructure lag. Nolensville's growth outran its roads and retail; expect two-lane congestion and a drive for most errands. [Full comparison here](/articles/franklin-tn-vs-nolensville/).
+
+**Best fit:** families who want Williamson schools and newer construction in the $600s and $700s and will trade amenities for it.
+
+## 3. Brentwood
+
+**Why third:** Williamson County Schools, the largest lots in the close-in metro (one-acre zoning shapes the whole city), and the shortest Williamson commute to Nashville.
+
+**The tradeoff:** the highest price of entry in the region (median well above $1.2M) and a deliberately suburban, low-retail character: no real downtown, few sidewalks to anywhere. [Brentwood vs Franklin](/articles/brentwood-vs-franklin-tn/) covers the head-to-head.
+
+**Best fit:** higher-budget families optimizing for lot size, privacy, and commute over town character.
+
+## 4. Spring Hill
+
+**Why fourth:** the volume value play. New construction in the $400s and $500s, much of it zoned to Williamson County Schools on the city's north side (the county line splits the city; the Maury County side is zoned differently, and this single fact should drive your address choice). Young-family density is the highest in the metro: playgrounds everywhere, leagues full.
+
+**The tradeoff:** commute and congestion. US-31 and I-65 access from Spring Hill at peak hours is the region's running joke, and the joke is on the commuter. [Franklin vs Spring Hill](/articles/franklin-tn-vs-spring-hill/) goes deeper.
+
+**Best fit:** budget-conscious families with flexible or south-side work who verify school zoning street by street.
+
+## 5. Mt. Juliet
+
+**Why fifth:** the east side's family anchor. Wilson County's schools are well-regarded (the Green Hill and Mt. Juliet zones especially), housing runs in the $400s and $500s, Providence Marketplace covers retail, and the commuter rail (the WeGo Star) is a genuine option to downtown, the only one in the metro.
+
+**The tradeoff:** distance from the metro's south-side employment and from Williamson's school benchmark; the east side is its own ecosystem.
+
+**Best fit:** families working downtown, at the airport, or east, who want value without sacrificing solid schools.
+
+## 6. Hendersonville
+
+**Why sixth:** the lake. Old Hickory Lake gives Hendersonville a family lifestyle no land-locked suburb matches, with established-neighborhood housing in the $400s and $500s and strong individual school zones within Sumner County. [Franklin vs Hendersonville](/articles/franklin-tn-vs-hendersonville/) covers the full comparison.
+
+**The tradeoff:** district-level school performance trails Williamson, and the north side sits far from south-side employment.
+
+**Best fit:** boating families and north-side commuters who pick their school zone specifically.
+
+## 7. Thompson's Station
+
+**Why seventh, and rising:** the quiet Williamson County play. South of Franklin, north of Spring Hill, with new communities (Tollgate Village and others), Williamson schools, and unincorporated-feeling space at prices below Franklin. It is seventh mostly because it is still becoming a town: retail, dining, and services largely mean driving to Franklin or Spring Hill.
+
+**The tradeoff:** you are early. That cuts both ways: less to walk to now, likely appreciation as the corridor fills in.
+
+**Best fit:** families who want Williamson schools and newer space in the $500s to $700s and do not need a downtown yet.
+
+## How to actually use this list
+
+1. **Fix the school question first.** District-level claims (including ours) are starting points; zone-level verification by address is the decision ([how zoning works](/schools/)).
+2. **Test the real commute** from a candidate address at your real hours. The metro's congestion is corridor-specific and the corridors differ wildly.
+3. **Match the town to your real budget.** Franklin at a stretched budget buys a compromised Franklin life; Spring Hill or Thompson's Station at the same budget buys a comfortable one.
+4. **Visit on a Tuesday.** Every one of these towns shows well on a sunny Saturday. The weekday rhythm is the one you are buying.
+
+---
+
+## Want help matching your family to the right town?
+
+Considering a move to the Nashville area? Talk through the details with a Franklin resident. Free 30-minute call, no pitch.
+
+[Book a free Franklin relocation call](/contact/)
+
+---
+
+### Related reading
+
+- [Best Places to Live Near Nashville](/articles/best-places-to-live-near-nashville/)
+- [Williamson County Schools Guide](/schools/)
+- [Franklin TN vs Spring Hill](/articles/franklin-tn-vs-spring-hill/)
+- [Franklin Neighborhoods Guide](/neighborhoods/)
+
+---
     `
   }
 };

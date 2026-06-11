@@ -469,16 +469,16 @@ export default function Neighborhoods() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
-                  Best Neighborhoods in Franklin, TN: A Complete Article Guide
+                <Link href="/articles/ladd-park-franklin-tn/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                  Ladd Park Franklin TN: Complete Neighborhood Guide
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                <Link href="/schools/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Williamson County Schools: Which Schools Serve Which Neighborhoods
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </a>
+                </Link>
               </li>
               <li>
                 <Link href="/cost-of-living/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">

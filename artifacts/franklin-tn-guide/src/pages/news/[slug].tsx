@@ -174,12 +174,6 @@ export default function NewsArticle() {
               >
                 Book a free Franklin relocation call
               </a>
-              <a
-                href="/toolkit/"
-                className="inline-block bg-white text-[#2D6A4F] border-2 border-[#2D6A4F] px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#2D6A4F] hover:text-white transition-all duration-300"
-              >
-                Download the free Franklin Relocation Toolkit
-              </a>
             </div>
           </div>
         </div>

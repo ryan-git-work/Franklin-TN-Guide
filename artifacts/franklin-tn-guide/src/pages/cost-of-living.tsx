@@ -416,6 +416,18 @@ export default function CostOfLiving() {
                 </Link>
               </li>
               <li>
+                <Link href="/articles/renting-in-franklin-tn/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                  Renting in Franklin, TN: What to Know Before You Lease
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles/salary-needed-to-live-in-franklin-tn/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
+                  Salary Needed to Live in Franklin, TN
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </li>
+              <li>
                 <Link href="/schools/" className="text-secondary hover:text-secondary/80 flex items-center gap-2 font-semibold group">
                   Williamson County Schools: A Complete Guide for Families
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

@@ -300,6 +300,19 @@ export default function FranklinVsNashville() {
           <div className="prose prose-lg md:prose-xl prose-stone prose-headings:font-serif prose-headings:text-[#1B2A4A] prose-a:text-[#2D6A4F] hover:prose-a:text-[#1e4a36]">
             <ReactMarkdown>{fullContent}</ReactMarkdown>
           </div>
+          <div className="border-t border-stone-200 pt-10 mt-12">
+            <h3 className="text-xl font-bold text-blue-950 font-serif mb-5">Related Franklin Comparisons</h3>
+            <div className="space-y-3">
+              <Link href="/articles/franklin-tn-vs-murfreesboro/" className="text-[#2D6A4F] hover:text-[#1e4a36] flex items-center gap-2 font-semibold group">
+                Franklin TN vs Murfreesboro
+                <span className="group-hover:translate-x-1 transition-transform">→</span>
+              </Link>
+              <Link href="/articles/moving-to-franklin-tn-from-nashville/" className="text-[#2D6A4F] hover:text-[#1e4a36] flex items-center gap-2 font-semibold group">
+                Moving to Franklin from Nashville
+                <span className="group-hover:translate-x-1 transition-transform">→</span>
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

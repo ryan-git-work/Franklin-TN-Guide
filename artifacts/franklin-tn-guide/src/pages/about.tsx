@@ -1,13 +1,8 @@
 import { PageWrapper } from "@/components/layout/page-wrapper";
-import { Mail, Send, ArrowRight } from "lucide-react";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
+import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 
 export default function About() {
-  const { toast } = useToast();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -15,32 +10,6 @@ export default function About() {
       { "@type": "ListItem", position: 1, name: "Home", item: "https://franklintnguide.com" },
       { "@type": "ListItem", position: 2, name: "About", item: "https://franklintnguide.com/about" },
     ],
-  };
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    setTimeout(() => {
-      setIsSubmitting(false);
-
-      const formData = new FormData(e.currentTarget);
-      const name = formData.get('name');
-      const email = formData.get('email');
-      const message = formData.get('message');
-
-      const subject = encodeURIComponent(`Inquiry from ${name} via Franklin TN Guide`);
-      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-
-      window.location.href = `mailto:ryan@locheventures.com?subject=${subject}&body=${body}`;
-
-      toast({
-        title: "Opening mail client...",
-        description: "Your message is ready to send from your default email app.",
-      });
-
-      (e.target as HTMLFormElement).reset();
-    }, 800);
   };
 
   return (
@@ -135,63 +104,14 @@ export default function About() {
           </p>
         </div>
 
-        {/* Contact Form */}
-        <div className="bg-card p-8 md:p-10 rounded-3xl shadow-lg border border-border mb-20">
+        {/* Contact CTA */}
+        <div className="bg-card p-8 md:p-10 rounded-3xl shadow-lg border border-border mb-20 text-center">
           <h2 className="text-2xl font-serif font-bold text-primary mb-2">Get in Touch</h2>
-          <p className="text-muted-foreground mb-8">Have questions about moving to Franklin? Send us a message.</p>
-
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">Full Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-secondary focus:ring-4 focus:ring-secondary/10 transition-all duration-200"
-                placeholder="John Doe"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">Email Address</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-secondary focus:ring-4 focus:ring-secondary/10 transition-all duration-200"
-                placeholder="john@example.com"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">How can we help?</label>
-              <textarea
-                id="message"
-                name="message"
-                rows={4}
-                required
-                className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-secondary focus:ring-4 focus:ring-secondary/10 transition-all duration-200 resize-none"
-                placeholder="I'm planning to move to Franklin next summer and looking for info on..."
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-primary text-white rounded-xl font-semibold hover:bg-secondary shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 disabled:opacity-70 disabled:cursor-not-allowed"
-            >
-              {isSubmitting ? "Preparing message..." : (
-                <>Send Message <Send className="w-4 h-4" /></>
-              )}
-            </button>
-
-            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground pt-2">
-              <Mail className="w-4 h-4" />
-              ryan@locheventures.com
-            </div>
-          </form>
+          <p className="text-muted-foreground mb-8 max-w-xl mx-auto">Have questions about moving to Franklin? The contact page is the best place to start.</p>
+          <Link href="/contact/" className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-primary text-white rounded-xl font-semibold hover:bg-secondary shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200">
+            Contact Franklin TN Guide
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
 
         {/* Explore the Guide */}

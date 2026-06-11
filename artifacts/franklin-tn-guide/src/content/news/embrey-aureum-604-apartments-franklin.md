@@ -58,5 +58,6 @@ The pattern is broadly consistent with what other developers are doing in the sa
 
 **Related on Franklin TN Guide:**
 - [Cost of Living in Franklin, TN](/cost-of-living)
+- [Renting in Franklin, TN](/articles/renting-in-franklin-tn/)
 - [Cool Springs Franklin TN: Complete Neighborhood Guide](/articles/cool-springs-franklin-tn)
 - [Franklin TN Real Estate Market 2026](/articles/franklin-tn-real-estate-market-2026)
