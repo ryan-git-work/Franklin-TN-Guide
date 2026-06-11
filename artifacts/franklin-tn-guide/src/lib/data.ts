@@ -4802,8 +4802,6 @@ Considering a move to Franklin? Talk through the details with a Franklin residen
     excerpt: "Franklin and Murfreesboro sit on opposite sides of Nashville at very different price points. Schools, commutes, housing, and who each suburb actually fits.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# Franklin TN vs Murfreesboro: Which Nashville Suburb Fits You? (2026)
-
 The honest version of this comparison starts with a number most articles bury: the median home in Franklin costs roughly twice what the median home in Murfreesboro costs. Everything else in this comparison flows downhill from that gap. The two cities sit on opposite sides of Nashville (Franklin southwest on I-65, Murfreesboro southeast on I-24), serve different buyer profiles, and feel like different places to live, not two flavors of the same suburb.
 
 Here is how the decision actually breaks down for a relocating family.
@@ -4816,9 +4814,9 @@ Choose **Murfreesboro** if your priorities are getting the most house per dollar
 
 ## Housing: the defining gap
 
-**Franklin (2026):** median sale price has been running in the high $800s to low $900s. Entry-level townhomes and older condos start in the $400s to $500s, but detached single-family under $650K is scarce. New construction in communities like Berry Farms and southeast Franklin typically starts in the $700s.
+**Franklin:** median sale price has been running roughly $850K to $920K depending on the measure, as of spring 2026. Entry-level townhomes and older condos start in the $400s to $500s, but detached single-family under $650K is scarce. New construction in communities like Berry Farms and southeast Franklin typically starts in the $700s.
 
-**Murfreesboro (2026):** median sale price has been running in the low-to-mid $400s. New construction from national builders is widely available in the $350s to $500s, and resale inventory under $400K still exists in established neighborhoods.
+**Murfreesboro:** median sale price around $425K to $440K as of spring 2026. New construction from national builders is widely available in the $350s to $500s, and resale inventory under $400K still exists in established neighborhoods.
 
 Put plainly: the same monthly payment that gets you a 1,900-square-foot townhome in Franklin gets you a 3,000-square-foot new build with a yard in Murfreesboro. If maximum house per dollar is the deciding factor, Murfreesboro wins and it is not close.
 
@@ -4903,23 +4901,21 @@ Considering a move to Middle Tennessee? Talk through the details with a Franklin
     excerpt: "Franklin and Hendersonville anchor opposite ends of the Nashville metro. Lake life vs Main Street, Sumner vs Williamson schools, and the real price gap.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# Franklin TN vs Hendersonville: South Side or Lake Side? (2026)
-
 This comparison is really a question about which direction of the Nashville metro you want to live in, because Franklin and Hendersonville are about as far apart as two major suburbs in this market can be: 35-plus miles and, at the wrong hour, more than an hour of driving. Almost nobody house-hunts in both at once. But plenty of relocators researching Nashville from out of state are deciding between the south side and the north side, and this is the comparison that decides it.
 
 ## The 30-second answer
 
 Choose **Franklin** if schools are the primary driver, you want the strongest long-term property market in the metro, and your work or life centers on the south side (Cool Springs, Brentwood, Berry Hill, or remote).
 
-Choose **Hendersonville** if you want water. Old Hickory Lake defines the city: lakefront and lake-access neighborhoods, marinas, and a boating culture that simply does not exist in Williamson County at any price. You also get a meaningfully lower cost of entry, with tradeoffs in school district performance and commute predictability.
+Choose **Hendersonville** if you want water. Old Hickory Lake defines the city: lakefront and lake-access neighborhoods, marinas, and a boating culture that simply does not exist in Williamson County at any price. You also get a meaningfully lower cost of entry (though the gap is narrowing fast), with tradeoffs in school district performance and commute predictability.
 
 ## Housing and price
 
-**Franklin (2026):** median sale price in the high $800s to low $900s. Scarce inventory under $650K for detached homes.
+**Franklin:** median sale price in the high $800s to low $900s (roughly $850K to $920K depending on the measure, as of spring 2026). Scarce inventory under $650K for detached homes.
 
-**Hendersonville (2026):** median sale price has been running in the mid $400s to low $500s. Lakefront and lake-view properties carry their own premium and can run from the $700s into the multi-millions on the water, but the bulk of the housing stock (established neighborhoods from the 80s through 2010s plus newer infill) sits in a range that Franklin has not seen in a decade.
+**Hendersonville:** the market has moved fast here. As of early 2026 the median sale price was running near $595K, up roughly 18 percent year over year. Lakefront and lake-view properties carry their own premium and can run from the $700s into the multi-millions on the water, but the bulk of the housing stock (established neighborhoods from the 80s through 2010s plus newer infill) still sits $300K-plus below Franklin's median.
 
-The structural note: Sumner County has more developable land and looser growth pressure than Williamson, so supply keeps prices gentler. The flip side is the same as everywhere supply is loose: appreciation has historically lagged Williamson County's.
+The structural note: Sumner County has more developable land and looser growth pressure than Williamson, so supply has historically kept prices gentler and appreciation slower than Williamson County's. The 2025-2026 surge is a real counterpoint to that history, and worth watching: it narrows the discount but has not erased it.
 
 ## The lake factor
 
@@ -4963,7 +4959,7 @@ Franklin is the metro's showpiece suburb: a preserved Victorian Main Street, a d
 ## Who should choose Hendersonville
 
 - Boaters and lake-lifestyle households, full stop
-- Buyers who want established-neighborhood character in the $400s and $500s
+- Buyers who want established-neighborhood character in the $500s
 - North-side commuters (downtown, MetroCenter, Gallatin, Goodlettsville employment)
 - Families targeting specific strong Sumner schools rather than a whole district
 
@@ -5180,17 +5176,15 @@ Talk through the details with a Franklin resident who knows both sides of the co
     excerpt: "Seattle to Franklin is not a cost-of-housing move, it is a cost-of-everything-else move. Sunshine, schools, taxes, and the tradeoffs nobody mentions.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# Moving to Franklin TN from Seattle: What Actually Changes (2026)
-
 Here is the part that surprises Seattle households researching this move: the house is not where you save. Seattle's median home price and Franklin's have been running in the same general neighborhood for several years, so a like-for-like trade does not produce the windfall a Bay Area or Manhattan seller gets. The Seattle-to-Franklin case is built on everything around the house: yard size, taxes on everything besides income, schools without a lottery, 100 more sunny days a year, and a dramatically lower cost on the daily line items.
 
 This guide plays it straight on both sides.
 
 ## The honest housing comparison
 
-**Seattle metro (2026):** city median has been running in the $850Ks, with Eastside markets (Bellevue, Kirkland, Redmond) well above $1.2M. Typical stock: older footprints, small lots, or newer townhomes.
+**Seattle metro:** city median has been running roughly $850K to $880K as of spring 2026, with Eastside markets (Bellevue, Kirkland, Redmond) well above $1.2M. Typical stock: older footprints, small lots, or newer townhomes.
 
-**Franklin (2026):** median in the high $800s to low $900s. Typical stock at that price: 2,800 to 3,800 square feet, built in the last 15 years, on a real yard, in a community with a pool.
+**Franklin:** median roughly $850K to $920K as of spring 2026. Typical stock at that price: 2,800 to 3,800 square feet, built in the last 15 years, on a real yard, in a community with a pool.
 
 So the trade is roughly money-neutral on purchase price and strongly Franklin-positive on what the money buys. A Ballard craftsman seller does not pocket a fortune here; they trade 1,700 square feet and a parking strip for 3,200 square feet and a cul-de-sac. Whether that is an upgrade is a values question, not a math question.
 
@@ -5270,15 +5264,13 @@ Considering the move from the Northwest? Talk through the details with a Frankli
     excerpt: "Most smart Franklin relocations start with a lease. Where the apartments are, what they cost in 2026, what is being built, and how to run a rent-first move.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# Renting in Franklin TN: The Rent-First Relocation Guide (2026)
-
 The majority of out-of-state households we hear from do this move in two steps: sign a lease, learn the city, then buy. It is the right instinct. Franklin's neighborhoods differ more than listing photos suggest, school zoning rewards on-the-ground verification, and a wrong purchase here is an expensive mistake to unwind. A 6-to-12-month lease is cheap tuition.
 
 Here is the rental market as it actually stands in 2026.
 
 ## What rent costs in Franklin (2026)
 
-Broad bands across the market (verify against current listings; this market moves):
+Broad bands across the market as of mid-2026 (check current listings before budgeting; this market moves):
 
 - **1-bedroom apartment:** roughly $1,500 to $2,000/month
 - **2-bedroom apartment:** roughly $1,900 to $2,800/month
@@ -5432,8 +5424,6 @@ Considering a Franklin neighborhood? Talk through the details with a Franklin re
     excerpt: "What income it actually takes to rent or buy in Franklin TN in 2026, worked from real housing costs, taxes, and family budgets, not vibes.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# What Salary Do You Need to Live in Franklin TN? The Real Math (2026)
-
 Short version, then the work: renting comfortably in Franklin takes a household income around $80K to $100K. Buying the median Franklin home on conventional terms takes roughly $190K to $230K. Buying the entry-level end takes roughly $120K to $150K. Those numbers surprise people in both directions: higher than the Tennessee-is-cheap reputation suggests, lower than coastal transplants expect once the missing state income tax does its work.
 
 Here is the math so you can rerun it with your own numbers.
@@ -5450,7 +5440,7 @@ A single renter sharing housing or taking a smaller 1-bedroom at $1,600 can make
 
 ## The buyer's number: the median home
 
-Work the 2026 median (high $800s; call it $880K) with 10 percent down at prevailing rates in the mid-6s:
+Work the median (Franklin has been running roughly $850K to $920K depending on the measure as of spring 2026; call it $880K) with 10 percent down at prevailing rates (30-year fixed averaging roughly 6.4 to 6.6 percent as of June 2026):
 
 - **Loan:** ~$792K
 - **Principal and interest:** roughly $5,000/month at 6.5 percent
@@ -5538,8 +5528,6 @@ Considering a move to Franklin? Talk through the details with a Franklin residen
     excerpt: "How buying a home actually works in Franklin and Williamson County: timelines, Tennessee-specific closing details, competition tactics, and the local traps.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# Buying a House in Franklin TN: The Process, Start to Keys (2026)
-
 Buying in Franklin works mostly like buying anywhere in the United States, with a handful of Tennessee-specific mechanics and a few local market behaviors that catch out-of-state buyers. This guide walks the sequence in order and flags the parts that are different here.
 
 ## Step 1: Financing first, always
@@ -5580,8 +5568,8 @@ Beyond the standard inspection, the items experienced local buyers check in Will
 
 Buyer-side closing costs in Tennessee typically run roughly 2 to 3 percent of the purchase price beyond down payment: lender fees, title insurance, escrow setup (taxes and insurance), recording fees, and prorations. Two state specifics worth knowing:
 
-- **Realty transfer tax** in Tennessee runs $0.37 per $100 of value, customarily paid by the buyer in this market (verify current rate and local custom on your contract)
-- **Mortgage recordation tax** applies to the indebtedness as well; your lender's estimate will include it
+- **Realty transfer tax** in Tennessee runs $0.37 per $100 of value (current as of June 2026), customarily paid by the buyer in this market; confirm who pays on your specific contract
+- **Mortgage recordation tax** of $0.115 per $100 of the loan amount applies as well (current as of June 2026); your lender's estimate will include it
 
 On a $880K purchase, budget roughly $18K to $26K in cash beyond the down payment, then refine against your lender's official Loan Estimate.
 
@@ -5632,8 +5620,6 @@ Considering buying in Franklin? Talk through the details with a Franklin residen
     excerpt: "Seven Nashville-area towns ranked through a family lens: schools, price of entry, commute, and the tradeoffs each one asks you to accept.",
     imageUrl: "/images/hero-franklin.png",
     content: `
-# Best Places to Live Near Nashville for Families: A Local Ranking (2026)
-
 Every list like this hides a value judgment, so here is ours up front: for families, we weight schools first, price of entry second, commute third, and everything else (parks, downtowns, lake access, charm) after that. Different weights produce a different list. These seven towns are ranked through that family lens, each with the tradeoff it asks you to accept, because every one of them asks for something.
 
 For the general version of this list without the family weighting, see our [broader guide](/articles/best-places-to-live-near-nashville/).
@@ -5642,7 +5628,7 @@ For the general version of this list without the family weighting, see our [broa
 
 **Why first:** the full package. Williamson County Schools across the board, the metro's deepest family infrastructure (parks, sports leagues, festivals, a real downtown), strong long-term property values, and a major employment base in-county so many parents skip the Nashville commute entirely.
 
-**The tradeoff:** price of entry. Median around the high $800s, scarce detached inventory under $650K. Franklin asks for your budget.
+**The tradeoff:** price of entry. Median roughly $850K to $920K as of spring 2026, scarce detached inventory under $650K. Franklin asks for your budget.
 
 **Best fit:** families who can clear the entry point and want to stop compromising. Start with the [neighborhoods directory](/neighborhoods/).
 
@@ -5680,7 +5666,7 @@ For the general version of this list without the family weighting, see our [broa
 
 ## 6. Hendersonville
 
-**Why sixth:** the lake. Old Hickory Lake gives Hendersonville a family lifestyle no land-locked suburb matches, with established-neighborhood housing in the $400s and $500s and strong individual school zones within Sumner County. [Franklin vs Hendersonville](/articles/franklin-tn-vs-hendersonville/) covers the full comparison.
+**Why sixth:** the lake. Old Hickory Lake gives Hendersonville a family lifestyle no land-locked suburb matches, with established-neighborhood housing mostly in the $500s (median near $595K as of early 2026, after a sharp year-over-year run-up) and strong individual school zones within Sumner County. [Franklin vs Hendersonville](/articles/franklin-tn-vs-hendersonville/) covers the full comparison.
 
 **The tradeoff:** district-level school performance trails Williamson, and the north side sits far from south-side employment.
 
